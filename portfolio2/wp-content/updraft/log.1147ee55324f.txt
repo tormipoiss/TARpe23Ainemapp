@@ -1,0 +1,573 @@
+0000.001 (0) Opened log file at time: Thu, 23 Jan 2025 02:58:39 +0000 on https://tormilaane23.thkit.ee/portfolio2
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.3.14 (cgi-fcgi, Linux dn-68-118.tll01.zoneas.eu 5.15.138-zoneos #1 SMP Wed Nov 15 10:55:18 -00 2023 x86_64) MySQL: 10.4.34-MariaDB-log (max packet size=134217728) WPLANG: et Server: Apache / ZoneOS safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 20M | 22M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C.UTF-8 ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 87329 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.012 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.021 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1736996015, seconds_ago=605104)
+0000.025 (0) Set semaphore last lock (fd) time to 2025-01-23 02:58:39
+0000.028 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=1147ee55324f, file_nonce=1147ee55324f begun at=1737601119 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1737601419) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.054 (0) Testing: /usr/bin/zip
+0000.062 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.064 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.067 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.069 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.071 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.081 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.089 (0) Working binary zip found: /usr/bin/zip
+0000.095 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.097 (0) Creation of backups of directories: beginning
+0000.104 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.771 (0) Total entities for the zip file: 3467 directories, 12304 files (0 skipped as non-modified), 160.6 MB
+0000.776 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.780 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.784 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.787 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.791 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.795 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.799 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.803 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.807 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.811 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.813 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.6 MB, 12304 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.545 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: size is now: 4.30 MB
+0001.553 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1100 files added (on-disk size: 4359.4 KB)
+0001.557 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1200 files added (on-disk size: 4359.4 KB)
+0001.562 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1300 files added (on-disk size: 4359.4 KB)
+0001.566 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1400 files added (on-disk size: 4359.4 KB)
+0001.570 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1500 files added (on-disk size: 4359.4 KB)
+0001.575 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1600 files added (on-disk size: 4359.4 KB)
+0001.579 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1700 files added (on-disk size: 4359.4 KB)
+0001.583 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1800 files added (on-disk size: 4359.4 KB)
+0001.588 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 1900 files added (on-disk size: 4359.4 KB)
+0001.592 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2000 files added (on-disk size: 4359.4 KB)
+0001.595 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 12304 files batched, 1001 (2002) added so far); re-opening (prior size: 4359.4 KB)
+0001.948 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content/updraft/backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0001.951 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: size is now: 8.70 MB
+0001.958 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2100 files added (on-disk size: 8878.5 KB)
+0001.962 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2200 files added (on-disk size: 8878.5 KB)
+0001.966 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2300 files added (on-disk size: 8878.5 KB)
+0001.971 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2400 files added (on-disk size: 8878.5 KB)
+0001.975 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2500 files added (on-disk size: 8878.5 KB)
+0001.980 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2600 files added (on-disk size: 8878.5 KB)
+0001.984 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2700 files added (on-disk size: 8878.5 KB)
+0001.990 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2800 files added (on-disk size: 8878.5 KB)
+0001.994 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 2900 files added (on-disk size: 8878.5 KB)
+0001.998 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3000 files added (on-disk size: 8878.5 KB)
+0002.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.7 MB, 12304 files batched, 1001 (3003) added so far); re-opening (prior size: 8878.5 KB)
+0003.177 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: size is now: 17.00 MB
+0003.185 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3100 files added (on-disk size: 17452.5 KB)
+0003.189 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3200 files added (on-disk size: 17452.5 KB)
+0003.194 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3300 files added (on-disk size: 17452.5 KB)
+0003.199 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3400 files added (on-disk size: 17452.5 KB)
+0003.206 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3500 files added (on-disk size: 17452.5 KB)
+0003.211 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3600 files added (on-disk size: 17452.5 KB)
+0003.217 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3700 files added (on-disk size: 17452.5 KB)
+0003.221 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3800 files added (on-disk size: 17452.5 KB)
+0003.226 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 3900 files added (on-disk size: 17452.5 KB)
+0003.231 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4000 files added (on-disk size: 17452.5 KB)
+0003.234 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 12304 files batched, 1001 (4004) added so far); re-opening (prior size: 17452.5 KB)
+0003.910 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: size is now: 21.20 MB
+0003.916 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4100 files added (on-disk size: 21694 KB)
+0003.920 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4200 files added (on-disk size: 21694 KB)
+0003.925 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4300 files added (on-disk size: 21694 KB)
+0003.929 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4400 files added (on-disk size: 21694 KB)
+0003.933 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4500 files added (on-disk size: 21694 KB)
+0003.938 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4600 files added (on-disk size: 21694 KB)
+0003.942 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4700 files added (on-disk size: 21694 KB)
+0003.945 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4800 files added (on-disk size: 21694 KB)
+0003.949 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 4900 files added (on-disk size: 21694 KB)
+0003.953 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5000 files added (on-disk size: 21694 KB)
+0003.956 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 12304 files batched, 1001 (5005) added so far); re-opening (prior size: 21694 KB)
+0004.776 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5100 files added (on-disk size: 23847.9 KB)
+0004.782 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5200 files added (on-disk size: 23847.9 KB)
+0004.787 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5300 files added (on-disk size: 23847.9 KB)
+0004.792 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5400 files added (on-disk size: 23847.9 KB)
+0004.797 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5500 files added (on-disk size: 23847.9 KB)
+0004.804 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5600 files added (on-disk size: 23847.9 KB)
+0004.809 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5700 files added (on-disk size: 23847.9 KB)
+0004.814 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5800 files added (on-disk size: 23847.9 KB)
+0004.820 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 5900 files added (on-disk size: 23847.9 KB)
+0004.825 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6000 files added (on-disk size: 23847.9 KB)
+0004.828 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.6 MB, 12304 files batched, 1001 (6006) added so far); re-opening (prior size: 23847.9 KB)
+0005.600 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6100 files added (on-disk size: 26143.5 KB)
+0005.604 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6200 files added (on-disk size: 26143.5 KB)
+0005.609 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6300 files added (on-disk size: 26143.5 KB)
+0005.614 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6400 files added (on-disk size: 26143.5 KB)
+0005.619 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6500 files added (on-disk size: 26143.5 KB)
+0005.625 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6600 files added (on-disk size: 26143.5 KB)
+0005.629 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6700 files added (on-disk size: 26143.5 KB)
+0005.634 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6800 files added (on-disk size: 26143.5 KB)
+0005.639 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 6900 files added (on-disk size: 26143.5 KB)
+0005.644 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7000 files added (on-disk size: 26143.5 KB)
+0005.647 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 12304 files batched, 1001 (7007) added so far); re-opening (prior size: 26143.5 KB)
+0006.100 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content/updraft/backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0006.112 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7100 files added (on-disk size: 27682.5 KB)
+0006.116 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7200 files added (on-disk size: 27682.5 KB)
+0006.120 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7300 files added (on-disk size: 27682.5 KB)
+0006.125 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7400 files added (on-disk size: 27682.5 KB)
+0006.129 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7500 files added (on-disk size: 27682.5 KB)
+0006.133 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7600 files added (on-disk size: 27682.5 KB)
+0006.137 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7700 files added (on-disk size: 27682.5 KB)
+0006.141 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7800 files added (on-disk size: 27682.5 KB)
+0006.145 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 7900 files added (on-disk size: 27682.5 KB)
+0006.149 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8000 files added (on-disk size: 27682.5 KB)
+0006.152 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 12304 files batched, 1001 (8008) added so far); re-opening (prior size: 27682.5 KB)
+0006.767 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8100 files added (on-disk size: 30818.9 KB)
+0006.772 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8200 files added (on-disk size: 30818.9 KB)
+0006.776 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8300 files added (on-disk size: 30818.9 KB)
+0006.781 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8400 files added (on-disk size: 30818.9 KB)
+0006.785 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8500 files added (on-disk size: 30818.9 KB)
+0006.790 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8600 files added (on-disk size: 30818.9 KB)
+0006.794 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8700 files added (on-disk size: 30818.9 KB)
+0006.799 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8800 files added (on-disk size: 30818.9 KB)
+0006.803 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 8900 files added (on-disk size: 30818.9 KB)
+0006.807 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9000 files added (on-disk size: 30818.9 KB)
+0006.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 12304 files batched, 995 (9003) added so far); re-opening (prior size: 30818.9 KB)
+0008.143 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: size is now: 37.30 MB
+0008.150 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13810.1 KB/s)
+0008.156 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.8551690578461, normalised_time=1.8537105223376, max_time=8.1520440578461, data points known=1, old_max_bytes=26214400, new_max_bytes=84849494)
+0008.164 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9100 files added (on-disk size: 38145.2 KB)
+0008.168 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9200 files added (on-disk size: 38145.2 KB)
+0008.172 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9300 files added (on-disk size: 38145.2 KB)
+0008.178 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9400 files added (on-disk size: 38145.2 KB)
+0008.182 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9500 files added (on-disk size: 38145.2 KB)
+0008.186 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9600 files added (on-disk size: 38145.2 KB)
+0008.190 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9700 files added (on-disk size: 38145.2 KB)
+0008.196 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9800 files added (on-disk size: 38145.2 KB)
+0008.200 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 9900 files added (on-disk size: 38145.2 KB)
+0008.204 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10000 files added (on-disk size: 38145.2 KB)
+0008.208 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 12304 files batched, 1001 (10004) added so far); re-opening (prior size: 38145.2 KB)
+0008.966 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10100 files added (on-disk size: 41454.5 KB)
+0008.971 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10200 files added (on-disk size: 41454.5 KB)
+0008.976 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10300 files added (on-disk size: 41454.5 KB)
+0008.981 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10400 files added (on-disk size: 41454.5 KB)
+0008.986 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10500 files added (on-disk size: 41454.5 KB)
+0008.991 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10600 files added (on-disk size: 41454.5 KB)
+0008.995 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10700 files added (on-disk size: 41454.5 KB)
+0009.000 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10800 files added (on-disk size: 41454.5 KB)
+0009.006 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 10900 files added (on-disk size: 41454.5 KB)
+0009.011 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11000 files added (on-disk size: 41454.5 KB)
+0009.014 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12 MB, 12304 files batched, 1001 (11005) added so far); re-opening (prior size: 41454.5 KB)
+0009.874 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content/updraft/backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0009.895 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11100 files added (on-disk size: 47433.1 KB)
+0009.900 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11200 files added (on-disk size: 47433.1 KB)
+0009.904 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11300 files added (on-disk size: 47433.1 KB)
+0009.908 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11400 files added (on-disk size: 47433.1 KB)
+0009.913 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11500 files added (on-disk size: 47433.1 KB)
+0009.917 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11600 files added (on-disk size: 47433.1 KB)
+0009.921 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11700 files added (on-disk size: 47433.1 KB)
+0009.925 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11800 files added (on-disk size: 47433.1 KB)
+0009.930 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 11900 files added (on-disk size: 47433.1 KB)
+0009.934 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 12000 files added (on-disk size: 47433.1 KB)
+0009.937 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 12304 files batched, 1001 (12006) added so far); re-opening (prior size: 47433.1 KB)
+0011.093 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 12100 files added (on-disk size: 52590.6 KB)
+0011.097 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 12200 files added (on-disk size: 52590.6 KB)
+0011.101 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.tmp: 12300 files added (on-disk size: 52590.6 KB)
+0011.504 (0) Creating zip file manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.list-temp.tmp)
+0011.534 (0) Successfully created zip file manifest (size: 1125419)
+0012.037 (0) Created plugins zip (0) - 53189.6 KB in 11.9 s (4459.5 KB/s) (sha1: ece2115d20d492c4ab3cc9ad74f528d1f351c039, sha256: 8037b6c3d89e5e4d30653b94e0c8cf379da74afd804a95bc9a38fadf049fb5b7)
+0012.050 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.054 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0013.648 (0) Google Drive: quota usage: used=4095.5 MB, total=15360 MB, available=11264.5 MB
+0013.649 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0015.498 (0) Googledrive chunked upload: 1.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.5 / 42)
+0016.622 (0) Googledrive chunked upload: 5.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.5 / 42)
+0017.952 (0) Googledrive chunked upload: 13.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 25.5 / 42)
+0019.334 (0) Googledrive chunked upload: 28.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 25.5 / 42)
+0020.989 (0) Googledrive chunked upload: 59.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 25.5 / 42)
+0024.371 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0024.382 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip uploaded in 10.73 seconds
+0024.385 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip
+0024.400 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip: OK
+0024.411 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.436 (0) Total entities for the zip file: 70 directories, 518 files (0 skipped as non-modified), 20.3 MB
+0024.440 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.445 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.451 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.455 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.461 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0025.275 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.tmp: size is now: 19.10 MB
+0025.287 (0) Creating zip file manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.list-temp.tmp)
+0025.292 (0) Successfully created zip file manifest (size: 36973)
+0025.461 (0) Created themes zip (0) - 19599.2 KB in 1 s (18766.1 KB/s) (sha1: 22799be590b498b7674e92c4d40408c767ac9e88, sha256: de8c0f2226fefbc040d7fac5ef0d7b948ddabcb14913ec478f65399becb41d10)
+0025.469 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.473 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0025.894 (0) Google Drive: quota usage: used=4147.5 MB, total=15360 MB, available=11212.5 MB
+0025.896 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0027.865 (0) Googledrive chunked upload: 5.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 23.6 / 42)
+0028.965 (0) Googledrive chunked upload: 15.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 23.6 / 42)
+0030.148 (0) Googledrive chunked upload: 36.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 23.6 / 42)
+0031.800 (0) Googledrive chunked upload: 78.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 23.6 / 42)
+0034.021 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0034.031 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip uploaded in 8.13 seconds
+0034.033 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip
+0034.043 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip: OK
+0034.052 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0034.053 (0) Looking for candidates to backup in: /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content/uploads
+0034.056 (0) finding files: smush-webp-test.png: adding to list (1)
+0034.059 (0) finding files: ithemes-security: adding to list (2)
+0034.061 (0) finding files: smush: adding to list (3)
+0034.064 (0) finding files: 2025: adding to list (4)
+0034.066 (0) finding files: 2024: adding to list (5)
+0034.069 (0) finding files: et_temp: adding to list (6)
+0034.072 (0) finding files: wpforms: adding to list (7)
+0034.075 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0034.093 (0) Total entities for the zip file: 12 directories, 356 files (0 skipped as non-modified), 69.7 MB
+0034.098 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.102 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.107 (0) Zip: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.040 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.tmp: size is now: 68.20 MB
+0035.049 (0) Creating zip file manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.list-temp.tmp)
+0035.053 (0) Successfully created zip file manifest (size: 23526)
+0035.637 (0) Created uploads zip (0) - 69818.3 KB in 1.6 s (44868.4 KB/s) (sha1: dfa26eaab4423bd870b01bfde6b1365ad71cce41, sha256: 4c1ffb1ccf189b8ceea51189d03b5f6215cf32064d8978a2183770dfd7870afa)
+0035.645 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0035.649 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0036.075 (0) Google Drive: quota usage: used=4224.5 MB, total=15360 MB, available=11135.5 MB
+0036.076 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0037.860 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 23.6 / 42)
+0039.030 (0) Googledrive chunked upload: 4.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 23.6 / 42)
+0040.421 (0) Googledrive chunked upload: 10.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 23.6 / 42)
+0041.813 (0) Googledrive chunked upload: 22 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 23.6 / 42)
+0043.418 (0) Googledrive chunked upload: 45.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 23.6 / 42)
+0045.895 (0) Googledrive chunked upload: 92.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 23.6 / 42)
+0048.723 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0048.733 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip uploaded in 12.65 seconds
+0048.735 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip
+0048.754 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip: OK
+0048.762 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0048.768 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0048.778 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip.tmp: size is now: 0.00 MB
+0048.783 (0) Creating zip file manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip.list-temp.tmp)
+0048.786 (0) Successfully created zip file manifest (size: 77)
+0048.797 (0) Created mu-plugins zip (0) - 0.8 KB in 0 s (27.6 KB/s) (sha1: 5e35596bd1706d2fa1e4eeb7c468e0c05e02c505, sha256: 938f76de62dd1fb1f8e0e6146271ff37f7018e92f49d7a240989cb0e4b23e44b)
+0048.805 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0048.809 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0049.300 (0) Google Drive: quota usage: used=4306.1 MB, total=15360 MB, available=11053.9 MB
+0049.301 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0051.317 (0) Googledrive chunked upload: 100 % uploaded
+0051.328 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip uploaded in 2.02 seconds
+0051.330 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip
+0051.339 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip: OK
+0051.348 (0) Beginning backup of other directories found in the content directory (index: 0)
+0051.353 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0051.355 (0) Looking for candidates to backup in: /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content
+0051.359 (0) finding files: smush-webp: adding to list (1)
+0051.362 (0) finding files: languages: adding to list (2)
+0051.365 (0) finding files: updraft: skipping: this is the updraft directory
+0051.369 (0) finding files: uploads: skipping: this is the uploads directory
+0051.372 (0) finding files: themes: skipping: this is the themes directory
+0051.375 (0) finding files: upgrade: skipping: excluded by options
+0051.379 (0) finding files: index.php: adding to list (3)
+0051.382 (0) finding files: upgrade-temp-backup: adding to list (4)
+0051.385 (0) finding files: cache: skipping: excluded by options
+0051.388 (0) finding files: object-cache.php: adding to list (5)
+0051.392 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0051.395 (0) finding files: w3tc-config: adding to list (6)
+0051.399 (0) finding files: plugins: skipping: this is the plugins directory
+0051.402 (0) finding files: advanced-cache.php: adding to list (7)
+0051.413 (0) Total entities for the zip file: 7 directories, 93 files (0 skipped as non-modified), 3.4 MB
+0051.607 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip.tmp: size is now: 1.00 MB
+0051.614 (0) Creating zip file manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip.list-temp.tmp)
+0051.618 (0) Successfully created zip file manifest (size: 5163)
+0051.641 (0) Created others zip (0) - 1030 KB in 0.2 s (4455 KB/s) (sha1: d34fadba9d77f1242dc61388048556d9babf9af2, sha256: 98f8b53ad5a3d34df05e0732bb8c743ba968a7c5b0d6f03b83a1ec6b4e3a581f)
+0051.651 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0051.656 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0052.079 (0) Google Drive: quota usage: used=4306.1 MB, total=15360 MB, available=11053.9 MB
+0052.082 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0053.750 (0) Googledrive chunked upload: 99.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 23.6 / 44)
+0055.215 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0055.228 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip uploaded in 3.14 seconds
+0055.230 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip
+0055.244 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip: OK
+0055.263 (0) Saving backup status to database (elements: 10)
+0055.271 (0) Beginning creation of database dump (WordPress DB)
+0055.275 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER
+0055.302 (0) Table lqtd_options: Total expected rows (via COUNT): 433
+0055.304 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.439 (0) Table lqtd_options: Rows added in this batch (next record: 3768): 429 (uncompressed bytes in this segment=3093172) in 0.15 seconds
+0055.454 (0) Table lqtd_options: finishing file(s) (2, 610.3 KB)
+0055.461 (0) Table lqtd_users: Total expected rows (via COUNT): 2
+0055.465 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.472 (0) Table lqtd_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1344) in 0.01 seconds
+0055.482 (0) Table lqtd_users: finishing file(s) (2, 0.7 KB)
+0055.503 (0) Table lqtd_usermeta: Total expected rows (via COUNT): 60
+0055.508 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.519 (0) Table lqtd_usermeta: Rows added in this batch (next record: 70): 60 (uncompressed bytes in this segment=6173) in 0.03 seconds
+0055.533 (0) Table lqtd_usermeta: finishing file(s) (2, 2.2 KB)
+0055.545 (0) Table lqtd_actionscheduler_actions: Total expected rows (via COUNT): 77
+0055.550 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.557 (0) Table lqtd_actionscheduler_actions: Rows added in this batch (next record: 113): 77 (uncompressed bytes in this segment=34207) in 0.02 seconds
+0055.576 (0) Table lqtd_actionscheduler_actions: finishing file(s) (2, 2.7 KB)
+0055.587 (0) Table lqtd_actionscheduler_claims: Total expected rows (via COUNT): 0
+0055.595 (0) Table lqtd_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+0055.608 (0) Table lqtd_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0055.617 (0) Table lqtd_actionscheduler_groups: Total expected rows (via COUNT): 2
+0055.621 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.631 (0) Table lqtd_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=689) in 0.01 seconds
+0055.641 (0) Table lqtd_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0055.652 (0) Table lqtd_actionscheduler_logs: Total expected rows (via COUNT): 221
+0055.655 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.664 (0) Table lqtd_actionscheduler_logs: Rows added in this batch (next record: 297): 221 (uncompressed bytes in this segment=19434) in 0.01 seconds
+0055.677 (0) Table lqtd_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+0055.697 (0) Table lqtd_commentmeta: Total expected rows (via COUNT): 0
+0055.706 (0) Table lqtd_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.01 seconds
+0055.723 (0) Table lqtd_commentmeta: finishing file(s) (2, 0.4 KB)
+0055.731 (0) Table lqtd_comments: Total expected rows (via COUNT): 1
+0055.735 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.745 (0) Table lqtd_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1896) in 0.01 seconds
+0055.755 (0) Table lqtd_comments: finishing file(s) (2, 0.7 KB)
+0055.820 (0) Table lqtd_itsec_bans: Total expected rows (via COUNT): 0
+0055.878 (0) Table lqtd_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=733) in 0.06 seconds
+0055.890 (0) Table lqtd_itsec_bans: finishing file(s) (2, 0.4 KB)
+0055.898 (0) Table lqtd_itsec_dashboard_events: Total expected rows (via COUNT): 3
+0055.902 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.908 (0) Table lqtd_itsec_dashboard_events: Rows added in this batch (next record: 12): 3 (uncompressed bytes in this segment=1030) in 0.01 seconds
+0055.919 (0) Table lqtd_itsec_dashboard_events: finishing file(s) (2, 0.5 KB)
+0055.930 (0) Table lqtd_itsec_dashboard_lockouts: Total expected rows (via COUNT): 0
+0055.937 (0) Table lqtd_itsec_dashboard_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.01 seconds
+0055.947 (0) Table lqtd_itsec_dashboard_lockouts: finishing file(s) (2, 0.4 KB)
+0055.957 (0) Table lqtd_itsec_distributed_storage: Total expected rows (via COUNT): 7
+0055.960 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.040 (0) Table lqtd_itsec_distributed_storage: Rows added in this batch (next record: 164): 7 (uncompressed bytes in this segment=3428750) in 0.09 seconds
+0056.057 (0) Table lqtd_itsec_distributed_storage: finishing file(s) (2, 429.8 KB)
+0056.071 (0) Table lqtd_itsec_fingerprints: Total expected rows (via COUNT): 0
+0056.094 (0) Table lqtd_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1078) in 0.03 seconds
+0056.158 (0) Table lqtd_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0056.166 (0) Table lqtd_itsec_firewall_rules: Total expected rows (via COUNT): 0
+0056.170 (0) Table lqtd_itsec_firewall_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.01 seconds
+0056.183 (0) Table lqtd_itsec_firewall_rules: finishing file(s) (2, 0.4 KB)
+0056.191 (0) Table lqtd_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0056.199 (0) Table lqtd_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=889) in 0.01 seconds
+0056.210 (0) Table lqtd_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0056.220 (0) Table lqtd_itsec_lockouts: Total expected rows (via COUNT): 0
+0056.225 (0) Table lqtd_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1108) in 0.01 seconds
+0056.237 (0) Table lqtd_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0056.249 (0) Table lqtd_itsec_logs: Total expected rows (via COUNT): 327
+0056.252 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.359 (0) Table lqtd_itsec_logs: Rows added in this batch (next record: 327): 327 (uncompressed bytes in this segment=4198782) in 0.12 seconds
+0056.372 (0) Table lqtd_itsec_logs: finishing file(s) (2, 596.3 KB)
+0056.381 (0) Table lqtd_itsec_mutexes: Total expected rows (via COUNT): 0
+0056.388 (0) Table lqtd_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=598) in 0.01 seconds
+0056.397 (0) Table lqtd_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0056.406 (0) Table lqtd_itsec_opaque_tokens: Total expected rows (approximate): 0
+0056.411 (0) Table lqtd_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=655) in 0.01 seconds
+0056.420 (0) Table lqtd_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0056.428 (0) Table lqtd_itsec_temp: Total expected rows (via COUNT): 0
+0056.433 (0) Table lqtd_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0056.443 (0) Table lqtd_itsec_temp: finishing file(s) (2, 0.4 KB)
+0056.451 (0) Table lqtd_itsec_user_groups: Total expected rows (approximate): 5
+0056.456 (0) Table lqtd_itsec_user_groups: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=1274) in 0.01 seconds
+0056.465 (0) Table lqtd_itsec_user_groups: finishing file(s) (2, 0.6 KB)
+0056.473 (0) Table lqtd_itsec_vulnerabilities: Total expected rows (approximate): 0
+0056.478 (0) Table lqtd_itsec_vulnerabilities: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2146) in 0.01 seconds
+0056.489 (0) Table lqtd_itsec_vulnerabilities: finishing file(s) (2, 0.9 KB)
+0056.497 (0) Table lqtd_links: Total expected rows (via COUNT): 0
+0056.503 (0) Table lqtd_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.01 seconds
+0056.513 (0) Table lqtd_links: finishing file(s) (2, 0.5 KB)
+0056.524 (0) Table lqtd_postmeta: Total expected rows (via COUNT): 546
+0056.529 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.544 (0) Table lqtd_postmeta: Rows added in this batch (next record: 673): 546 (uncompressed bytes in this segment=188291) in 0.02 seconds
+0056.560 (0) Table lqtd_postmeta: finishing file(s) (2, 19.3 KB)
+0056.573 (0) Table lqtd_posts: Total expected rows (via COUNT): 309
+0056.576 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.620 (0) Table lqtd_posts: Rows added in this batch (next record: 369): 309 (uncompressed bytes in this segment=1877588) in 0.05 seconds
+0056.633 (0) Table lqtd_posts: finishing file(s) (2, 121.9 KB)
+0056.643 (0) Table lqtd_term_relationships: Total expected rows (approximate): 26
+0056.652 (0) Table lqtd_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1061) in 0.01 seconds
+0056.741 (0) Table lqtd_term_relationships: finishing file(s) (2, 0.5 KB)
+0056.754 (0) Table lqtd_term_taxonomy: Total expected rows (via COUNT): 13
+0056.757 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.767 (0) Table lqtd_term_taxonomy: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1280) in 0.02 seconds
+0056.782 (0) Table lqtd_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0056.794 (0) Table lqtd_termmeta: Total expected rows (via COUNT): 0
+0056.802 (0) Table lqtd_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0056.817 (0) Table lqtd_termmeta: finishing file(s) (2, 0.4 KB)
+0056.825 (0) Table lqtd_terms: Total expected rows (via COUNT): 13
+0056.829 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.836 (0) Table lqtd_terms: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1106) in 0.01 seconds
+0056.849 (0) Table lqtd_terms: finishing file(s) (2, 0.6 KB)
+0056.857 (0) Table lqtd_smush_dir_images: Total expected rows (via COUNT): 0
+0056.863 (0) Table lqtd_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=937) in 0.01 seconds
+0056.878 (0) Table lqtd_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0056.890 (0) Table lqtd_wpforms_logs: Total expected rows (via COUNT): 1
+0056.894 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.904 (0) Table lqtd_wpforms_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=840) in 0.02 seconds
+0056.965 (0) Table lqtd_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0056.976 (0) Table lqtd_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0056.985 (0) Table lqtd_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0056.999 (0) Table lqtd_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0057.011 (0) Table lqtd_wpforms_payments: Total expected rows (via COUNT): 0
+0057.019 (0) Table lqtd_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1662) in 0.01 seconds
+0057.030 (0) Table lqtd_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0057.043 (0) Table lqtd_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0057.047 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.056 (0) Table lqtd_wpforms_tasks_meta: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=994) in 0.02 seconds
+0057.073 (0) Table lqtd_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0057.089 (0) Table lqtd_yoast_indexable: Total expected rows (via COUNT): 53
+0057.092 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.105 (0) Table lqtd_yoast_indexable: Rows added in this batch (next record: 54): 53 (uncompressed bytes in this segment=31180) in 0.02 seconds
+0057.122 (0) Table lqtd_yoast_indexable: finishing file(s) (2, 5.3 KB)
+0057.136 (0) Table lqtd_yoast_indexable_hierarchy: Total expected rows (approximate): 51
+0057.144 (0) Table lqtd_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 51 (uncompressed bytes in this segment=1640) in 0.01 seconds
+0057.155 (0) Table lqtd_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0057.163 (0) Table lqtd_yoast_migrations: Total expected rows (via COUNT): 24
+0057.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.225 (0) Table lqtd_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1252) in 0.06 seconds
+0057.236 (0) Table lqtd_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0057.244 (0) Table lqtd_yoast_primary_term: Total expected rows (via COUNT): 0
+0057.250 (0) Table lqtd_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0057.260 (0) Table lqtd_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0057.270 (0) Table lqtd_yoast_seo_links: Total expected rows (via COUNT): 107
+0057.274 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.283 (0) Table lqtd_yoast_seo_links: Rows added in this batch (next record: 131): 107 (uncompressed bytes in this segment=17105) in 0.01 seconds
+0057.296 (0) Table lqtd_yoast_seo_links: finishing file(s) (2, 2.6 KB)
+0057.300 (0) PHP event: code E_WARNING: filemtime(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/portfolio2/wp-content/updraft/backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0057.312 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_options.table.tmpr3769.gz (1/40/fopen): adding to final database dump
+0057.324 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_options.table.gz (2/40/fopen): adding to final database dump
+0057.331 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_users.table.tmpr3.gz (3/40/fopen): adding to final database dump
+0057.342 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_users.table.gz (4/40/fopen): adding to final database dump
+0057.348 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_usermeta.table.tmpr71.gz (5/40/fopen): adding to final database dump
+0057.352 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_usermeta.table.gz (6/40/fopen): adding to final database dump
+0057.355 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_actions.table.tmpr114.gz (7/40/fopen): adding to final database dump
+0057.359 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_actions.table.gz (8/40/fopen): adding to final database dump
+0057.363 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_claims.table.tmpr0.gz (9/40/fopen): adding to final database dump
+0057.367 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_claims.table.gz (10/40/fopen): adding to final database dump
+0057.370 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_groups.table.tmpr3.gz (11/40/fopen): adding to final database dump
+0057.373 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_groups.table.gz (12/40/fopen): adding to final database dump
+0057.376 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_logs.table.tmpr298.gz (13/40/fopen): adding to final database dump
+0057.380 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_actionscheduler_logs.table.gz (14/40/fopen): adding to final database dump
+0057.383 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_commentmeta.table.tmpr0.gz (15/40/fopen): adding to final database dump
+0057.387 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_commentmeta.table.gz (16/40/fopen): adding to final database dump
+0057.391 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_comments.table.tmpr2.gz (17/40/fopen): adding to final database dump
+0057.394 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_comments.table.gz (18/40/fopen): adding to final database dump
+0057.397 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_bans.table.tmpr0.gz (19/40/fopen): adding to final database dump
+0057.401 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_bans.table.gz (20/40/fopen): adding to final database dump
+0057.406 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_dashboard_events.table.tmpr13.gz (21/40/fopen): adding to final database dump
+0057.409 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_dashboard_events.table.gz (22/40/fopen): adding to final database dump
+0057.412 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_dashboard_lockouts.table.tmpr0.gz (23/40/fopen): adding to final database dump
+0057.416 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_dashboard_lockouts.table.gz (24/40/fopen): adding to final database dump
+0057.420 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_distributed_storage.table.tmpr165.gz (25/40/fopen): adding to final database dump
+0057.437 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_distributed_storage.table.gz (26/40/fopen): adding to final database dump
+0057.441 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_fingerprints.table.tmpr0.gz (27/40/fopen): adding to final database dump
+0057.445 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_fingerprints.table.gz (28/40/fopen): adding to final database dump
+0057.448 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_firewall_rules.table.tmpr0.gz (29/40/fopen): adding to final database dump
+0057.453 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_firewall_rules.table.gz (30/40/fopen): adding to final database dump
+0057.459 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_geolocation_cache.table.tmpr0.gz (31/40/fopen): adding to final database dump
+0057.462 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_geolocation_cache.table.gz (32/40/fopen): adding to final database dump
+0057.468 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_lockouts.table.tmpr0.gz (33/40/fopen): adding to final database dump
+0057.471 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_lockouts.table.gz (34/40/fopen): adding to final database dump
+0057.475 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_logs.table.tmpr328.gz (35/40/fopen): adding to final database dump
+0057.488 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_logs.table.gz (36/40/fopen): adding to final database dump
+0057.491 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_mutexes.table.tmpr0.gz (37/40/fopen): adding to final database dump
+0057.494 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_mutexes.table.gz (38/40/fopen): adding to final database dump
+0057.497 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_opaque_tokens.table.tmpr1.gz (39/40/fopen): adding to final database dump
+0057.501 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_opaque_tokens.table.gz (40/40/fopen): adding to final database dump
+0057.504 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_temp.table.tmpr0.gz (41/40/fopen): adding to final database dump
+0057.510 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_temp.table.gz (42/40/fopen): adding to final database dump
+0057.514 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_user_groups.table.tmpr1001.gz (43/40/fopen): adding to final database dump
+0057.517 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_user_groups.table.gz (44/40/fopen): adding to final database dump
+0057.521 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_vulnerabilities.table.tmpr1001.gz (45/40/fopen): adding to final database dump
+0057.524 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_itsec_vulnerabilities.table.gz (46/40/fopen): adding to final database dump
+0057.531 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_links.table.tmpr0.gz (47/40/fopen): adding to final database dump
+0057.534 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_links.table.gz (48/40/fopen): adding to final database dump
+0057.538 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_postmeta.table.tmpr674.gz (49/40/fopen): adding to final database dump
+0057.542 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_postmeta.table.gz (50/40/fopen): adding to final database dump
+0057.547 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_posts.table.tmpr370.gz (51/40/fopen): adding to final database dump
+0057.553 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_posts.table.gz (52/40/fopen): adding to final database dump
+0057.557 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_term_relationships.table.tmpr100001.gz (53/40/fopen): adding to final database dump
+0057.560 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_term_relationships.table.gz (54/40/fopen): adding to final database dump
+0057.564 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_term_taxonomy.table.tmpr14.gz (55/40/fopen): adding to final database dump
+0057.567 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_term_taxonomy.table.gz (56/40/fopen): adding to final database dump
+0057.570 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_termmeta.table.tmpr0.gz (57/40/fopen): adding to final database dump
+0057.574 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_termmeta.table.gz (58/40/fopen): adding to final database dump
+0057.577 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_terms.table.tmpr14.gz (59/40/fopen): adding to final database dump
+0057.581 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_terms.table.gz (60/40/fopen): adding to final database dump
+0057.584 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_smush_dir_images.table.tmpr0.gz (61/40/fopen): adding to final database dump
+0057.587 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_smush_dir_images.table.gz (62/40/fopen): adding to final database dump
+0057.591 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_logs.table.tmpr2.gz (63/40/fopen): adding to final database dump
+0057.599 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_logs.table.gz (64/40/fopen): adding to final database dump
+0057.602 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_payment_meta.table.tmpr0.gz (65/40/fopen): adding to final database dump
+0057.607 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_payment_meta.table.gz (66/40/fopen): adding to final database dump
+0057.611 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_payments.table.tmpr0.gz (67/40/fopen): adding to final database dump
+0057.614 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_payments.table.gz (68/40/fopen): adding to final database dump
+0057.617 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_tasks_meta.table.tmpr11.gz (69/40/fopen): adding to final database dump
+0057.623 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_wpforms_tasks_meta.table.gz (70/40/fopen): adding to final database dump
+0057.627 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_indexable.table.tmpr55.gz (71/40/fopen): adding to final database dump
+0057.632 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_indexable.table.gz (72/40/fopen): adding to final database dump
+0057.636 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_indexable_hierarchy.table.tmpr1001.gz (73/40/fopen): adding to final database dump
+0057.639 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_indexable_hierarchy.table.gz (74/40/fopen): adding to final database dump
+0057.644 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_migrations.table.tmpr25.gz (75/40/fopen): adding to final database dump
+0057.648 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_migrations.table.gz (76/40/fopen): adding to final database dump
+0057.650 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_primary_term.table.tmpr0.gz (77/40/fopen): adding to final database dump
+0057.654 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_primary_term.table.gz (78/40/fopen): adding to final database dump
+0057.660 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_seo_links.table.tmpr132.gz (79/40/fopen): adding to final database dump
+0057.663 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db-table-lqtd_yoast_seo_links.table.gz (80/40/fopen): adding to final database dump
+0057.669 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz: finished writing out complete database file (1807.1 KB)
+0057.703 (0) Total database tables backed up: 40 (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz, size: 1850584, sha1: 190733483d8696c6988cee3b44bd64d97f9f052d, sha256: ada31e1ed011e2742cc24f8577bdbb69d487035b7e089550e962068a375d7b28)
+0057.720 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip: plugins: This file has already been successfully uploaded
+0057.724 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip: themes: This file has already been successfully uploaded
+0057.727 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip: uploads: This file has already been successfully uploaded
+0057.731 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0057.737 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip: others: This file has already been successfully uploaded
+0057.741 (0) backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0057.769 (0) Saving backup history. Total backup size: 142 MB
+0057.820 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0057.832 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0057.838 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6850c13d8ba1facef11129f98ee9678a)
+0058.256 (0) Google Drive: quota usage: used=4307.1 MB, total=15360 MB, available=11052.9 MB
+0058.294 (0) Google Drive: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0060.144 (0) Googledrive chunked upload: 56.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 23.7 / 46)
+0062.162 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0062.173 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz uploaded in 3.83 seconds
+0062.174 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz
+0062.182 (0) Deleting local file: backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-db.gz: OK
+0062.188 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0062.191 (0) Number of backup sets in history: 3; groups (db): 1
+0062.193 (0) Examining (for databases) backup set with group_id=0, nonce=1147ee55324f, datestamp=1737601119 (Jan 23 2025 02:58:39)
+0062.196 (0) This backup set is the backup set just made, so will not be deleted.
+0062.196 (0) Examining (for databases) backup set with group_id=0, nonce=04457d56acd4, datestamp=1736996015 (Jan 16 2025 02:53:35)
+0062.196 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0062.199 (0) Examining (for databases) backup set with group_id=0, nonce=ef278242bd80, datestamp=1736309896 (Jan 08 2025 04:18:16)
+0062.199 (0) 1736309896: db: this set includes a database (backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-db.gz); db count is now 2
+0062.199 (0) 1736309896: db: over retain limit (2); will delete this database
+0065.376 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-db.gz: Deletion successful
+0065.385 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0065.388 (0) Number of backup sets in history: 3; groups (files): 1
+0065.391 (0) Examining (for files) backup set with nonce=1147ee55324f, datestamp=1737601119 (Jan 23 2025 02:58:39)
+0065.393 (0) This backup set is the backup set just made, so will not be deleted.
+0065.397 (0) This backup set is the backup set just made, so will not be deleted.
+0065.398 (0) This backup set is the backup set just made, so will not be deleted.
+0065.398 (0) This backup set is the backup set just made, so will not be deleted.
+0065.398 (0) This backup set is the backup set just made, so will not be deleted.
+0065.398 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.399 (0) Examining (for files) backup set with nonce=04457d56acd4, datestamp=1736996015 (Jan 16 2025 02:53:35)
+0065.400 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.401 (0) Examining (for files) backup set with nonce=ef278242bd80, datestamp=1736309896 (Jan 08 2025 04:18:16)
+0065.401 (0) plugins: over retain limit (2); will delete this file entity
+0065.401 (0) themes: over retain limit (2); will delete this file entity
+0065.401 (0) uploads: over retain limit (2); will delete this file entity
+0065.401 (0) mu-plugins: over retain limit (2); will delete this file entity
+0065.401 (0) others: over retain limit (2); will delete this file entity
+0068.045 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-others.zip: Deletion successful
+0069.071 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-mu-plugins.zip: Deletion successful
+0070.210 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-uploads.zip: Deletion successful
+0071.542 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-themes.zip: Deletion successful
+0072.637 (0) Google Drive: backup_2025-01-08-0618_Tormi_Laane_Portfolio_ef278242bd80-plugins.zip: Deletion successful
+0072.650 (0) This backup set is now empty; will remove from history
+0072.653 (0) Deleting log file (log.ef278242bd80.txt)
+0072.658 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0072.666 (0) Resume backup (1147ee55324f, 0): finish run
+0072.673 (0) Decremented the semaphore (fd) by 1
+0072.676 (0) Semaphore (fd) unlocked
+0072.681 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0072.693 (0) Deleting zip manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-plugins.zip.list.tmp)
+0072.695 (0) Deleting zip manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-themes.zip.list.tmp)
+0072.698 (0) Deleting zip manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-uploads.zip.list.tmp)
+0072.701 (0) Deleting zip manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-mu-plugins.zip.list.tmp)
+0072.704 (0) Deleting zip manifest (backup_2025-01-23-0458_Tormi_Laane_Portfolio_1147ee55324f-others.zip.list.tmp)
+0072.708 (0) No email will/can be sent - the user has not configured an email address.
+0072.710 (0) The backup succeeded and is now complete

@@ -1,0 +1,46 @@
+<!-- Harjutus 03 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 3</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>JavaScript Harjutus 3</h1>
+    <h3>Sõidu aeg ja kaugus</h3>
+    <form onsubmit="return calculateTravelTime();" method="post">
+        <label for="kaugus" >Kaugus (km):</label>
+        <input id="kaugus" type="number" name="kaugus">
+        <br>
+        <label for="kiirus" >Kiirus (km/h):</label>
+        <input id="kiirus" type="number" name="kiirus">
+        <br>
+        <input type="submit" value="Arvuta" name="send">
+    </form>
+    <div class="text-info" id="travelTimeResult"></div>
+    <h3>Postituste kuvamine</h3>
+    <form onsubmit="return calculatePosts();" method="post">
+        <label for="postitused" >Postituste arv:</label>
+        <input id="postitused" type="number" name="postitused">
+        <br>
+        <label for="maxLehekülg" >Maksimum postituste arv leheküljes:</label>
+        <input id="maxLehekülg" type="number" name="maxLehekülg">
+        <br>
+        <input type="submit" value="Arvuta" name="send">
+    </form>
+    <div class="text-info" id="postResult"></div>
+    <h3>Serveri töökulu</h3>
+    <form onsubmit="return calculateElectricityCost();" method="post">
+        <label for="serveriVõimsus" >Serveri võimsus (W):</label>
+        <input id="serveriVõimsus" type="number" name="serveriVõimsus">
+        <br>
+        <label for="elektriHind" >Elektri hind (euro/kWh):</label>
+        <input id="elektriHind" type="number" name="elektriHind">
+        <br>
+        <input type="submit" value="Arvuta" name="send">
+    </form>
+    <div class="text-info" id="electricityCostResult"></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Q˜g<?php exit; ?>a:2:{s:7:"content";s:165:"a:2:{s:41:"better-wp-security/better-wp-security.php";a:2:{i:0;s:10:"ITSEC_Core";i:1;s:16:"handle_uninstall";}s:24:"wordpress-seo/wp-seo.php";s:14:"__return_false";}";s:15:"key_version_all";i:1;}

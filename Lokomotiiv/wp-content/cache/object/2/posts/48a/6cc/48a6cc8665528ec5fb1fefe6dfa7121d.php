@@ -1,0 +1,11 @@
+éèg<?php exit; ?>a:2:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:297;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2024-12-17 15:30:07";s:13:"post_date_gmt";s:19:"2024-12-17 13:30:07";s:12:"post_content";s:1276:"<!-- wp:paragraph -->
+<p>Lokomotiiv Catering has received a variety of feedback from customers, reflecting their different experiences and expectations. Many praise the restaurant's cozy atmosphere and friendly service, which make the visit enjoyable. The quality of the food is highly rated, especially the inventive flavor combinations and the use of fresh ingredients. Lokomotiiv Catering' vegan and vegetarian dishes also receive special attention, which is a pleasant surprise for many.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, there are customers who have been less satisfied with their experience. Some mention that the waiting time can be a bit long during peak hours and that the food sometimes does not meet expectations, which may be high due to the restaurant's past reputation. Opinions are divided regarding the prices; some consider them justified due to the quality and level of service, while others think that they could be a little more affordable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In summary, Lokomotiiv Toitlustus has a strong customer base who appreciate the restaurant's contribution to local gastronomy and are happy to visit it again, always hoping for pleasant culinary experiences.</p>
+<!-- /wp:paragraph -->";s:10:"post_title";s:17:"Customer opinions";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:17:"customer-opinions";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2025-01-14 12:55:08";s:17:"post_modified_gmt";s:19:"2025-01-14 10:55:08";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:47:"https://tormilaane23.thkit.ee/Lokomotiiv/?p=297";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}s:15:"key_version_all";i:2;}

@@ -1,0 +1,21 @@
+<!-- Harjutus 13 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 13</title>
+</head>
+<body>
+    <p id="eemaldaID" attr="Siia muu tekst">1</p>
+    <script>
+        const p = document.getElementById("eemaldaID")
+        document.write(p.outerHTML)
+        p.removeAttribute("id")
+        document.write(p.outerHTML)
+        p.setAttribute("attr", "Tormi Laane")
+        document.write(p.outerHTML)
+        console.log(p.getAttribute("attr"))
+    </script>
+</body>
+</html>

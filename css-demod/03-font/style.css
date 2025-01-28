@@ -1,0 +1,78 @@
+
+@font-face{
+    font-family: 'GoodDogRegular';
+    src: url('font/GoodDog-webfont.eot') format('eot');
+	src: local('?'), 
+         url('font/GoodDog-webfont.woff') format('woff'),
+         url('font/GOODDC__.TTF') format('truetype'),
+         url('font/GoodDog-webfont.svg#webfontx1QlgLst') format('svg');
+}
+
+body {
+    font-family: GoodDogRegular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:.75em;
+    color: #595959;
+    background-color: black;
+}
+
+h1{
+	font-family:GoodDogRegular;
+	font-size:3.2em;
+    font-variant: small-caps;
+    color:#fff;
+    padding: 50px;
+    margin-top: 0;
+    background-color: black;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #ff00de,
+    0 0 70px #ff00de,
+    0 0 80px #ff00de,
+    0 0 100px #ff00de,
+    0 0 150px #ff00de;
+    text-align: center;;
+}
+
+h3{
+	font-weight: normal;
+    font-style:italic;
+}
+
+#esimene {
+    color:yellow;
+}
+
+.roheline {
+    color:green;
+}
+
+p em{ /*valib kõik em elemendid, mis on p elemendi sees*/
+    color:red;
+}
+
+p>em{ /*valib kõik em elemendid, mis on p elemendi esimesel tasemel, otsesed lapsed*/
+    color:red;
+}
+
+p+em{ /*valib kõik em elemendid, mis on p elemedni järel, sama vanema kõrvutised laps elemendid*/
+    color:red;
+}
+
+p~em{ /*valib kõik em elemendid, mis on p elemedni järel, sama vanema laps elemendid*/
+    color:red;
+}
+
+h1+h3{
+    color:blue;
+}
+
+h1 ~ p {
+    color:blue;
+}
+
+/* Atribuudi selektorid */
+
+*[class$="ne"] {
+    background-color:pink;
+}

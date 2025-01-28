@@ -1,0 +1,38 @@
+<!-- Harjutus 09 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 9</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>JavaScript Harjutus 9</h1>
+    <h2>1. Erinevad funktsioonid</h2>
+    <script>getName1("Tormi Laane")</script>
+    <script>getName2("Tormi Laane")</script>
+    <h2>2. Argumendiga funktsioon</h2>
+    <script>kuupaevEesti("19.07.23")</script>
+    <h2>3. Teadmata hulk</h2>
+    <form onsubmit="return calculateNumber();" method="post">
+        <label for="numbers" >Kirjuta numbrid ja eralda tühikuga:</label>
+        <br>
+        <textarea id="numbers" rows="14" cols="31" name="numbers"></textarea>
+        <br>
+        <input type="submit" value="Arvuta" name="send">
+    </form>
+    <div class="text-info" id="numbersResult"></div>
+    <h2>4. Salajane sõnum</h2>
+    <form onsubmit="return salajaneSonum();" method="post">
+        <label for="message" >Kirjuta sõnum:</label>
+        <br>
+        <input id="message" type="text" name="message"></input>
+        <br>
+        <input type="submit" value="Tagasta salajane versioon" name="send">
+    </form>
+    <div class="text-info" id="secretMessage"></div>
+    <h2>5. Unikaalsed nimed</h2>
+    <script>leiaUnikaalsedNimed(["Kati", "Mati", "Kati", "Mari", "Mati", "Jüri"])</script>
+</body>
+</html>

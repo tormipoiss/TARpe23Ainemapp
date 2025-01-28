@@ -1,0 +1,11 @@
+��g<?php exit; ?>a:2:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:297;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2024-12-17 15:30:07";s:13:"post_date_gmt";s:19:"2024-12-17 13:30:07";s:12:"post_content";s:1207:"<!-- wp:paragraph -->
+<p>Lokomotiiv Toitlustus on saanud klientidelt mitmekesist tagasisidet, mis peegeldab nende erinevaid kogemusi ja ootusi. Paljud kiidavad restorani hubast atmosfääri ja sõbralikku teenindust, mis muudab külastuse nauditavaks. Toidu kvaliteeti hinnatakse kõrgelt, eriti kiidetakse leidlikke maitsekooslusi ja värskete koostisosade kasutamist. Erilist tähelepanu pälvivad ka Lokomotiiv Toitlustuse vegan- ja taimetoiduroad, mis on paljudele meeldivaks üllatuseks.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Siiski on kliente, kes on oma kogemusega vähem rahul olnud. Mõned mainivad, et ooteaeg võib tipptundidel olla veidi pikk ja mõnikord ei vasta toit ootustele, mis võivad olla kõrged restorani varasema maine tõttu. Hindade osas on arvamused jagunenud; mõned peavad neid õigustatud kvaliteedi ja teeninduse taseme tõttu, teised aga leiavad, et need võiksid olla veidi soodsamad.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kokkuvõttes on Lokomotiiv Toitlustusel tugev kliendibaas, kes hindab restorani panust kohalikku gastronoomiasse ning külastab seda meelsasti uuesti, lootes alati meeldivatele maitseelamustele.</p>
+<!-- /wp:paragraph -->";s:10:"post_title";s:19:"Klientide arvamused";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:19:"klientide-arvamused";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2024-12-17 15:30:07";s:17:"post_modified_gmt";s:19:"2024-12-17 13:30:07";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:47:"https://tormilaane23.thkit.ee/Lokomotiiv/?p=297";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}s:15:"key_version_all";i:2;}

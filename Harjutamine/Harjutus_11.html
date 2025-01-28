@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Harjutamine, pildi järgi tegemine</title>
+    <meta name="description" content="Õpime veebitehnoloogiat">
+    <meta name="keywords" content="HTML5,CSS3">
+    <meta name="author" content="Tormi Laane">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        img {
+            padding-right: 30px;
+        }
+        td {
+            font-weight: bold;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px double;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kordamine</h1>
+    <hr>
+    <h2>Loendid</h2>
+    <ul>
+        <li>Siin on list</li>
+        <li>Siin on list</li>
+        <li>Siin on list</li>
+    </ul>
+    <ol>
+        <li>See on ordered</li>
+        <li>See on teine</li>
+        <li>Kolmas</li>
+    </ol>
+    <h2>Hüperlingid</h2>
+    <a href="https://www.tthk.ee/" target="_blank">Hüperlink koolilehele</a>
+    <h2>Teksti markeeringud</h2>
+    <i>See tekst on italics</i><sup>See on üleval</sup><br>
+    <b>See tekst on bold</b><br>
+    <mark>See tekst on marked</mark><br>
+    <del>See tekst on maha tõmmatud</del><sub>sellel on ka väike alaindeks</sub><br>
+    <h3>Erinevat suurust</h3>
+    <h4>Pealkirjad</h4>
+    <p>See tekst venib ja venib ja venib ja venib ja venib<br>oops &lt;br&gt; tuli hoopis</p>
+    <h2>Pildid</h2>
+    <img src="stick_figure.PNG" alt="stickFigure">
+    <img src="stick_figure.PNG" alt="stickFigure" width="45">
+    <img src="stick_figure.PNG" alt="stickFigure" width="70" height="25">
+    <h2>Tabelid</h2>
+    <table>
+        <caption>Tabeli caption</caption>
+        <tr>
+            <td>Nimi</td>
+            <td>Vanus</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>11</td>
+            <td>tom@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kati</td>
+            <td>70</td>
+            <td>kati@gmail.com</td>
+        </tr>
+    </table>
+    <h2>Vormid</h2>
+    <form action="#" method="post">
+        <label><textarea name="tekstiKast" rows="2" cols="20" placeholder="Tekstikast"></textarea></label><br>
+        <label><input type="radio" name="valik" value="valik">Valik</label><br>
+        <label><input type="checkbox" name="valik" value="valika">ValikA</label>
+        <label><input type="checkbox" name="valik" value="valikb">ValikB</label>
+        <label><input type="checkbox" name="valik" value="valikc">ValikC</label>
+    </form>
+</body>
+</html>

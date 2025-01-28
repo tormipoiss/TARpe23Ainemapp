@@ -1,0 +1,176 @@
+<!-- Harjutus 17 -->
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harjutus 17</title>
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <a href="" class="float-end btn btn-outline-primary mt-1">Logi sisse</a>
+                    <h4 class="card-title mt-2">Registreeri</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">Eesnimi</label>
+                                <input type="text" class="form-control" id="firstName" required="required" name="firstName">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Perekonnanimi</label>
+                                <input type="text" class="form-control" id="lastName" required="required" name="lastName">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">E-posti aadress</label>
+                            <input type="email" class="form-control" id="email" required="required" name="email">
+                            <small class="form-text text-muted">Me ei jaga teie e-posti aadressi kellegagi.</small>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="mees">
+                                <label class="form-check-label" for="male">Meessoost</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="female" value="naine">
+                                <label class="form-check-label" for="female">Naissoost</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="city">Linn</label>
+                                <input type="text" class="form-control" id="city" name="city">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="country">Riik</label>
+                                <select class="form-select" id="country">
+                                    <option>Vali...</option>
+                                    <option>Eesti</option>
+                                    <option>Soome</option>
+                                    <option>Läti</option>
+                                    <option>Leedu</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password">Loo parool</label>
+                            <input type="password" class="form-control" id="password" required="required" name="password">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Registreeri</button>
+                        </div>
+                        <small class="text-muted">Vajutades nupule "Registreeri", kinnitate, et nõustute meie
+                            <br>
+                            <a href="#">Kasutustingimuste</a> ja <a href="#">Privaatsuspoliitikaga.</a></small>
+                    </form>
+                </div>
+                <div class="card-footer text-center">Väljasta siia tulemus:
+                    <div class="vastusekast">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script src="app.js" async="async" defer="defer"></script>
+</body>
+</html>
+
+<!-- HARJUTAMINE ALLPOOL
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 17</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registreeru</h1>
+        <div class="row">
+            <div class="col-4">
+                <form id="myForm">
+
+                    <div class="form-group">
+                        <label for="username">Lisa nimi</label>
+                        <input type="text" class="form-control" id="username" placeholder="Sinu nimi">
+                        <small id="usernameHelp" class="form-text text-muted">Ainult tähed</small>
+                    </div>
+
+                    <div class="form-group">
+                        <fieldset style="border: 1px solid gray; padding: 5px">
+                            <legend>Vali hobi</legend>
+                            <br />
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="football" name="hobbies" value="football">
+                                <label class="form-check-label" for="football">Jalgpall</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="hiking" name="hobbies" value="hiking">
+                                <label class="form-check-label" for="hiking">Matkamine</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="cycling" name="hobbies" value="cycling">
+                                <label class="form-check-label" for="cycling">Rattasõit</label>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-group">
+                        <fieldset style="border: 1px solid gray; padding: 5px">
+                            <legend>Vali suurus</legend>
+                            <br />
+                            <div class="form-group">
+                                <label for="size">Vali suurus:</label>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="size" value="S" id="sizeS">
+                                    <label class="form-check-label" for="sizeS">S</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="size" value="M" id="sizeM">
+                                    <label class="form-check-label" for="sizeM">M</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="size" value="XL" id="sizeXL">
+                                    <label class="form-check-label" for="sizeXL">XL</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="accept" name="accept" value="yes">
+                        <label class="form-check-label" for="accept">Nõustun</label>
+                    </div>
+
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <div class="row">
+                    <div id="vastusekast"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+-->

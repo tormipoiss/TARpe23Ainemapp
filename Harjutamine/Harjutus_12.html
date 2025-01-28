@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 12, joonistuslõuend</title>
+    <script>
+        //kui veebileht on laetud, siis käivitatakse draw() funktsioon
+        window.onload = draw;
+        
+        //draw() funktsioon, mis tegeleb kujundi joonistamisega
+        function draw(){
+            var canvas = document.getElementById('louend');
+            if (canvas.getContext){
+                var ctx = canvas.getContext('2d');
+
+                // ctx.fillStyle   = 'blue';
+                // ctx.strokeStyle = 'red';
+
+                // ctx.strokeRect(30,  60, 150, 50);
+                // ctx.fillRect(10,  15, 150, 75);
+                // ctx.clearRect(45,  45, 15, 75);
+
+                // ctx.moveTo(10,10); //alguspunkt
+                // ctx.lineTo(100,100); //lõpp-punkt
+                // ctx.lineWidth = 2; //joone jämedus
+                // ctx.strokeStyle = "blue"; //joone värv
+                // ctx.stroke(); //loome joone kahe punkti vahel
+
+                // ctx.moveTo(10,10); //alguspunkt
+                // ctx.lineTo(100,100); //lõpppunkt
+                // ctx.lineTo(100,150); //järgmine punkt
+                // ctx.lineTo(120,185); //järgmine punkt
+                // ctx.lineTo(140,10); //järgmine punkt
+                // ctx.lineWidth = 2; //joone jämedus
+                // ctx.strokeStyle = "blue"; //joone värv
+                // ctx.lineCap = "round";
+                // ctx.lineJoin = "miter";
+                // ctx.stroke(); //loome joone kahe punkti vahel 
+
+                // ctx.beginPath();
+                // ctx.arc(70,70,50,Math.PI*2,0,true);
+                // ctx.closePath();
+                // ctx.fillStyle="red";
+                // ctx.fill();
+
+                // ctx.beginPath();
+                // ctx.moveTo(10,10);
+                // ctx.lineTo(100,10);
+                // ctx.lineTo(10,100);
+                // ctx.lineTo(10,10);
+                // ctx.closePath();
+                // ctx.fillStyle="red";
+                // ctx.fill();
+
+                ctx.fillStyle = 'red'; //teksti värv
+                ctx.font = 'bold 20px sans-serif'; //fondi määramine
+                ctx.textBaseline = "top"; //määrab põhijoone asukoha
+                ctx.fillText('Hello canvas!',10,20); //tekst ja selle algukordinaadid
+            }
+        }
+    </script>
+    <style>
+        canvas{border : 2px solid red;}
+    </style>
+</head>
+<body>
+    <canvas id="louend" width="200" height="200"></canvas>
+</body>
+</html>

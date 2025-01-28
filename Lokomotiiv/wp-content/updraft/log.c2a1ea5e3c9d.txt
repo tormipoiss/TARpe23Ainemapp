@@ -1,0 +1,1070 @@
+0000.000 (0) Opened log file at time: Thu, 23 Jan 2025 02:58:40 +0000 on https://tormilaane23.thkit.ee/Lokomotiiv/
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.3.14 (cgi-fcgi, Linux dn-68-118.tll01.zoneas.eu 5.15.138-zoneos #1 SMP Wed Nov 15 10:55:18 -00 2023 x86_64) MySQL: 10.4.34-MariaDB-log (max packet size=134217728) WPLANG: et Server: Apache / ZoneOS safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 22.3M | 24M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C.UTF-8 ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 87315.5 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.014 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.024 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1736996016, seconds_ago=605104)
+0000.030 (0) Set semaphore last lock (fd) time to 2025-01-23 02:58:40
+0000.033 (0) Semaphore lock (fd) complete
+0000.041 (0) Backup run: resumption=0, nonce=c2a1ea5e3c9d, file_nonce=c2a1ea5e3c9d begun at=1737601120 (0s ago), job type=backup
+0000.045 (0) Scheduling a resumption (1) after 300 seconds (1737601420) in case this run gets aborted
+0000.064 (0) Checking if we have a zip executable available
+0000.065 (0) Testing: /usr/bin/zip
+0000.072 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.076 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.082 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.086 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.094 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.098 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.107 (0) Working binary zip found: /usr/bin/zip
+0000.111 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.115 (0) Creation of backups of directories: beginning
+0000.123 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.780 (0) Total entities for the zip file: 3694 directories, 15711 files (0 skipped as non-modified), 185.8 MB
+0000.785 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.790 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.795 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.800 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.805 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.810 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.814 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.820 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.824 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.829 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.833 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 15711 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.494 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 2.60 MB
+0001.500 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1100 files added (on-disk size: 2671.8 KB)
+0001.505 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1200 files added (on-disk size: 2671.8 KB)
+0001.509 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1300 files added (on-disk size: 2671.8 KB)
+0001.514 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1400 files added (on-disk size: 2671.8 KB)
+0001.519 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1500 files added (on-disk size: 2671.8 KB)
+0001.524 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1600 files added (on-disk size: 2671.8 KB)
+0001.529 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1700 files added (on-disk size: 2671.8 KB)
+0001.534 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1800 files added (on-disk size: 2671.8 KB)
+0001.539 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 1900 files added (on-disk size: 2671.8 KB)
+0001.544 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2000 files added (on-disk size: 2671.8 KB)
+0001.547 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.8 MB, 15711 files batched, 1001 (2002) added so far); re-opening (prior size: 2671.8 KB)
+0002.237 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 10.10 MB
+0002.243 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2100 files added (on-disk size: 10339.8 KB)
+0002.248 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2200 files added (on-disk size: 10339.8 KB)
+0002.253 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2300 files added (on-disk size: 10339.8 KB)
+0002.258 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2400 files added (on-disk size: 10339.8 KB)
+0002.263 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2500 files added (on-disk size: 10339.8 KB)
+0002.268 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2600 files added (on-disk size: 10339.8 KB)
+0002.273 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2700 files added (on-disk size: 10339.8 KB)
+0002.278 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2800 files added (on-disk size: 10339.8 KB)
+0002.282 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 2900 files added (on-disk size: 10339.8 KB)
+0002.288 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3000 files added (on-disk size: 10339.8 KB)
+0002.292 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10 MB, 15711 files batched, 1001 (3003) added so far); re-opening (prior size: 10339.8 KB)
+0002.874 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 13.40 MB
+0002.880 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3100 files added (on-disk size: 13675.9 KB)
+0002.885 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3200 files added (on-disk size: 13675.9 KB)
+0002.890 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3300 files added (on-disk size: 13675.9 KB)
+0002.895 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3400 files added (on-disk size: 13675.9 KB)
+0002.899 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3500 files added (on-disk size: 13675.9 KB)
+0002.904 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3600 files added (on-disk size: 13675.9 KB)
+0002.909 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3700 files added (on-disk size: 13675.9 KB)
+0002.914 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3800 files added (on-disk size: 13675.9 KB)
+0002.918 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 3900 files added (on-disk size: 13675.9 KB)
+0002.923 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4000 files added (on-disk size: 13675.9 KB)
+0002.926 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.1 MB, 15711 files batched, 1001 (4004) added so far); re-opening (prior size: 13675.9 KB)
+0003.638 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 16.20 MB
+0003.644 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4100 files added (on-disk size: 16578.2 KB)
+0003.649 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4200 files added (on-disk size: 16578.2 KB)
+0003.655 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4300 files added (on-disk size: 16578.2 KB)
+0003.660 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4400 files added (on-disk size: 16578.2 KB)
+0003.665 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4500 files added (on-disk size: 16578.2 KB)
+0003.669 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4600 files added (on-disk size: 16578.2 KB)
+0003.674 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4700 files added (on-disk size: 16578.2 KB)
+0003.679 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4800 files added (on-disk size: 16578.2 KB)
+0003.684 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 4900 files added (on-disk size: 16578.2 KB)
+0003.690 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5000 files added (on-disk size: 16578.2 KB)
+0003.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 15711 files batched, 1001 (5005) added so far); re-opening (prior size: 16578.2 KB)
+0004.115 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5100 files added (on-disk size: 18048.5 KB)
+0004.120 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5200 files added (on-disk size: 18048.5 KB)
+0004.125 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5300 files added (on-disk size: 18048.5 KB)
+0004.131 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5400 files added (on-disk size: 18048.5 KB)
+0004.136 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5500 files added (on-disk size: 18048.5 KB)
+0004.141 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5600 files added (on-disk size: 18048.5 KB)
+0004.147 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5700 files added (on-disk size: 18048.5 KB)
+0004.152 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5800 files added (on-disk size: 18048.5 KB)
+0004.157 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 5900 files added (on-disk size: 18048.5 KB)
+0004.162 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6000 files added (on-disk size: 18048.5 KB)
+0004.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.3 MB, 15711 files batched, 1001 (6006) added so far); re-opening (prior size: 18048.5 KB)
+0005.141 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 21.80 MB
+0005.148 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6100 files added (on-disk size: 22309 KB)
+0005.154 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6200 files added (on-disk size: 22309 KB)
+0005.159 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6300 files added (on-disk size: 22309 KB)
+0005.164 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6400 files added (on-disk size: 22309 KB)
+0005.169 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6500 files added (on-disk size: 22309 KB)
+0005.175 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6600 files added (on-disk size: 22309 KB)
+0005.179 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6700 files added (on-disk size: 22309 KB)
+0005.184 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6800 files added (on-disk size: 22309 KB)
+0005.188 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 6900 files added (on-disk size: 22309 KB)
+0005.193 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7000 files added (on-disk size: 22309 KB)
+0005.197 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.1 MB, 15711 files batched, 1001 (7007) added so far); re-opening (prior size: 22309 KB)
+0006.117 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: size is now: 26.80 MB
+0006.123 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7100 files added (on-disk size: 27398 KB)
+0006.128 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7200 files added (on-disk size: 27398 KB)
+0006.132 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7300 files added (on-disk size: 27398 KB)
+0006.137 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7400 files added (on-disk size: 27398 KB)
+0006.141 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7500 files added (on-disk size: 27398 KB)
+0006.146 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7600 files added (on-disk size: 27398 KB)
+0006.150 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7700 files added (on-disk size: 27398 KB)
+0006.155 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7800 files added (on-disk size: 27398 KB)
+0006.160 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 7900 files added (on-disk size: 27398 KB)
+0006.165 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8000 files added (on-disk size: 27398 KB)
+0006.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9 MB, 15711 files batched, 1001 (8008) added so far); re-opening (prior size: 27398 KB)
+0006.830 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8100 files added (on-disk size: 28856.7 KB)
+0006.837 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8200 files added (on-disk size: 28856.7 KB)
+0006.842 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8300 files added (on-disk size: 28856.7 KB)
+0006.849 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8400 files added (on-disk size: 28856.7 KB)
+0006.854 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8500 files added (on-disk size: 28856.7 KB)
+0006.861 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8600 files added (on-disk size: 28856.7 KB)
+0006.866 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8700 files added (on-disk size: 28856.7 KB)
+0006.873 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8800 files added (on-disk size: 28856.7 KB)
+0006.879 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 8900 files added (on-disk size: 28856.7 KB)
+0006.885 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9000 files added (on-disk size: 28856.7 KB)
+0006.890 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23 MB, 15711 files batched, 1001 (9009) added so far); re-opening (prior size: 28856.7 KB)
+0007.878 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9100 files added (on-disk size: 31612.2 KB)
+0007.883 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9200 files added (on-disk size: 31612.2 KB)
+0007.889 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9300 files added (on-disk size: 31612.2 KB)
+0007.895 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9400 files added (on-disk size: 31612.2 KB)
+0007.901 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9500 files added (on-disk size: 31612.2 KB)
+0007.907 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9600 files added (on-disk size: 31612.2 KB)
+0007.912 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9700 files added (on-disk size: 31612.2 KB)
+0007.917 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9800 files added (on-disk size: 31612.2 KB)
+0007.922 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 9900 files added (on-disk size: 31612.2 KB)
+0007.929 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10000 files added (on-disk size: 31612.2 KB)
+0007.933 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 15711 files batched, 1001 (10010) added so far); re-opening (prior size: 31612.2 KB)
+0008.627 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/updraft/backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0008.641 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10100 files added (on-disk size: 33020.1 KB)
+0008.647 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10200 files added (on-disk size: 33020.1 KB)
+0008.653 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10300 files added (on-disk size: 33020.1 KB)
+0008.659 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10400 files added (on-disk size: 33020.1 KB)
+0008.665 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10500 files added (on-disk size: 33020.1 KB)
+0008.670 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10600 files added (on-disk size: 33020.1 KB)
+0008.676 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10700 files added (on-disk size: 33020.1 KB)
+0008.683 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10800 files added (on-disk size: 33020.1 KB)
+0008.688 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 10900 files added (on-disk size: 33020.1 KB)
+0008.694 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11000 files added (on-disk size: 33020.1 KB)
+0008.698 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 15711 files batched, 1001 (11011) added so far); re-opening (prior size: 33020.1 KB)
+0009.346 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11100 files added (on-disk size: 36282.2 KB)
+0009.351 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11200 files added (on-disk size: 36282.2 KB)
+0009.356 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11300 files added (on-disk size: 36282.2 KB)
+0009.360 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11400 files added (on-disk size: 36282.2 KB)
+0009.365 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11500 files added (on-disk size: 36282.2 KB)
+0009.370 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11600 files added (on-disk size: 36282.2 KB)
+0009.374 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11700 files added (on-disk size: 36282.2 KB)
+0009.379 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11800 files added (on-disk size: 36282.2 KB)
+0009.383 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 11900 files added (on-disk size: 36282.2 KB)
+0009.388 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12000 files added (on-disk size: 36282.2 KB)
+0009.392 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 15711 files batched, 1001 (12012) added so far); re-opening (prior size: 36282.2 KB)
+0010.255 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12100 files added (on-disk size: 39010.3 KB)
+0010.261 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12200 files added (on-disk size: 39010.3 KB)
+0010.266 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12300 files added (on-disk size: 39010.3 KB)
+0010.271 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12400 files added (on-disk size: 39010.3 KB)
+0010.276 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12500 files added (on-disk size: 39010.3 KB)
+0010.281 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12600 files added (on-disk size: 39010.3 KB)
+0010.285 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12700 files added (on-disk size: 39010.3 KB)
+0010.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 15711 files batched, 692 (12704) added so far); re-opening (prior size: 39010.3 KB)
+0011.543 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/updraft/backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0011.556 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18949.1 KB/s)
+0011.561 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3510789871216, normalised_time=1.3509867891172, max_time=11.559546947479, data points known=1, old_max_bytes=26214400, new_max_bytes=134580111)
+0011.566 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12800 files added (on-disk size: 46702.7 KB)
+0011.570 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 12900 files added (on-disk size: 46702.7 KB)
+0011.574 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13000 files added (on-disk size: 46702.7 KB)
+0011.578 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13100 files added (on-disk size: 46702.7 KB)
+0011.583 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13200 files added (on-disk size: 46702.7 KB)
+0011.587 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13300 files added (on-disk size: 46702.7 KB)
+0011.591 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13400 files added (on-disk size: 46702.7 KB)
+0011.595 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13500 files added (on-disk size: 46702.7 KB)
+0011.600 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13600 files added (on-disk size: 46702.7 KB)
+0011.604 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13700 files added (on-disk size: 46702.7 KB)
+0011.607 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 15711 files batched, 1001 (13705) added so far); re-opening (prior size: 46702.7 KB)
+0012.614 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13800 files added (on-disk size: 48045.5 KB)
+0012.618 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 13900 files added (on-disk size: 48045.5 KB)
+0012.623 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14000 files added (on-disk size: 48045.5 KB)
+0012.628 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14100 files added (on-disk size: 48045.5 KB)
+0012.632 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14200 files added (on-disk size: 48045.5 KB)
+0012.636 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14300 files added (on-disk size: 48045.5 KB)
+0012.640 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14400 files added (on-disk size: 48045.5 KB)
+0012.645 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14500 files added (on-disk size: 48045.5 KB)
+0012.649 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14600 files added (on-disk size: 48045.5 KB)
+0012.653 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14700 files added (on-disk size: 48045.5 KB)
+0012.656 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.2 MB, 15711 files batched, 1001 (14706) added so far); re-opening (prior size: 48045.5 KB)
+0013.664 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/updraft/backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0013.681 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14800 files added (on-disk size: 57555.1 KB)
+0013.686 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 14900 files added (on-disk size: 57555.1 KB)
+0013.690 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15000 files added (on-disk size: 57555.1 KB)
+0013.694 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15100 files added (on-disk size: 57555.1 KB)
+0013.699 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15200 files added (on-disk size: 57555.1 KB)
+0013.703 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15300 files added (on-disk size: 57555.1 KB)
+0013.707 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15400 files added (on-disk size: 57555.1 KB)
+0013.711 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15500 files added (on-disk size: 57555.1 KB)
+0013.716 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15600 files added (on-disk size: 57555.1 KB)
+0013.720 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp: 15700 files added (on-disk size: 57555.1 KB)
+0013.723 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5 MB, 15711 files batched, 1001 (15707) added so far); re-opening (prior size: 57555.1 KB)
+0014.334 (0) PHP event: code E_WARNING: filesize(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/updraft/backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0014.509 (0) Creating zip file manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.list-temp.tmp)
+0014.547 (0) Successfully created zip file manifest (size: 1408872)
+0015.023 (0) Created plugins zip (0) - 59314.4 KB in 14.9 s (3981.6 KB/s) (sha1: 00132c3be3c8d966d907163bb293e1df5f4c3a71, sha256: df5d597788564ed15172cd3f60766ac2334ab89eef7936068b86555ae024e2da)
+0015.039 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.042 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0016.558 (0) Google Drive: quota usage: used=4095.5 MB, total=15360 MB, available=11264.5 MB
+0016.560 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0018.401 (0) Googledrive chunked upload: 1.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 27.7 / 48)
+0019.489 (0) Googledrive chunked upload: 5.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 27.7 / 48)
+0020.770 (0) Googledrive chunked upload: 12.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 27.7 / 48)
+0022.061 (0) Googledrive chunked upload: 25.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 27.7 / 48)
+0023.731 (0) Googledrive chunked upload: 53.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 27.7 / 48)
+0026.961 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0026.967 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip uploaded in 10.4 seconds
+0026.971 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip
+0026.989 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip: OK
+0026.996 (0) Beginning creation of dump of themes (split every: 400 MB)
+0027.019 (0) Total entities for the zip file: 56 directories, 384 files (0 skipped as non-modified), 13.9 MB
+0027.022 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.026 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.031 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.622 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.tmp: size is now: 13.40 MB
+0027.629 (0) Creating zip file manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.list-temp.tmp)
+0027.634 (0) Successfully created zip file manifest (size: 27036)
+0027.765 (0) Created themes zip (0) - 13692.2 KB in 0.8 s (17930.3 KB/s) (sha1: ba1a1951863c2858bd91b26af4673099f0a2a1e4, sha256: 8be6eadc900916863ce393dd4176f070ba16909df3b1f30ee3e3c253c642a853)
+0027.772 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.775 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0028.181 (0) Google Drive: quota usage: used=4205.4 MB, total=15360 MB, available=11154.6 MB
+0028.184 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0029.983 (0) Googledrive chunked upload: 7.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.5 / 48)
+0031.156 (0) Googledrive chunked upload: 22.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.5 / 48)
+0032.450 (0) Googledrive chunked upload: 52.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 25.5 / 48)
+0035.215 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0035.220 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip uploaded in 7.03 seconds
+0035.223 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip
+0035.231 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip: OK
+0035.236 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0035.240 (0) Looking for candidates to backup in: /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/uploads
+0035.242 (0) finding files: 74075991080c35227d5c3de9b3d7d90c6d60051e-6WvAFJ.tmp: adding to list (1)
+0035.245 (0) finding files: pixlr-image-generator-451a83d8-186d-4c6e-8bd7-070cc0a29e50-WgRgTu.tmp: adding to list (2)
+0035.248 (0) finding files: piclumen-1734435430258-fd1kCH.tmp: adding to list (3)
+0035.252 (0) finding files: 1fe8ae8069338e8a2770cc5eea182302d3558800-q0Wpx1.tmp: adding to list (4)
+0035.255 (0) finding files: Tartar-sauce-17-12-2024-at-12-52-14-zSbU8O.tmp: adding to list (5)
+0035.259 (0) finding files: woocommerce_uploads: adding to list (6)
+0035.262 (0) finding files: Chicken-Rice-Wok-17-12-2024-at-13-15-49-ZR6bUa.tmp: adding to list (7)
+0035.266 (0) finding files: 2f2d8668848dd2fa5f2ad447c5126793e7752bf7-d7IIrV.tmp: adding to list (8)
+0035.269 (0) finding files: piclumen-1734441148004-qnYVxH.tmp: adding to list (9)
+0035.273 (0) finding files: bf8f47fdd1a144cf36c2a189fecaccf8cef39f38-UwQ5EY.tmp: adding to list (10)
+0035.276 (0) finding files: Designer-NJfkjx.tmp: adding to list (11)
+0035.280 (0) finding files: pixlr-image-generator-2edc0724-61fe-4c11-91b4-5e92ae9e8b2f-7R7gRX.tmp: adding to list (12)
+0035.283 (0) finding files: pixlr-image-generator-ec1d7b54-0b12-4298-91b6-ac96f779168c-p3ADs7.tmp: adding to list (13)
+0035.287 (0) finding files: piclumen-1734436769935-arTgke.tmp: adding to list (14)
+0035.290 (0) finding files: 43a8bfb76465d5f4ae7dfc1dbd3c359ebbf108c2-cWMZlJ.tmp: adding to list (15)
+0035.294 (0) finding files: piclumen-1734437712043-eSbqUO.tmp: adding to list (16)
+0035.297 (0) finding files: 907708faf58efc8ea161ae25c9f24557c9519de2-scaled-6CviRX.tmp: adding to list (17)
+0035.301 (0) finding files: Curry-sauce-17-12-2024-at-12-51-38-ofXkl5.tmp: adding to list (18)
+0035.304 (0) finding files: DALL·E-2024-12-17-12.21.59-A-highly-detailed-image-of-a-dish-called-Businessman-Salmon.-The-dish-features-a-perfectly-cooked-salmon-fillet-seared-to-a-golden-brown-with-a-cri-dMLMjF.tmp: adding to list (19)
+0035.307 (0) finding files: 7590d757481501f364528fa770cf1d5d6e507d06-IuMjMW.tmp: adding to list (20)
+0035.311 (0) finding files: 11584fdfba9524e37d9893a34a683d86b473177b-WIcq3Y.tmp: adding to list (21)
+0035.314 (0) finding files: piclumen-1734435872985-dxvSIT.tmp: adding to list (22)
+0035.318 (0) finding files: piclumen-1734435890454-MDItJI.tmp: adding to list (23)
+0035.321 (0) finding files: piclumen-1734440303581-o2pahz.tmp: adding to list (24)
+0035.325 (0) finding files: Chicken-Rice-Wok-17-12-2024-at-13-15-49-1-XzhXkV.tmp: adding to list (25)
+0035.328 (0) finding files: image1_0-4-RVUzdn.tmp: adding to list (26)
+0035.331 (0) finding files: piclumen-1734436628133-fezT4H.tmp: adding to list (27)
+0035.335 (0) finding files: Hackers-Minced-Meat-Tortilla-17-12-2024-at-13-05-22-edited-mRIxOp.tmp: adding to list (28)
+0035.338 (0) finding files: Garlic-sauce-17-12-2024-at-12-50-58-2-YToXTO.tmp: adding to list (29)
+0035.341 (0) finding files: Hackers-Minced-Meat-Tortilla-17-12-2024-at-13-05-22-edited-1-oM2QF6.tmp: adding to list (30)
+0035.344 (0) finding files: Leonardo_Phoenix_09_A_closeup_still_life_photograph_of_Rvala_H_2-dhwsoS.tmp: adding to list (31)
+0035.347 (0) finding files: smush-webp-test.png: adding to list (32)
+0035.350 (0) finding files: piclumen-1734435993639-Xb1Dux.tmp: adding to list (33)
+0035.353 (0) finding files: Leonardo_Phoenix_09_A_still_life_composition_featuring_three_t_1-45FduM.tmp: adding to list (34)
+0035.357 (0) finding files: piclumen-1734436784077-lp9ORb.tmp: adding to list (35)
+0035.361 (0) finding files: piclumen-1734436685894-UQOG9i.tmp: adding to list (36)
+0035.364 (0) finding files: piclumen-1734435939294-RGJnAn.tmp: adding to list (37)
+0035.367 (0) finding files: fc642db3-d69d-4ed0-bce3-dc965e985036-Jc0vch.tmp: adding to list (38)
+0035.371 (0) finding files: Vegetable-Wok-17-12-2024-at-13-14-43-rX4yDT.tmp: adding to list (39)
+0035.374 (0) finding files: piclumen-1734435923767-wZPBB2.tmp: adding to list (40)
+0035.378 (0) finding files: piclumen-1734437540050-16gKbR.tmp: adding to list (41)
+0035.381 (0) finding files: 2f24584cd96efab94d865db629d256d46a2cc8d8-scaled-LSXVJT.tmp: adding to list (42)
+0035.385 (0) finding files: woocommerce-placeholder-xDMXSA.tmp: adding to list (43)
+0035.390 (0) finding files: b1fd2d8ef8ceec3239d01b1077dc8271e48abfd0-scaled-jLz8PB.tmp: adding to list (44)
+0035.394 (0) finding files: wc-logs: adding to list (45)
+0035.398 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (46)
+0035.401 (0) finding files: 80019a35b13ddaee2f21ba04327d70bfc3f76926-e1VYpH.tmp: adding to list (47)
+0035.404 (0) finding files: piclumen-1734436676200-zQMe7U.tmp: adding to list (48)
+0035.409 (0) finding files: piclumen-1734435433561-eYQOhl.tmp: adding to list (49)
+0035.413 (0) finding files: 1256f98286b759e30d0f66c086e13a4f62a43069-scaled-DlNZ2l.tmp: adding to list (50)
+0035.417 (0) finding files: Hackers-Minced-Meat-Tortilla-17-12-2024-at-13-05-22-khxYKo.tmp: adding to list (51)
+0035.417 (0) finding files: img-7qRkUm3kYDnQAl4K3QQ85Vte-YtFuBm.tmp: adding to list (52)
+0035.417 (0) finding files: Postilions-Dumplings-17-12-2024-at-13-04-17-gz8y0P.tmp: adding to list (53)
+0035.417 (0) finding files: piclumen-1734442054402-N3LHgB.tmp: adding to list (54)
+0035.417 (0) finding files: image1_00-xWZ9vi.tmp: adding to list (55)
+0035.417 (0) finding files: piclumen-1734437554726-JnW9ge.tmp: adding to list (56)
+0035.417 (0) finding files: pixlr-image-generator-e3add849-15f3-4b0a-8e6b-f07145c61252-vvEByk.tmp: adding to list (57)
+0035.417 (0) finding files: Garlic-sauce-17-12-2024-at-12-50-58-1-edited-T6htpR.tmp: adding to list (58)
+0035.417 (0) finding files: pixlr-image-generator-c08a4902-ece4-44f3-bb5a-e8a777660b9c-QbRDEq.tmp: adding to list (59)
+0035.417 (0) finding files: image1_0-2-ugo05T.tmp: adding to list (60)
+0035.417 (0) finding files: pixlr-image-generator-79635477-a4d2-4807-acfb-df70d7763715-UlHXmz.tmp: adding to list (61)
+0035.417 (0) finding files: piclumen-1734441685612-kV1tQi.tmp: adding to list (62)
+0035.417 (0) finding files: piclumen-1734437456993-1-rW4tQh.tmp: adding to list (63)
+0035.417 (0) finding files: pancake-with-ice-cream-epEzhL.tmp: adding to list (64)
+0035.417 (0) finding files: piclumen-1734436758362-xc47Lc.tmp: adding to list (65)
+0035.417 (0) finding files: image1_0-3-WDssxT.tmp: adding to list (66)
+0035.417 (0) finding files: piclumen-1734436797096-Hn3cNJ.tmp: adding to list (67)
+0035.417 (0) finding files: Royal-Chicken-Dish-17-12-2024-at-13-06-12-KYNeCd.tmp: adding to list (68)
+0035.417 (0) finding files: piclumen-1734436922950-YZzbsv.tmp: adding to list (69)
+0035.417 (0) finding files: image1_0-uODH4p.tmp: adding to list (70)
+0035.417 (0) finding files: piclumen-1734437669190-S5dQR7.tmp: adding to list (71)
+0035.417 (0) finding files: e0dfdfdf9fe7ad09caa6cdb5d4efd211fa44ac0d-D26i1l.tmp: adding to list (72)
+0035.417 (0) finding files: freepik__cold-summer-soup__40735-EVlvyB.tmp: adding to list (73)
+0035.417 (0) finding files: smush: adding to list (74)
+0035.417 (0) finding files: Piglet-Wok-17-12-2024-at-13-16-09-6mJ8kn.tmp: adding to list (75)
+0035.417 (0) finding files: 5115fd63-6935-4018-9774-ff0fd5deb2b1-d92wfq.tmp: adding to list (76)
+0035.417 (0) finding files: piclumen-1734437647050-Hx9mB5.tmp: adding to list (77)
+0035.417 (0) finding files: pixlr-image-generator-587af48e-81b8-49b1-a6d4-2138a4aefac3-vaWRiJ.tmp: adding to list (78)
+0035.417 (0) finding files: Leonardo_Phoenix_09_A_vibrant_mouthwatering_arrangement_of_gri_3-1-O2PxI7.tmp: adding to list (79)
+0035.417 (0) finding files: Tartar-sauce-17-12-2024-at-12-51-56-VGofAZ.tmp: adding to list (80)
+0035.417 (0) finding files: piclumen-1734435744730-6CTSeD.tmp: adding to list (81)
+0035.417 (0) finding files: Potato-croquettes-1_2-landscape-17-12-2024-at-12-31-52-Ky3WCL.tmp: adding to list (82)
+0035.417 (0) finding files: 2025: adding to list (83)
+0035.417 (0) finding files: 924716b2-3961-4120-a3e0-74dee0146b3b-UsuYWd.tmp: adding to list (84)
+0035.417 (0) finding files: 2024: adding to list (85)
+0035.417 (0) finding files: Kulleris-Vegetable-Tortilla-17-12-2024-at-13-04-54-ENREWw.tmp: adding to list (86)
+0035.417 (0) finding files: piclumen-1734436747096-WpsAsK.tmp: adding to list (87)
+0035.417 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (88)
+0035.417 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40737-1-KaNEv2.tmp: adding to list (89)
+0035.417 (0) finding files: Rice-17-12-2024-at-12-50-35-Ce51si.tmp: adding to list (90)
+0035.417 (0) finding files: Lokomotiiv-favicon-oVIOzQ.tmp: adding to list (91)
+0035.417 (0) finding files: DALL·E-2024-12-17-12.21.02-A-highly-detailed-image-of-a-gourmet-dish-called-Judges-Chicken-Fillet.-The-dish-features-a-perfectly-grilled-chicken-fillet-golden-and-juicy-gar-057MWT.tmp: adding to list (92)
+0035.417 (0) finding files: piclumen-1734435821373-WZJlEX.tmp: adding to list (93)
+0035.417 (0) finding files: Garlic-sauce-17-12-2024-at-12-50-58-1-NRdRMW.tmp: adding to list (94)
+0035.417 (0) finding files: 924716b2-3961-4120-a3e0-74dee0146b3b-1-Hndt52.tmp: adding to list (95)
+0035.417 (0) finding files: piclumen-1734436245309-CGAWd3.tmp: adding to list (96)
+0035.417 (0) finding files: piclumen-1734436808404-eMNZQk.tmp: adding to list (97)
+0035.417 (0) finding files: Wine-sauce-17-12-2024-at-12-51-18-2effDG.tmp: adding to list (98)
+0035.417 (0) finding files: piclumen-1734441347292-2c8Lbg.tmp: adding to list (99)
+0035.417 (0) finding files: piclumen-1734436703578-jVvjGB.tmp: adding to list (100)
+0035.422 (0) finding files: et_temp: adding to list (101)
+0035.422 (0) finding files: piclumen-1734435793874-s2vbsX.tmp: adding to list (102)
+0035.422 (0) finding files: Meeris-Seafood-Wok-17-12-2024-at-13-16-34-puL79F.tmp: adding to list (103)
+0035.422 (0) finding files: pixlr-image-generator-8f4a8f1f-347d-4ef7-beb6-fd4677937cae-vV1M4P.tmp: adding to list (104)
+0035.422 (0) finding files: Wine-sauce-17-12-2024-at-12-51-18-1-pAPD9A.tmp: adding to list (105)
+0035.422 (0) finding files: piclumen-1734437724603-s8pZft.tmp: adding to list (106)
+0035.422 (0) finding files: f3249d1614d77a9a8212cb57dc172d53227dc60b-LSiix5.tmp: adding to list (107)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40739-i4vG9p.tmp: adding to list (108)
+0035.422 (0) finding files: 8cd24e4b517bfa82ec953b63ea920a0b038aa89b-scaled-AaUxcc.tmp: adding to list (109)
+0035.422 (0) finding files: piclumen-1734435770833-q6K0p3.tmp: adding to list (110)
+0035.422 (0) finding files: piclumen-1734437456993-ww3Jfr.tmp: adding to list (111)
+0035.422 (0) finding files: woocommerce-placeholder.png: adding to list (112)
+0035.422 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (113)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40740-5SYsXo.tmp: adding to list (114)
+0035.422 (0) finding files: Leonardo_Phoenix_09_A_still_life_photography_of_a_heap_of_gold_2-Sd7bWn.tmp: adding to list (115)
+0035.422 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (116)
+0035.422 (0) finding files: fonts: adding to list (117)
+0035.422 (0) finding files: 4a71f64b1f55758349751a95c02ab73be353f75f-orN6Cn.tmp: adding to list (118)
+0035.422 (0) finding files: Chicken-Wok-17-12-2024-at-13-15-32-0vGZiO.tmp: adding to list (119)
+0035.422 (0) finding files: piclumen-1734435837283-SJ5EOc.tmp: adding to list (120)
+0035.422 (0) finding files: pixlr-image-generator-c03e3e43-c200-45b4-80ae-910717152121-z34S3d.tmp: adding to list (121)
+0035.422 (0) finding files: piclumen-1734437669190-edited-vX6u3o.tmp: adding to list (122)
+0035.422 (0) finding files: piclumen-1734436270830-ZIXkB1.tmp: adding to list (123)
+0035.422 (0) finding files: 2634398aa72a9ca2124ccbbe05626747ac2bf73d-PXiLea.tmp: adding to list (124)
+0035.422 (0) finding files: 70916122674d74ee3f6f86cd728074eca93e7c64-m7aHkh.tmp: adding to list (125)
+0035.422 (0) finding files: 739ff72ece529fa52765c3c7b0553bcd14351ed9-pWmTWi.tmp: adding to list (126)
+0035.422 (0) finding files: pixlr-image-generator-66ed5b31-b0a3-4c94-b82c-62244f35ca48-KMY8Tr.tmp: adding to list (127)
+0035.422 (0) finding files: Leonardo_Phoenix_09_A_vibrant_still_life_image_featuring_a_hea_0-LlLMd4.tmp: adding to list (128)
+0035.422 (0) finding files: d647330431a0cde0d4c7d6b2289373803559aae6-scaled-21O6L4.tmp: adding to list (129)
+0035.422 (0) finding files: piclumen-1734438963557-3WizOb.tmp: adding to list (130)
+0035.422 (0) finding files: img-K9C3RH6kZlngQKiHAHd7oYfe-DM3nkc.tmp: adding to list (131)
+0035.422 (0) finding files: freepik__mushroom-soup__40736-PPKbKv.tmp: adding to list (132)
+0035.422 (0) finding files: img-OmphI5TECLsfpDFfHWTH8k12-wxpyZt.tmp: adding to list (133)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40737-NA7Yhp.tmp: adding to list (134)
+0035.422 (0) finding files: sites: adding to list (135)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40733-7JEBfF.tmp: adding to list (136)
+0035.422 (0) finding files: piclumen-1734438996404-nCoLMe.tmp: adding to list (137)
+0035.422 (0) finding files: 2bb8902c6655f8f510c3bd204d852dbe23feabd5-b130Tz.tmp: adding to list (138)
+0035.422 (0) finding files: 5494b4bc2f6b1a850683e7ff0ea5ec2dc3e5c6b8-scaled-hgu44J.tmp: adding to list (139)
+0035.422 (0) finding files: daa027fa79677a12578eb74fad0c40484fb90775-6bQWi4.tmp: adding to list (140)
+0035.422 (0) finding files: img-hixuFtzFEfo534Kn1HKJeWmR-pOAnMQ.tmp: adding to list (141)
+0035.422 (0) finding files: Leonardo_Phoenix_09_A_vibrant_mouthwatering_arrangement_of_gri_3-ehCeKH.tmp: adding to list (142)
+0035.422 (0) finding files: piclumen-1734435855550-6zx8Su.tmp: adding to list (143)
+0035.422 (0) finding files: img-mRGbTcuX58svOAz8ArFk8jpi-kQIiqG.tmp: adding to list (144)
+0035.422 (0) finding files: piclumen-1734436819879-cxjeyC.tmp: adding to list (145)
+0035.422 (0) finding files: Garlic-sauce-17-12-2024-at-12-50-58-zMsRok.tmp: adding to list (146)
+0035.422 (0) finding files: piclumen-1734436871605-EZg4uE.tmp: adding to list (147)
+0035.422 (0) finding files: wpforms: adding to list (148)
+0035.422 (0) finding files: piclumen-1734439071864-t4gte6.tmp: adding to list (149)
+0035.422 (0) finding files: cf799c76-22a5-4e47-8a53-31eab15f3dbc-1KEceA.tmp: adding to list (150)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40734-U7FYD8.tmp: adding to list (151)
+0035.422 (0) finding files: piclumen-1734437700534-P9SuzR.tmp: adding to list (152)
+0035.422 (0) finding files: piclumen-1734435890454-1-KgsSBY.tmp: adding to list (153)
+0035.422 (0) finding files: piclumen-1734437736148-Tnt68R.tmp: adding to list (154)
+0035.422 (0) finding files: freepik__candid-image-photography-natural-textures-highly-r__40738-J5Qig6.tmp: adding to list (155)
+0035.422 (0) finding files: piclumen-1734437471069-ZwCBSE.tmp: adding to list (156)
+0035.422 (0) finding files: extendify-demo-logo-rUJZkM.tmp: adding to list (157)
+0035.422 (0) finding files: piclumen-1734437748853-04tfl4.tmp: adding to list (158)
+0035.422 (0) finding files: 86f842f28ecb6050e10cbaeafff7940e9e25ec7d-scaled-A1Yvx4.tmp: adding to list (159)
+0035.422 (0) finding files: piclumen-1734442315130-4LCRlZ.tmp: adding to list (160)
+0035.422 (0) finding files: pixlr-image-generator-a0b89708-b3ce-48e1-91ac-a42a93ed9f23-U7oVGn.tmp: adding to list (161)
+0035.422 (0) finding files: 51f77354805424d185f3be4212c355f49ee27bd8-UyV9oJ.tmp: adding to list (162)
+0035.422 (0) finding files: piclumen-1734435954762-5b9zOF.tmp: adding to list (163)
+0035.422 (0) finding files: c4edd2d47ef65ceb6e379731c2947a86594c7e16-V3Za4t.tmp: adding to list (164)
+0035.422 (0) finding files: edbf396425c5d590ee368cd0196468cc59f8ae9c-cMvt5c.tmp: adding to list (165)
+0035.422 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0035.488 (0) Total entities for the zip file: 24 directories, 2247 files (0 skipped as non-modified), 287.5 MB
+0035.491 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.495 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.501 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.506 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.511 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.516 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0035.521 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0035.527 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0035.533 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0035.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 128.3 MB added on this batch (128.4 MB, 2247 files batched, 998 (998) added so far); re-opening (prior size: 0 KB)
+0038.138 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: size is now: 128.40 MB
+0038.190 (0) A useful amount of data was added after this amount of zip processing: 3 s (normalised: 3 s, rate: 44049.9 KB/s)
+0038.259 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.9850499629974, normalised_time=2.9835690205858, max_time=38.230790138245, data points known=1, old_max_bytes=134580111, new_max_bytes=209715200)
+0038.322 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1000 files added (on-disk size: 131440.8 KB)
+0038.364 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1100 files added (on-disk size: 131440.8 KB)
+0038.403 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1200 files added (on-disk size: 131440.8 KB)
+0038.408 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1300 files added (on-disk size: 131440.8 KB)
+0038.413 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1400 files added (on-disk size: 131440.8 KB)
+0038.418 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1500 files added (on-disk size: 131440.8 KB)
+0038.423 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1600 files added (on-disk size: 131440.8 KB)
+0038.428 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1700 files added (on-disk size: 131440.8 KB)
+0038.432 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1800 files added (on-disk size: 131440.8 KB)
+0038.437 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 1900 files added (on-disk size: 131440.8 KB)
+0038.442 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (122.5 MB, 2247 files batched, 1001 (1999) added so far); re-opening (prior size: 131440.8 KB)
+0041.237 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: size is now: 250.90 MB
+0041.242 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 2000 files added (on-disk size: 256903.6 KB)
+0041.246 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 2100 files added (on-disk size: 256903.6 KB)
+0041.251 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.tmp: 2200 files added (on-disk size: 256903.6 KB)
+0042.737 (0) Creating zip file manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.list-temp.tmp)
+0042.745 (0) Successfully created zip file manifest (size: 182585)
+0045.353 (0) Created uploads zip (0) - 291031.7 KB in 9.9 s (29324.2 KB/s) (sha1: d5b694eae2199df940a8105252327d1cbc677f3f, sha256: feb5a44f9219ef8a9956937b6580012dea6af70ae00f5798069460c8ea05f880)
+0045.361 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.364 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0045.772 (0) Google Drive: quota usage: used=4237.9 MB, total=15360 MB, available=11122.1 MB
+0045.774 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0047.390 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.8 / 48)
+0048.645 (0) Googledrive chunked upload: 1.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.8 / 48)
+0049.933 (0) Googledrive chunked upload: 2.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 25.8 / 48)
+0051.370 (0) Googledrive chunked upload: 5.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 25.8 / 48)
+0052.935 (0) Googledrive chunked upload: 10.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 25.8 / 48)
+0054.899 (0) Googledrive chunked upload: 22.2 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 25.8 / 48)
+0057.877 (0) Googledrive chunked upload: 44.7 % uploaded (133169152)
+0060.902 (0) Googledrive chunked upload: 67.2 % uploaded (200278016)
+0064.377 (0) Googledrive chunked upload: 89.7 % uploaded (267386880)
+0067.602 (0) Googledrive chunked upload: 100 % uploaded (267386880)
+0067.609 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip uploaded in 21.83 seconds
+0067.613 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip
+0067.678 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip: OK
+0067.684 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0067.691 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0067.698 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip.tmp: size is now: 0.00 MB
+0067.703 (0) Creating zip file manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip.list-temp.tmp)
+0067.707 (0) Successfully created zip file manifest (size: 77)
+0067.714 (0) Created mu-plugins zip (0) - 0.8 KB in 0 s (32.2 KB/s) (sha1: d47509fe2d5fec428578997f75265510eaa48e8e, sha256: 13d42cc1697f64a042a322257bcac52f3518e452ec54f371b11a2c515244d0ca)
+0067.723 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0067.726 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0068.143 (0) Google Drive: quota usage: used=4590.3 MB, total=15360 MB, available=10769.7 MB
+0068.145 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0070.313 (0) Googledrive chunked upload: 100 % uploaded
+0070.320 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip uploaded in 2.17 seconds
+0070.324 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip
+0070.330 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip: OK
+0070.337 (0) Beginning backup of other directories found in the content directory (index: 0)
+0070.342 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0070.346 (0) Looking for candidates to backup in: /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content
+0070.348 (0) finding files: smush-webp: adding to list (1)
+0070.351 (0) finding files: languages: adding to list (2)
+0070.354 (0) finding files: updraft: skipping: this is the updraft directory
+0070.358 (0) finding files: uploads: skipping: this is the uploads directory
+0070.361 (0) finding files: themes: skipping: this is the themes directory
+0070.364 (0) finding files: upgrade: skipping: excluded by options
+0070.367 (0) finding files: index.php: adding to list (3)
+0070.370 (0) finding files: upgrade-temp-backup: adding to list (4)
+0070.374 (0) finding files: cache: skipping: excluded by options
+0070.377 (0) finding files: object-cache.php: adding to list (5)
+0070.380 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0070.384 (0) finding files: w3tc-config: adding to list (6)
+0070.387 (0) finding files: plugins: skipping: this is the plugins directory
+0070.390 (0) finding files: advanced-cache.php: adding to list (7)
+0070.402 (0) Total entities for the zip file: 7 directories, 276 files (0 skipped as non-modified), 5.2 MB
+0070.405 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0070.410 (0) Zip: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0070.711 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip.tmp: size is now: 1.50 MB
+0070.718 (0) Creating zip file manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip.list-temp.tmp)
+0070.723 (0) Successfully created zip file manifest (size: 19897)
+0070.747 (0) Created others zip (0) - 1585.8 KB in 0.4 s (4505.6 KB/s) (sha1: 3b9512f76e7df4f10eea0c72f018f5f56d5386b3, sha256: bdb2fbb627020e17d5b704e4e4db9f9c8642179c7ed5c914dc1c4bc3ddcc1513)
+0070.756 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0070.759 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0071.238 (0) Google Drive: quota usage: used=4503 MB, total=15360 MB, available=10857 MB
+0071.246 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0072.960 (0) Googledrive chunked upload: 64.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.5 / 50)
+0075.027 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0075.034 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip uploaded in 3.78 seconds
+0075.038 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip
+0075.045 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip: OK
+0075.052 (0) Saving backup status to database (elements: 10)
+0075.061 (0) Beginning creation of database dump (WordPress DB)
+0075.066 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER
+0075.097 (0) Table gf6x_options: Total expected rows (via COUNT): 618
+0075.150 (0) Table gf6x_options: Rows added in this batch (next record: 2774): 615 (uncompressed bytes in this segment=1458828) in 0.06 seconds
+0075.157 (0) Table gf6x_options: finishing file(s) (2, 293.5 KB)
+0075.165 (0) Table gf6x_site: Total expected rows (via COUNT): 1
+0075.168 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.173 (0) Table gf6x_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=607) in 0.01 seconds
+0075.179 (0) Table gf6x_site: finishing file(s) (2, 0.4 KB)
+0075.185 (0) Table gf6x_blogs: Total expected rows (via COUNT): 2
+0075.189 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.193 (0) Table gf6x_blogs: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1262) in 0.01 seconds
+0075.199 (0) Table gf6x_blogs: finishing file(s) (2, 0.6 KB)
+0075.207 (0) Table gf6x_users: Total expected rows (via COUNT): 2
+0075.211 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.215 (0) Table gf6x_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1484) in 0.01 seconds
+0075.221 (0) Table gf6x_users: finishing file(s) (2, 0.7 KB)
+0075.228 (0) Table gf6x_usermeta: Total expected rows (via COUNT): 84
+0075.232 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.237 (0) Table gf6x_usermeta: Rows added in this batch (next record: 96): 84 (uncompressed bytes in this segment=6193) in 0.01 seconds
+0075.244 (0) Table gf6x_usermeta: finishing file(s) (2, 2.3 KB)
+0075.251 (0) Table gf6x_actionscheduler_actions: Total expected rows (via COUNT): 78
+0075.254 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.259 (0) Table gf6x_actionscheduler_actions: Rows added in this batch (next record: 100): 78 (uncompressed bytes in this segment=34899) in 0.01 seconds
+0075.266 (0) Table gf6x_actionscheduler_actions: finishing file(s) (2, 3 KB)
+0075.272 (0) Table gf6x_actionscheduler_claims: Total expected rows (via COUNT): 0
+0075.277 (0) Table gf6x_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+0075.282 (0) Table gf6x_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0075.288 (0) Table gf6x_actionscheduler_groups: Total expected rows (via COUNT): 4
+0075.291 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.296 (0) Table gf6x_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=740) in 0.01 seconds
+0075.302 (0) Table gf6x_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0075.308 (0) Table gf6x_actionscheduler_logs: Total expected rows (via COUNT): 220
+0075.312 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.318 (0) Table gf6x_actionscheduler_logs: Rows added in this batch (next record: 250): 220 (uncompressed bytes in this segment=19895) in 0.01 seconds
+0075.324 (0) Table gf6x_actionscheduler_logs: finishing file(s) (2, 2.2 KB)
+0075.333 (0) Table gf6x_blogmeta: Total expected rows (via COUNT): 0
+0075.338 (0) Table gf6x_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=610) in 0.01 seconds
+0075.345 (0) Table gf6x_blogmeta: finishing file(s) (2, 0.4 KB)
+0075.353 (0) Table gf6x_commentmeta: Total expected rows (via COUNT): 0
+0075.356 (0) Table gf6x_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.01 seconds
+0075.363 (0) Table gf6x_commentmeta: finishing file(s) (2, 0.4 KB)
+0075.371 (0) Table gf6x_comments: Total expected rows (via COUNT): 0
+0075.377 (0) Table gf6x_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1525) in 0.01 seconds
+0075.383 (0) Table gf6x_comments: finishing file(s) (2, 0.5 KB)
+0075.390 (0) Table gf6x_links: Total expected rows (via COUNT): 0
+0075.395 (0) Table gf6x_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.01 seconds
+0075.401 (0) Table gf6x_links: finishing file(s) (2, 0.5 KB)
+0075.409 (0) Table gf6x_postmeta: Total expected rows (via COUNT): 645
+0075.413 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.428 (0) Table gf6x_postmeta: Rows added in this batch (next record: 789): 645 (uncompressed bytes in this segment=452854) in 0.02 seconds
+0075.436 (0) Table gf6x_postmeta: finishing file(s) (2, 38.7 KB)
+0075.444 (0) Table gf6x_posts: Total expected rows (via COUNT): 349
+0075.448 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.479 (0) Table gf6x_posts: Rows added in this batch (next record: 411): 349 (uncompressed bytes in this segment=1295689) in 0.04 seconds
+0075.486 (0) Table gf6x_posts: finishing file(s) (2, 72.3 KB)
+0075.494 (0) Table gf6x_registration_log: Total expected rows (via COUNT): 1
+0075.498 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.502 (0) Table gf6x_registration_log: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=802) in 0.01 seconds
+0075.508 (0) Table gf6x_registration_log: finishing file(s) (2, 0.5 KB)
+0075.518 (0) Table gf6x_signups: Total expected rows (via COUNT): 0
+0075.522 (0) Table gf6x_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1060) in 0.01 seconds
+0075.529 (0) Table gf6x_signups: finishing file(s) (2, 0.5 KB)
+0075.537 (0) Table gf6x_sitemeta: Total expected rows (via COUNT): 125
+0075.540 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.622 (0) Table gf6x_sitemeta: Rows added in this batch (next record: 239): 124 (uncompressed bytes in this segment=3421837) in 0.09 seconds
+0075.629 (0) Table gf6x_sitemeta: finishing file(s) (2, 542.9 KB)
+0075.635 (0) Table gf6x_term_relationships: Total expected rows (approximate): 11
+0075.639 (0) Table gf6x_term_relationships: Rows added in this batch (next record: 100000): 11 (uncompressed bytes in this segment=843) in 0.01 seconds
+0075.645 (0) Table gf6x_term_relationships: finishing file(s) (2, 0.4 KB)
+0075.652 (0) Table gf6x_term_taxonomy: Total expected rows (via COUNT): 18
+0075.655 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.660 (0) Table gf6x_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1554) in 0.01 seconds
+0075.666 (0) Table gf6x_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0075.675 (0) Table gf6x_termmeta: Total expected rows (via COUNT): 0
+0075.680 (0) Table gf6x_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0075.687 (0) Table gf6x_termmeta: finishing file(s) (2, 0.4 KB)
+0075.693 (0) Table gf6x_terms: Total expected rows (via COUNT): 18
+0075.696 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.700 (0) Table gf6x_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1292) in 0.01 seconds
+0075.706 (0) Table gf6x_terms: finishing file(s) (2, 0.6 KB)
+0075.716 (0) Table gf6x_2_actionscheduler_actions: Total expected rows (via COUNT): 18
+0075.719 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.723 (0) Table gf6x_2_actionscheduler_actions: Rows added in this batch (next record: 21): 18 (uncompressed bytes in this segment=9660) in 0.01 seconds
+0075.729 (0) Table gf6x_2_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0075.736 (0) Table gf6x_2_actionscheduler_claims: Total expected rows (via COUNT): 0
+0075.740 (0) Table gf6x_2_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.01 seconds
+0075.746 (0) Table gf6x_2_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0075.753 (0) Table gf6x_2_actionscheduler_groups: Total expected rows (via COUNT): 2
+0075.756 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.761 (0) Table gf6x_2_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=703) in 0.01 seconds
+0075.767 (0) Table gf6x_2_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0075.774 (0) Table gf6x_2_actionscheduler_logs: Total expected rows (via COUNT): 42
+0075.777 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.783 (0) Table gf6x_2_actionscheduler_logs: Rows added in this batch (next record: 42): 42 (uncompressed bytes in this segment=4268) in 0.01 seconds
+0075.788 (0) Table gf6x_2_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0075.797 (0) Table gf6x_2_commentmeta: Total expected rows (via COUNT): 0
+0075.801 (0) Table gf6x_2_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0075.808 (0) Table gf6x_2_commentmeta: finishing file(s) (2, 0.4 KB)
+0075.817 (0) Table gf6x_2_comments: Total expected rows (via COUNT): 1
+0075.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.827 (0) Table gf6x_2_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1938) in 0.01 seconds
+0075.833 (0) Table gf6x_2_comments: finishing file(s) (2, 0.8 KB)
+0075.840 (0) Table gf6x_2_links: Total expected rows (via COUNT): 0
+0075.845 (0) Table gf6x_2_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.01 seconds
+0075.850 (0) Table gf6x_2_links: finishing file(s) (2, 0.5 KB)
+0075.858 (0) Table gf6x_2_options: Total expected rows (via COUNT): 276
+0075.861 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.900 (0) Table gf6x_2_options: Rows added in this batch (next record: 1226): 276 (uncompressed bytes in this segment=868368) in 0.05 seconds
+0075.907 (0) Table gf6x_2_options: finishing file(s) (2, 215.3 KB)
+0075.917 (0) Table gf6x_2_postmeta: Total expected rows (via COUNT): 606
+0075.920 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.931 (0) Table gf6x_2_postmeta: Rows added in this batch (next record: 840): 606 (uncompressed bytes in this segment=341380) in 0.02 seconds
+0075.938 (0) Table gf6x_2_postmeta: finishing file(s) (2, 31 KB)
+0075.947 (0) Table gf6x_2_posts: Total expected rows (via COUNT): 313
+0075.950 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.972 (0) Table gf6x_2_posts: Rows added in this batch (next record: 512): 313 (uncompressed bytes in this segment=1041418) in 0.03 seconds
+0075.978 (0) Table gf6x_2_posts: finishing file(s) (2, 66.2 KB)
+0075.986 (0) Table gf6x_2_term_relationships: Total expected rows (approximate): 17
+0075.990 (0) Table gf6x_2_term_relationships: Rows added in this batch (next record: 1000): 17 (uncompressed bytes in this segment=939) in 0.01 seconds
+0075.995 (0) Table gf6x_2_term_relationships: finishing file(s) (2, 0.4 KB)
+0076.004 (0) Table gf6x_2_term_taxonomy: Total expected rows (via COUNT): 6
+0076.007 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.014 (0) Table gf6x_2_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1067) in 0.01 seconds
+0076.021 (0) Table gf6x_2_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0076.030 (0) Table gf6x_2_termmeta: Total expected rows (via COUNT): 0
+0076.036 (0) Table gf6x_2_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.01 seconds
+0076.042 (0) Table gf6x_2_termmeta: finishing file(s) (2, 0.4 KB)
+0076.050 (0) Table gf6x_2_terms: Total expected rows (via COUNT): 6
+0076.053 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.058 (0) Table gf6x_2_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=887) in 0.01 seconds
+0076.063 (0) Table gf6x_2_terms: finishing file(s) (2, 0.5 KB)
+0076.071 (0) Table gf6x_2_wpforms_logs: Total expected rows (via COUNT): 1
+0076.074 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.078 (0) Table gf6x_2_wpforms_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=854) in 0.01 seconds
+0076.084 (0) Table gf6x_2_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0076.092 (0) Table gf6x_2_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0076.096 (0) Table gf6x_2_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+0076.102 (0) Table gf6x_2_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0076.109 (0) Table gf6x_2_wpforms_payments: Total expected rows (via COUNT): 0
+0076.114 (0) Table gf6x_2_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1674) in 0.01 seconds
+0076.118 (0) Table gf6x_2_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0076.127 (0) Table gf6x_2_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0076.129 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.134 (0) Table gf6x_2_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1006) in 0.01 seconds
+0076.140 (0) Table gf6x_2_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0076.148 (0) Table gf6x_2_yoast_indexable: Total expected rows (via COUNT): 30
+0076.152 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.157 (0) Table gf6x_2_yoast_indexable: Rows added in this batch (next record: 39): 30 (uncompressed bytes in this segment=23939) in 0.01 seconds
+0076.164 (0) Table gf6x_2_yoast_indexable: finishing file(s) (2, 4.2 KB)
+0076.171 (0) Table gf6x_2_yoast_indexable_hierarchy: Total expected rows (approximate): 27
+0076.175 (0) Table gf6x_2_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=1250) in 0.01 seconds
+0076.181 (0) Table gf6x_2_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0076.188 (0) Table gf6x_2_yoast_migrations: Total expected rows (via COUNT): 24
+0076.191 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.196 (0) Table gf6x_2_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1270) in 0.01 seconds
+0076.201 (0) Table gf6x_2_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0076.208 (0) Table gf6x_2_yoast_primary_term: Total expected rows (via COUNT): 0
+0076.213 (0) Table gf6x_2_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.01 seconds
+0076.220 (0) Table gf6x_2_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0076.233 (0) Table gf6x_2_yoast_seo_links: Total expected rows (via COUNT): 213
+0076.237 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.250 (0) Table gf6x_2_yoast_seo_links: Rows added in this batch (next record: 446): 213 (uncompressed bytes in this segment=36674) in 0.02 seconds
+0076.256 (0) Table gf6x_2_yoast_seo_links: finishing file(s) (2, 5.2 KB)
+0076.267 (0) Table gf6x_montonio_locks: Total expected rows (approximate): 0
+0076.271 (0) Table gf6x_montonio_locks: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=510) in 0.01 seconds
+0076.278 (0) Table gf6x_montonio_locks: finishing file(s) (2, 0.3 KB)
+0076.286 (0) Table gf6x_montonio_shipping_method_items: Total expected rows (approximate): 0
+0076.290 (0) Table gf6x_montonio_shipping_method_items: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=865) in 0.01 seconds
+0076.295 (0) Table gf6x_montonio_shipping_method_items: finishing file(s) (2, 0.4 KB)
+0076.302 (0) Table gf6x_smush_dir_images: Total expected rows (via COUNT): 0
+0076.306 (0) Table gf6x_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=937) in 0.00 seconds
+0076.311 (0) Table gf6x_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0076.320 (0) Table gf6x_wc_admin_note_actions: Total expected rows (via COUNT): 92
+0076.323 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.329 (0) Table gf6x_wc_admin_note_actions: Rows added in this batch (next record: 2097): 92 (uncompressed bytes in this segment=18602) in 0.01 seconds
+0076.337 (0) Table gf6x_wc_admin_note_actions: finishing file(s) (2, 3.1 KB)
+0076.346 (0) Table gf6x_wc_admin_notes: Total expected rows (via COUNT): 62
+0076.349 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.355 (0) Table gf6x_wc_admin_notes: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=31113) in 0.01 seconds
+0076.361 (0) Table gf6x_wc_admin_notes: finishing file(s) (2, 6.9 KB)
+0076.368 (0) Table gf6x_wc_category_lookup: Total expected rows (approximate): 0
+0076.374 (0) Table gf6x_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=603) in 0.01 seconds
+0076.381 (0) Table gf6x_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0076.389 (0) Table gf6x_wc_customer_lookup: Total expected rows (via COUNT): 0
+0076.393 (0) Table gf6x_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0076.399 (0) Table gf6x_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0076.406 (0) Table gf6x_wc_download_log: Total expected rows (via COUNT): 0
+0076.409 (0) Table gf6x_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0076.415 (0) Table gf6x_wc_download_log: finishing file(s) (2, 0.4 KB)
+0076.423 (0) Table gf6x_wc_order_addresses: Total expected rows (via COUNT): 0
+0076.427 (0) Table gf6x_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.01 seconds
+0076.433 (0) Table gf6x_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0076.441 (0) Table gf6x_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0076.445 (0) Table gf6x_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0076.450 (0) Table gf6x_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0076.458 (0) Table gf6x_wc_order_operational_data: Total expected rows (via COUNT): 0
+0076.461 (0) Table gf6x_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1411) in 0.00 seconds
+0076.467 (0) Table gf6x_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0076.475 (0) Table gf6x_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0076.479 (0) Table gf6x_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0076.485 (0) Table gf6x_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0076.492 (0) Table gf6x_wc_order_stats: Total expected rows (via COUNT): 0
+0076.496 (0) Table gf6x_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1204) in 0.00 seconds
+0076.501 (0) Table gf6x_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0076.509 (0) Table gf6x_wc_order_tax_lookup: Total expected rows (approximate): 0
+0076.513 (0) Table gf6x_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0076.519 (0) Table gf6x_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0076.527 (0) Table gf6x_wc_orders: Total expected rows (via COUNT): 0
+0076.531 (0) Table gf6x_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1429) in 0.00 seconds
+0076.536 (0) Table gf6x_wc_orders: finishing file(s) (2, 0.6 KB)
+0076.543 (0) Table gf6x_wc_orders_meta: Total expected rows (via COUNT): 0
+0076.548 (0) Table gf6x_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+0076.553 (0) Table gf6x_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0076.560 (0) Table gf6x_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0076.565 (0) Table gf6x_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.01 seconds
+0076.570 (0) Table gf6x_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0076.577 (0) Table gf6x_wc_product_download_directories: Total expected rows (via COUNT): 2
+0076.581 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.585 (0) Table gf6x_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=959) in 0.01 seconds
+0076.591 (0) Table gf6x_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0076.598 (0) Table gf6x_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0076.602 (0) Table gf6x_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1308) in 0.01 seconds
+0076.608 (0) Table gf6x_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0076.615 (0) Table gf6x_wc_rate_limits: Total expected rows (via COUNT): 0
+0076.618 (0) Table gf6x_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0076.624 (0) Table gf6x_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0076.631 (0) Table gf6x_wc_reserved_stock: Total expected rows (approximate): 0
+0076.634 (0) Table gf6x_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0076.639 (0) Table gf6x_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0076.646 (0) Table gf6x_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0076.649 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.654 (0) Table gf6x_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.01 seconds
+0076.659 (0) Table gf6x_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0076.667 (0) Table gf6x_wc_webhooks: Total expected rows (via COUNT): 0
+0076.671 (0) Table gf6x_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.01 seconds
+0076.677 (0) Table gf6x_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0076.687 (0) Table gf6x_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0076.691 (0) Table gf6x_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0076.698 (0) Table gf6x_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0076.706 (0) Table gf6x_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0076.711 (0) Table gf6x_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.01 seconds
+0076.717 (0) Table gf6x_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0076.726 (0) Table gf6x_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0076.730 (0) Table gf6x_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0076.736 (0) Table gf6x_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0076.746 (0) Table gf6x_woocommerce_log: Total expected rows (via COUNT): 0
+0076.749 (0) Table gf6x_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.01 seconds
+0076.756 (0) Table gf6x_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0076.767 (0) Table gf6x_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0076.772 (0) Table gf6x_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.01 seconds
+0076.779 (0) Table gf6x_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0076.788 (0) Table gf6x_woocommerce_order_items: Total expected rows (via COUNT): 0
+0076.793 (0) Table gf6x_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0076.798 (0) Table gf6x_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0076.808 (0) Table gf6x_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0076.813 (0) Table gf6x_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0076.820 (0) Table gf6x_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0076.828 (0) Table gf6x_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0076.833 (0) Table gf6x_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.01 seconds
+0076.839 (0) Table gf6x_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0076.850 (0) Table gf6x_woocommerce_sessions: Total expected rows (via COUNT): 1
+0076.854 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.860 (0) Table gf6x_woocommerce_sessions: Rows added in this batch (next record: 14): 1 (uncompressed bytes in this segment=2166) in 0.01 seconds
+0076.868 (0) Table gf6x_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0076.875 (0) Table gf6x_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0076.880 (0) Table gf6x_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.01 seconds
+0076.886 (0) Table gf6x_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0076.894 (0) Table gf6x_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0076.898 (0) Table gf6x_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.01 seconds
+0076.904 (0) Table gf6x_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0076.912 (0) Table gf6x_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0076.917 (0) Table gf6x_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.01 seconds
+0076.923 (0) Table gf6x_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0076.931 (0) Table gf6x_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0076.935 (0) Table gf6x_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0076.941 (0) Table gf6x_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0076.950 (0) Table gf6x_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0076.953 (0) Table gf6x_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0076.960 (0) Table gf6x_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0076.969 (0) Table gf6x_wpforms_logs: Total expected rows (via COUNT): 1
+0076.973 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.978 (0) Table gf6x_wpforms_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=840) in 0.01 seconds
+0076.985 (0) Table gf6x_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0076.995 (0) Table gf6x_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0077.000 (0) Table gf6x_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0077.008 (0) Table gf6x_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0077.016 (0) Table gf6x_wpforms_payments: Total expected rows (via COUNT): 0
+0077.021 (0) Table gf6x_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1662) in 0.01 seconds
+0077.028 (0) Table gf6x_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0077.036 (0) Table gf6x_wpforms_tasks_meta: Total expected rows (via COUNT): 10
+0077.040 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.046 (0) Table gf6x_wpforms_tasks_meta: Rows added in this batch (next record: 21): 10 (uncompressed bytes in this segment=1374) in 0.01 seconds
+0077.054 (0) Table gf6x_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0077.062 (0) Table gf6x_yoast_indexable: Total expected rows (via COUNT): 27
+0077.066 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.072 (0) Table gf6x_yoast_indexable: Rows added in this batch (next record: 38): 27 (uncompressed bytes in this segment=21922) in 0.01 seconds
+0077.078 (0) Table gf6x_yoast_indexable: finishing file(s) (2, 3.8 KB)
+0077.085 (0) Table gf6x_yoast_indexable_hierarchy: Total expected rows (approximate): 24
+0077.090 (0) Table gf6x_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1189) in 0.01 seconds
+0077.095 (0) Table gf6x_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0077.101 (0) Table gf6x_yoast_migrations: Total expected rows (via COUNT): 24
+0077.104 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.109 (0) Table gf6x_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0077.114 (0) Table gf6x_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0077.121 (0) Table gf6x_yoast_primary_term: Total expected rows (via COUNT): 0
+0077.126 (0) Table gf6x_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0077.132 (0) Table gf6x_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0077.138 (0) Table gf6x_yoast_seo_links: Total expected rows (via COUNT): 211
+0077.141 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.148 (0) Table gf6x_yoast_seo_links: Rows added in this batch (next record: 211): 211 (uncompressed bytes in this segment=34416) in 0.01 seconds
+0077.153 (0) Table gf6x_yoast_seo_links: finishing file(s) (2, 5.3 KB)
+0077.156 (0) PHP event: code E_WARNING: filemtime(): stat failed for /data01/virt131970/domeenid/www.tormilaane23.thkit.ee/htdocs/Lokomotiiv/wp-content/updraft/backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0077.164 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_options.table.tmpr2775.gz (1/91/fopen): adding to final database dump
+0077.168 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_options.table.gz (2/91/fopen): adding to final database dump
+0077.171 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_site.table.tmpr2.gz (3/91/fopen): adding to final database dump
+0077.175 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_site.table.gz (4/91/fopen): adding to final database dump
+0077.178 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_blogs.table.tmpr3.gz (5/91/fopen): adding to final database dump
+0077.181 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_blogs.table.gz (6/91/fopen): adding to final database dump
+0077.184 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_users.table.tmpr3.gz (7/91/fopen): adding to final database dump
+0077.187 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_users.table.gz (8/91/fopen): adding to final database dump
+0077.190 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_usermeta.table.tmpr97.gz (9/91/fopen): adding to final database dump
+0077.194 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_usermeta.table.gz (10/91/fopen): adding to final database dump
+0077.196 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_actions.table.tmpr101.gz (11/91/fopen): adding to final database dump
+0077.200 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_actions.table.gz (12/91/fopen): adding to final database dump
+0077.203 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_claims.table.tmpr0.gz (13/91/fopen): adding to final database dump
+0077.207 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_claims.table.gz (14/91/fopen): adding to final database dump
+0077.210 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_groups.table.tmpr5.gz (15/91/fopen): adding to final database dump
+0077.213 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_groups.table.gz (16/91/fopen): adding to final database dump
+0077.216 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_logs.table.tmpr251.gz (17/91/fopen): adding to final database dump
+0077.219 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_actionscheduler_logs.table.gz (18/91/fopen): adding to final database dump
+0077.222 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_blogmeta.table.tmpr0.gz (19/91/fopen): adding to final database dump
+0077.225 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_blogmeta.table.gz (20/91/fopen): adding to final database dump
+0077.228 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_commentmeta.table.tmpr0.gz (21/91/fopen): adding to final database dump
+0077.231 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_commentmeta.table.gz (22/91/fopen): adding to final database dump
+0077.235 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_comments.table.tmpr0.gz (23/91/fopen): adding to final database dump
+0077.238 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_comments.table.gz (24/91/fopen): adding to final database dump
+0077.241 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_links.table.tmpr0.gz (25/91/fopen): adding to final database dump
+0077.244 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_links.table.gz (26/91/fopen): adding to final database dump
+0077.247 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_postmeta.table.tmpr790.gz (27/91/fopen): adding to final database dump
+0077.250 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_postmeta.table.gz (28/91/fopen): adding to final database dump
+0077.254 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_posts.table.tmpr412.gz (29/91/fopen): adding to final database dump
+0077.257 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_posts.table.gz (30/91/fopen): adding to final database dump
+0077.260 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_registration_log.table.tmpr2.gz (31/91/fopen): adding to final database dump
+0077.268 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_registration_log.table.gz (32/91/fopen): adding to final database dump
+0077.271 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_signups.table.tmpr0.gz (33/91/fopen): adding to final database dump
+0077.275 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_signups.table.gz (34/91/fopen): adding to final database dump
+0077.278 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_sitemeta.table.tmpr240.gz (35/91/fopen): adding to final database dump
+0077.289 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_sitemeta.table.gz (36/91/fopen): adding to final database dump
+0077.292 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_term_relationships.table.tmpr100001.gz (37/91/fopen): adding to final database dump
+0077.296 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_term_relationships.table.gz (38/91/fopen): adding to final database dump
+0077.299 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_term_taxonomy.table.tmpr19.gz (39/91/fopen): adding to final database dump
+0077.302 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_term_taxonomy.table.gz (40/91/fopen): adding to final database dump
+0077.306 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_termmeta.table.tmpr0.gz (41/91/fopen): adding to final database dump
+0077.309 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_termmeta.table.gz (42/91/fopen): adding to final database dump
+0077.312 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_terms.table.tmpr19.gz (43/91/fopen): adding to final database dump
+0077.316 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_terms.table.gz (44/91/fopen): adding to final database dump
+0077.319 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_actions.table.tmpr22.gz (45/91/fopen): adding to final database dump
+0077.323 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_actions.table.gz (46/91/fopen): adding to final database dump
+0077.326 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_claims.table.tmpr0.gz (47/91/fopen): adding to final database dump
+0077.329 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_claims.table.gz (48/91/fopen): adding to final database dump
+0077.333 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_groups.table.tmpr3.gz (49/91/fopen): adding to final database dump
+0077.336 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_groups.table.gz (50/91/fopen): adding to final database dump
+0077.340 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_logs.table.tmpr43.gz (51/91/fopen): adding to final database dump
+0077.343 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_actionscheduler_logs.table.gz (52/91/fopen): adding to final database dump
+0077.346 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_commentmeta.table.tmpr0.gz (53/91/fopen): adding to final database dump
+0077.350 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_commentmeta.table.gz (54/91/fopen): adding to final database dump
+0077.353 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_comments.table.tmpr2.gz (55/91/fopen): adding to final database dump
+0077.356 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_comments.table.gz (56/91/fopen): adding to final database dump
+0077.360 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_links.table.tmpr0.gz (57/91/fopen): adding to final database dump
+0077.363 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_links.table.gz (58/91/fopen): adding to final database dump
+0077.366 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_options.table.tmpr1227.gz (59/91/fopen): adding to final database dump
+0077.371 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_options.table.gz (60/91/fopen): adding to final database dump
+0077.375 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_postmeta.table.tmpr841.gz (61/91/fopen): adding to final database dump
+0077.378 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_postmeta.table.gz (62/91/fopen): adding to final database dump
+0077.382 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_posts.table.tmpr513.gz (63/91/fopen): adding to final database dump
+0077.386 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_posts.table.gz (64/91/fopen): adding to final database dump
+0077.389 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_term_relationships.table.tmpr1001.gz (65/91/fopen): adding to final database dump
+0077.392 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_term_relationships.table.gz (66/91/fopen): adding to final database dump
+0077.395 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_term_taxonomy.table.tmpr7.gz (67/91/fopen): adding to final database dump
+0077.398 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_term_taxonomy.table.gz (68/91/fopen): adding to final database dump
+0077.401 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_termmeta.table.tmpr0.gz (69/91/fopen): adding to final database dump
+0077.405 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_termmeta.table.gz (70/91/fopen): adding to final database dump
+0077.408 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_terms.table.tmpr7.gz (71/91/fopen): adding to final database dump
+0077.411 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_terms.table.gz (72/91/fopen): adding to final database dump
+0077.414 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_logs.table.tmpr2.gz (73/91/fopen): adding to final database dump
+0077.417 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_logs.table.gz (74/91/fopen): adding to final database dump
+0077.420 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_payment_meta.table.tmpr0.gz (75/91/fopen): adding to final database dump
+0077.423 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_payment_meta.table.gz (76/91/fopen): adding to final database dump
+0077.426 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_payments.table.tmpr0.gz (77/91/fopen): adding to final database dump
+0077.430 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_payments.table.gz (78/91/fopen): adding to final database dump
+0077.433 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_tasks_meta.table.tmpr7.gz (79/91/fopen): adding to final database dump
+0077.436 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_wpforms_tasks_meta.table.gz (80/91/fopen): adding to final database dump
+0077.439 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_indexable.table.tmpr40.gz (81/91/fopen): adding to final database dump
+0077.442 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_indexable.table.gz (82/91/fopen): adding to final database dump
+0077.446 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_indexable_hierarchy.table.tmpr1001.gz (83/91/fopen): adding to final database dump
+0077.449 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_indexable_hierarchy.table.gz (84/91/fopen): adding to final database dump
+0077.452 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_migrations.table.tmpr25.gz (85/91/fopen): adding to final database dump
+0077.455 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_migrations.table.gz (86/91/fopen): adding to final database dump
+0077.458 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_primary_term.table.tmpr0.gz (87/91/fopen): adding to final database dump
+0077.461 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_primary_term.table.gz (88/91/fopen): adding to final database dump
+0077.465 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_seo_links.table.tmpr447.gz (89/91/fopen): adding to final database dump
+0077.468 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_2_yoast_seo_links.table.gz (90/91/fopen): adding to final database dump
+0077.472 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_montonio_locks.table.tmpr1.gz (91/91/fopen): adding to final database dump
+0077.475 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_montonio_locks.table.gz (92/91/fopen): adding to final database dump
+0077.478 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_montonio_shipping_method_items.table.tmpr1.gz (93/91/fopen): adding to final database dump
+0077.481 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_montonio_shipping_method_items.table.gz (94/91/fopen): adding to final database dump
+0077.484 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_smush_dir_images.table.tmpr0.gz (95/91/fopen): adding to final database dump
+0077.487 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_smush_dir_images.table.gz (96/91/fopen): adding to final database dump
+0077.490 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_admin_note_actions.table.tmpr2098.gz (97/91/fopen): adding to final database dump
+0077.494 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_admin_note_actions.table.gz (98/91/fopen): adding to final database dump
+0077.498 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_admin_notes.table.tmpr63.gz (99/91/fopen): adding to final database dump
+0077.503 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_admin_notes.table.gz (100/91/fopen): adding to final database dump
+0077.507 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_category_lookup.table.tmpr1001.gz (101/91/fopen): adding to final database dump
+0077.511 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_category_lookup.table.gz (102/91/fopen): adding to final database dump
+0077.515 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_customer_lookup.table.tmpr0.gz (103/91/fopen): adding to final database dump
+0077.519 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_customer_lookup.table.gz (104/91/fopen): adding to final database dump
+0077.522 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_download_log.table.tmpr0.gz (105/91/fopen): adding to final database dump
+0077.526 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_download_log.table.gz (106/91/fopen): adding to final database dump
+0077.529 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_addresses.table.tmpr0.gz (107/91/fopen): adding to final database dump
+0077.532 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_addresses.table.gz (108/91/fopen): adding to final database dump
+0077.536 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_coupon_lookup.table.tmpr1.gz (109/91/fopen): adding to final database dump
+0077.539 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_coupon_lookup.table.gz (110/91/fopen): adding to final database dump
+0077.543 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_operational_data.table.tmpr0.gz (111/91/fopen): adding to final database dump
+0077.546 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_operational_data.table.gz (112/91/fopen): adding to final database dump
+0077.549 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_product_lookup.table.tmpr0.gz (113/91/fopen): adding to final database dump
+0077.553 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_product_lookup.table.gz (114/91/fopen): adding to final database dump
+0077.556 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_stats.table.tmpr0.gz (115/91/fopen): adding to final database dump
+0077.559 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_stats.table.gz (116/91/fopen): adding to final database dump
+0077.563 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_tax_lookup.table.tmpr1.gz (117/91/fopen): adding to final database dump
+0077.566 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_order_tax_lookup.table.gz (118/91/fopen): adding to final database dump
+0077.570 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_orders.table.tmpr0.gz (119/91/fopen): adding to final database dump
+0077.573 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_orders.table.gz (120/91/fopen): adding to final database dump
+0077.576 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_orders_meta.table.tmpr0.gz (121/91/fopen): adding to final database dump
+0077.579 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_orders_meta.table.gz (122/91/fopen): adding to final database dump
+0077.582 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_attributes_lookup.table.tmpr1.gz (123/91/fopen): adding to final database dump
+0077.586 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_attributes_lookup.table.gz (124/91/fopen): adding to final database dump
+0077.589 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_download_directories.table.tmpr3.gz (125/91/fopen): adding to final database dump
+0077.592 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_download_directories.table.gz (126/91/fopen): adding to final database dump
+0077.595 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_meta_lookup.table.tmpr0.gz (127/91/fopen): adding to final database dump
+0077.598 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_product_meta_lookup.table.gz (128/91/fopen): adding to final database dump
+0077.601 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_rate_limits.table.tmpr0.gz (129/91/fopen): adding to final database dump
+0077.604 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_rate_limits.table.gz (130/91/fopen): adding to final database dump
+0077.607 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_reserved_stock.table.tmpr1.gz (131/91/fopen): adding to final database dump
+0077.611 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_reserved_stock.table.gz (132/91/fopen): adding to final database dump
+0077.614 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_tax_rate_classes.table.tmpr3.gz (133/91/fopen): adding to final database dump
+0077.617 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_tax_rate_classes.table.gz (134/91/fopen): adding to final database dump
+0077.620 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_webhooks.table.tmpr0.gz (135/91/fopen): adding to final database dump
+0077.623 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wc_webhooks.table.gz (136/91/fopen): adding to final database dump
+0077.626 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_api_keys.table.tmpr0.gz (137/91/fopen): adding to final database dump
+0077.629 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_api_keys.table.gz (138/91/fopen): adding to final database dump
+0077.632 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_attribute_taxonomies.table.tmpr0.gz (139/91/fopen): adding to final database dump
+0077.635 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_attribute_taxonomies.table.gz (140/91/fopen): adding to final database dump
+0077.638 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_downloadable_product_permissions.table.tmpr0.gz (141/91/fopen): adding to final database dump
+0077.641 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_downloadable_product_permissions.table.gz (142/91/fopen): adding to final database dump
+0077.644 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_log.table.tmpr0.gz (143/91/fopen): adding to final database dump
+0077.647 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_log.table.gz (144/91/fopen): adding to final database dump
+0077.651 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_order_itemmeta.table.tmpr0.gz (145/91/fopen): adding to final database dump
+0077.654 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_order_itemmeta.table.gz (146/91/fopen): adding to final database dump
+0077.657 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_order_items.table.tmpr0.gz (147/91/fopen): adding to final database dump
+0077.660 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_order_items.table.gz (148/91/fopen): adding to final database dump
+0077.663 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_payment_tokenmeta.table.tmpr0.gz (149/91/fopen): adding to final database dump
+0077.666 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_payment_tokenmeta.table.gz (150/91/fopen): adding to final database dump
+0077.669 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_payment_tokens.table.tmpr0.gz (151/91/fopen): adding to final database dump
+0077.672 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_payment_tokens.table.gz (152/91/fopen): adding to final database dump
+0077.675 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_sessions.table.tmpr15.gz (153/91/fopen): adding to final database dump
+0077.678 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_sessions.table.gz (154/91/fopen): adding to final database dump
+0077.681 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zone_locations.table.tmpr0.gz (155/91/fopen): adding to final database dump
+0077.684 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zone_locations.table.gz (156/91/fopen): adding to final database dump
+0077.688 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zone_methods.table.tmpr0.gz (157/91/fopen): adding to final database dump
+0077.692 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zone_methods.table.gz (158/91/fopen): adding to final database dump
+0077.695 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zones.table.tmpr0.gz (159/91/fopen): adding to final database dump
+0077.698 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_shipping_zones.table.gz (160/91/fopen): adding to final database dump
+0077.701 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_tax_rate_locations.table.tmpr0.gz (161/91/fopen): adding to final database dump
+0077.704 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_tax_rate_locations.table.gz (162/91/fopen): adding to final database dump
+0077.707 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_tax_rates.table.tmpr0.gz (163/91/fopen): adding to final database dump
+0077.710 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_woocommerce_tax_rates.table.gz (164/91/fopen): adding to final database dump
+0077.714 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_logs.table.tmpr2.gz (165/91/fopen): adding to final database dump
+0077.717 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_logs.table.gz (166/91/fopen): adding to final database dump
+0077.719 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_payment_meta.table.tmpr0.gz (167/91/fopen): adding to final database dump
+0077.723 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_payment_meta.table.gz (168/91/fopen): adding to final database dump
+0077.726 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_payments.table.tmpr0.gz (169/91/fopen): adding to final database dump
+0077.729 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_payments.table.gz (170/91/fopen): adding to final database dump
+0077.732 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_tasks_meta.table.tmpr22.gz (171/91/fopen): adding to final database dump
+0077.735 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_wpforms_tasks_meta.table.gz (172/91/fopen): adding to final database dump
+0077.738 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_indexable.table.tmpr39.gz (173/91/fopen): adding to final database dump
+0077.741 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_indexable.table.gz (174/91/fopen): adding to final database dump
+0077.745 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_indexable_hierarchy.table.tmpr1001.gz (175/91/fopen): adding to final database dump
+0077.748 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_indexable_hierarchy.table.gz (176/91/fopen): adding to final database dump
+0077.751 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_migrations.table.tmpr25.gz (177/91/fopen): adding to final database dump
+0077.754 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_migrations.table.gz (178/91/fopen): adding to final database dump
+0077.757 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_primary_term.table.tmpr0.gz (179/91/fopen): adding to final database dump
+0077.761 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_primary_term.table.gz (180/91/fopen): adding to final database dump
+0077.764 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_seo_links.table.tmpr212.gz (181/91/fopen): adding to final database dump
+0077.767 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db-table-gf6x_yoast_seo_links.table.gz (182/91/fopen): adding to final database dump
+0077.773 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz: finished writing out complete database file (1330.6 KB)
+0077.794 (0) Total database tables backed up: 91 (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz, size: 1362686, sha1: b911187e798ff50219defb41955b343aa6f2f23e, sha256: 9b3b61e30def0a73560bb3010759e014c4d4ccb067f4d07ef6a60e2a3cb7c3de)
+0077.810 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip: plugins: This file has already been successfully uploaded
+0077.812 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip: themes: This file has already been successfully uploaded
+0077.815 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip: uploads: This file has already been successfully uploaded
+0077.818 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0077.821 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip: others: This file has already been successfully uploaded
+0077.825 (0) backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0077.828 (0) Saving backup history. Total backup size: 358.4 MB
+0077.836 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0077.844 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0077.847 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c69aa5a8a777808ef525aa1d0831c20c)
+0078.264 (0) Google Drive: quota usage: used=4453.1 MB, total=15360 MB, available=10906.9 MB
+0078.266 (0) Google Drive: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz: Attempting to upload to Google Drive (into folder id: 1HFQitLAUIpEXm6UpWbFPWpfCoCaCyXki)
+0080.049 (0) Googledrive chunked upload: 76.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.5 / 52)
+0081.900 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0081.906 (0) Google Drive: OK: Archive backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz uploaded in 3.64 seconds
+0081.910 (0) Recording as successfully uploaded: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz
+0081.917 (0) Deleting local file: backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-db.gz: OK
+0081.921 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0081.926 (0) Number of backup sets in history: 3; groups (db): 1
+0081.927 (0) Examining (for databases) backup set with group_id=0, nonce=c2a1ea5e3c9d, datestamp=1737601120 (Jan 23 2025 02:58:40)
+0081.930 (0) This backup set is the backup set just made, so will not be deleted.
+0081.930 (0) Examining (for databases) backup set with group_id=0, nonce=3133c5bd2d8e, datestamp=1736996016 (Jan 16 2025 02:53:36)
+0081.930 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0081.933 (0) Examining (for databases) backup set with group_id=0, nonce=56a1a25c6b6b, datestamp=1736391456 (Jan 09 2025 02:57:36)
+0081.933 (0) 1736391456: db: this set includes a database (backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-db.gz); db count is now 2
+0081.933 (0) 1736391456: db: over retain limit (2); will delete this database
+0085.173 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-db.gz: Deletion successful
+0085.178 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0085.181 (0) Number of backup sets in history: 3; groups (files): 1
+0085.184 (0) Examining (for files) backup set with nonce=c2a1ea5e3c9d, datestamp=1737601120 (Jan 23 2025 02:58:40)
+0085.184 (0) This backup set is the backup set just made, so will not be deleted.
+0085.187 (0) This backup set is the backup set just made, so will not be deleted.
+0085.188 (0) This backup set is the backup set just made, so will not be deleted.
+0085.189 (0) This backup set is the backup set just made, so will not be deleted.
+0085.189 (0) This backup set is the backup set just made, so will not be deleted.
+0085.189 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.190 (0) Examining (for files) backup set with nonce=3133c5bd2d8e, datestamp=1736996016 (Jan 16 2025 02:53:36)
+0085.190 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.192 (0) Examining (for files) backup set with nonce=56a1a25c6b6b, datestamp=1736391456 (Jan 09 2025 02:57:36)
+0085.192 (0) plugins: over retain limit (2); will delete this file entity
+0085.192 (0) themes: over retain limit (2); will delete this file entity
+0085.192 (0) uploads: over retain limit (2); will delete this file entity
+0085.192 (0) mu-plugins: over retain limit (2); will delete this file entity
+0085.192 (0) others: over retain limit (2); will delete this file entity
+0087.601 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-others.zip: Deletion successful
+0088.668 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-mu-plugins.zip: Deletion successful
+0089.642 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-uploads.zip: Deletion successful
+0090.950 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-themes.zip: Deletion successful
+0092.031 (0) Google Drive: backup_2025-01-09-0457_Lokomotiiv_56a1a25c6b6b-plugins.zip: Deletion successful
+0092.037 (0) This backup set is now empty; will remove from history
+0092.040 (0) Deleting log file (log.56a1a25c6b6b.txt)
+0092.043 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0092.050 (0) Resume backup (c2a1ea5e3c9d, 0): finish run
+0092.056 (0) Decremented the semaphore (fd) by 1
+0092.059 (0) Semaphore (fd) unlocked
+0092.063 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0092.072 (0) Deleting zip manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-plugins.zip.list.tmp)
+0092.074 (0) Deleting zip manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-themes.zip.list.tmp)
+0092.077 (0) Deleting zip manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-uploads.zip.list.tmp)
+0092.080 (0) Deleting zip manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-mu-plugins.zip.list.tmp)
+0092.083 (0) Deleting zip manifest (backup_2025-01-23-0458_Lokomotiiv_c2a1ea5e3c9d-others.zip.list.tmp)
+0092.088 (0) No email will/can be sent - the user has not configured an email address.
+0092.089 (0) The backup succeeded and is now complete

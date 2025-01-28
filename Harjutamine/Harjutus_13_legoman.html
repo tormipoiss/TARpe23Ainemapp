@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 13, legoman</title>
+    <script>
+    function Pea() {
+	    var p = document.getElementById("plate").getContext("2d");
+	
+        p.fillStyle = "rgb(79, 143, 56)";
+        
+        p.fillRect(150, 0, 80, 80)
+
+        p.fillStyle = "rgb(83, 117, 57)";
+
+        p.fillRect(150, 0, 80, 10)
+    }
+
+    function Silmad() {
+	    var p = document.getElementById("plate").getContext("2d");
+	
+        p.fillStyle = "rgb(0, 0, 0)";
+        
+        p.fillRect(160, 40, 20, 10)
+
+        p.fillRect(200, 40, 20, 10)
+    }
+
+    function Suu() {
+	    var p = document.getElementById("plate").getContext("2d");
+	
+        p.fillStyle = "rgb(51, 123, 43)";
+        
+        p.fillRect(180, 50, 20, 10)
+
+        p.fillRect(170, 60, 10, 20)
+
+        p.fillRect(200, 60, 10, 20)
+
+        p.fillStyle = "rgb(77, 124, 33)";
+
+        p.fillRect(180, 60, 20, 20)
+    }
+
+    function Keha() {
+        var p = document.getElementById("plate").getContext("2d");
+        
+        p.fillStyle = "rgb(0, 201, 201)";
+        p.fillRect(108, 80, 164, 40);
+        p.fillRect(153, 120, 74, 75);
+    }
+
+    function Jalad() {
+        var p = document.getElementById("plate").getContext("2d");
+        
+        p.fillStyle = "rgb(50, 42, 120)";
+        p.fillRect(153, 195, 74, 100);
+    }
+
+    function Jalatsid() {
+        var p = document.getElementById("plate").getContext("2d");
+        
+        p.fillStyle = "rgb(89, 87, 87)";
+        p.fillRect(153, 295, 74, 25);
+    }
+
+    function Käed() {
+        var p = document.getElementById("plate").getContext("2d");
+        
+        p.fillStyle = "rgb(79, 143, 56)";
+        p.fillRect(108, 120, 45, 75);
+        p.fillRect(227, 120, 45, 75);
+    }
+
+    function Kustuta() {
+        var p = document.getElementById("plate").getContext("2d");
+
+        p.clearRect(0, 0, 1000, 1000);
+    }
+
+    function Joonista() {
+        var p = document.getElementById("plate").getContext("2d");
+
+        Pea()
+        Silmad()
+        Suu()
+        Keha()
+        Käed()
+        Jalad()
+        Jalatsid()
+    }
+    </script>
+</head>
+<body>
+    <canvas id="plate" width="400" height="325" style="background-color:white;"></canvas>
+    <br><input type="button" value="Joonista" onClick="Joonista();">
+    <br><input type="button" value="Kustuta" onClick="Kustuta();">
+    <br><input type="button" value="Pea" onClick="Pea();">
+    <br><input type="button" value="Silmad" onClick="Silmad();">
+    <br><input type="button" value="Suu" onClick="Suu();">
+    <br><input type="button" value="Keha" onClick="Keha();">
+    <br><input type="button" value="Käed" onClick="Käed();">
+    <br><input type="button" value="Jalad" onClick="Jalad();">
+    <br><input type="button" value="Jalatsid" onClick="Jalatsid();">
+</body>
+</html>

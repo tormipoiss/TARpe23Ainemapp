@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kordamine</title>
+    <meta name="description" content="Õpime veebitehnoloogiat">
+    <meta name="keywords" content="HTML5,CSS3">
+    <meta name="author" content="Tormi Laane">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <h1>Kordamise ülesanne</h1>
+    <h3>1. Loendid</h3>
+    <p>Parimad kommid:</p>
+    <ul>
+        <li>Geisha</li>
+        <li>Mesi käpp</li>
+        <li>Milka</li>
+    </ul>
+    <p>Kuidas teha omletti:</p>
+    <ol>
+        <li>Viska muna potti</li>
+        <li>Viska piima kilepakk potti</li>
+        <li>Oota 1 tund</li>
+    </ol>
+    <h3>2. Hüperlingid</h3>
+    <a href="https://www.tthk.ee/" target="_blank">Kooli koduleht</a>
+    <h3>3. Teksti markeeringud</h3>
+    <p>Siin on lõik br elemendiga, <br>uus lõik on siin.</p>
+    <p>Siin all on suur pealkiri:</p>
+    <h1>Tere!</h1>
+    <p><b>Tekst on siin rõhutud</b></p>
+    <h3>4. Pildid</h3>
+    <img src="../Tormi.jpg" alt="Tormi pilt">
+    <h3>5. Tabelid</h3>
+    <table>
+        <tr class="firstTable">
+            <td>Toote nimi</td>
+            <td>Hind</td>
+            <td>Populaarsus</td>
+        </tr>
+        <tr class="firstTable">
+            <td>Omlett</td>
+            <td>0,50€</td>
+            <td>8/10</td>
+        </tr>
+        <tr class="firstTable">
+            <td>iPhone 16 Pro</td>
+            <td>10000€</td>
+            <td>6/10</td>
+        </tr>
+    </table>
+    <h3>6. Vormid</h3>
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Arvutimängu info:</legend>
+        <label>
+            Lemmikmäng:<br>
+            <input name="favoriteGame" type="text"><br>
+        </label>
+        <label>
+            Halvim mäng:<br>
+            <input name="worstGame" type="text"><br>
+        </label>
+        <label>
+            Mitu tundi oled omma lemmikmängu mänginud?<br>
+            <input name="hoursPlayed" type="number"><br>
+        </label>
+        <label>
+            Lemmikmängu tutvustus:<br>
+            <textarea name="favoriteGameIntroduction" rows="14" cols="31"></textarea><br>
+        </label>
+        <p>Mis Playstation on kõige parem?</p>
+        <label><input type="radio" name="role" value="admin">PS3</label>
+        <label><input type="radio" name="role" value="admin">PS4</label>
+        <label><input type="radio" name="role" value="admin">PS5</label>
+        <br>
+        <table>
+            <tr>
+                <td>Kas sa oled hea inimene?</td>
+                <td><input type="checkbox" name="good" value="Kas sa oled hea inimene?"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Saada" name="send">
+        </fieldset>
+    </form>
+</body>
+</html>
