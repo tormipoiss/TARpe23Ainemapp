@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental</title>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Incremental ehk inkrementaalne arendusmudel</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Inkrementaalne arendamine on tarkvaraarenduse lähenemine, kus süsteem luuakse<br>
+        järk-järgult ja etapiviisiliselt, lähtudes ajagraafikust. Selle mudeli kohaselt<br>
+        arendatakse ja valmib süsteemi erinevaid osi erinevatel aegadel ning erineva<br>
+        kiirusega. Kui mõni arendatud osa on valmis, integreeritakse see viivitamatult<br>
+        juba eksisteeriva süsteemiga.<br>
+        Selline strateegia võimaldab kiiresti reageerida muutuvatele nõuetele, olgu<br>
+        selleks äritegevusest tulenevad muudatused, uute tehnoloogiate rakendamine või<br>
+        muutuvad platvormid. Just järkjärguline arendus ja üleandmine võimaldab teha<br>
+        muudatusi nendes süsteemi osades, mida pole veel arendatud, ning vähendab<br>
+        ümbertegemise kulusid.<br>
+        Varajases etapis toimuv prototüüpimine aitab visualiseerida ja testida<br>
+        süsteemi olulisi omadusi, tuues välja võimalikud probleemid enne, kui muudatused<br>
+        muutuvad kalliks ja keerukaks.<br><br>
+    </p>
+    <!-- etapid ja nende kirjeldus -->
+     <p>
+        <ol>
+            <li>
+                <!-- esimene etapp -->
+                Etapp - Nõuete üldine määratlemine ja prioriseerimine:<br>
+                Esiteks määratakse projekti üldised nõuded. Nõuded jaotatakse tähtsuse järgi kaheks<br>
+                kategooriaks: tähtsamad ja vähemtähtsad. See samm aitab keskenduda esmalt kõige olulisematele<br>
+                süsteemi osadele.<br><br>
+            </li>
+            <li>
+                <!-- teine etapp -->
+                Etapp - Tarneosade (inkrementide) määratlemine:<br>
+                Projekti jagatakse mitmeks tarnemooduliks ehk inkrementideks. Iga inkrement esindab<br>
+                kindlat osa süsteemist, mis lisab süsteemile eraldiseisva funktsionaalsuse. Arendamist<br>
+                alustatakse kõige tähtsamatest osadest.<br><br>
+            </li>
+            <li>
+                <!-- kolmas etapp -->
+                Etapp - Esimese tarne detailne arendamine:<br>
+                Kõige esimesena võetakse töösse kõrgeima prioriteediga osa (esimene inkrement).<br>
+                Selle arendamiseks kasutatakse sobivaimat arendusprotsessi (näiteks koskmudelit).<br>
+                Töös oleva tarneosa nõuded külmutatakse, kuid teiste osade nõudeid saab samaaegselt täpsustada.<br><br>
+            </li>
+            <li>
+                <!-- neljas etapp -->
+                Etapp - Valmis osa kliendile tarnimine ja testimine<br>
+                Kui esimene osa saab valmis, tarnitakse see kliendile. Klient saab valmis osa testida,<br>
+                katsetada või töösse rakendada. See etapp võimaldab kliendil täpsustada järgmiste<br>
+                inkrementide nõudeid või täiendada juba tarnitud osa nõudeid edaspidiseks.<br><br>
+            </li>
+            <li>
+                <!-- viies etapp -->
+                Etapp - Järgmise osa arendamine ja integreerimine süsteemiga:<br>
+                Pärast esimese osa valmimist alustatakse järgmise osa arendamist. Nõuete täpsustamine<br>
+                ja kliendi tagasiside aitavad suunata uue inkrementi arendamist. Uued osad<br>
+                integreeritakse olemasolevasse süsteemi, luues lõpuks tervikliku lahenduse.<br><br>
+            </li>
+            <li>
+                <!-- kuues etapp -->
+                Etapp - Erinevate arendusprotsesside kasutamine:<br>
+                Olenevalt iga osa eripäradest võib erinevate inkrementide jaoks kasutada erinevaid<br>
+                arendusprotsesse. Näiteks üks osa võib vajada koskmudelit, teine aga<br>
+                teisiti kohaldatud protsessi.<br><br>
+            </li>
+        </ol>
+        <!-- kokkuvõte -->
+        Inkrementaalse arendusmudeli etapid võimaldavad järk-järgulist ja paindlikku<br>
+        süsteemi arendust, kus klient on protsessi igas etapis kaasatud.<br>
+        Nõuete prioritiseerimine, tarneosade määramine, arendamine, kliendile tarnimine<br>
+        ja tagasiside integreerimine on selle mudeli tuum, mille eesmärk on luua<br>
+        süsteem, mis vastab täpselt muutuvale ärikeskkonnale ja kliendi vajadustele.<br><br>
+
+        <!-- arendustsükli pilt -->
+        <img src="software-engineering-incremental-model.jpg" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetlev arendustsükli head ja vead -->
+        <table border="1">
+            <caption>Arendustsükli head ja vead</caption>
+            <thead>
+                <tr>
+                    <th>Halvad</th>
+                    <th>Head</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Arendusprotsessi edenemise mõõtmine võib olla keeruline, sest kiire arendustempo<br>
+                    juures ei ole otstarbekas luua detailset dokumentatsiooni iga väiksema versioonimuudatuse kohta.</td>
+                <td>Kuna nõudeid saab jooksvalt täpsustada ja arendusprotsess ei sea kõiki nõudeid algusest<br>
+                    peale kivisse, vähenevad kulutused, mis tekivad kasutaja nõuete muutumise tõttu.<br>
+                    Samuti väheneb korduva analüüsi ja dokumenteerimise vajadus võrreldes näiteks koskmudeliga.</td>
+            </tr>
+            <tr>
+                <td>Järk-järguline uute osade lisamine võib halvendada süsteemi struktuuri ja<br>
+                    põhjustada kvaliteediprobleeme. Pidevad muudatused ja lisamised võivad viia<br>
+                    halvasti organiseeritud koodini, mis muudab tarkvara hilisema muutmise keerulisemaks ja kulukamaks.</td>
+                <td>Klientidel on lihtsam anda tagasisidet, kuna nad saavad näha valminud süsteemiosi ja<br>
+                    hinnata nende praktilisust. Valminud osad toimivad justkui prototüüpidena kogu süsteemi<br>
+                    jaoks, aidates kliendil mõista, milline süsteem lõppkokkuvõttes olema saab.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Kliendile saab tarnida süsteemi osi juba arenduse varases etapis, võimaldades<br>
+                    neil hakata loodavat tarkvara varem kasutama ja sellest reaalset kasu saama.<br>
+                    Võrreldes koskmudeliga on süsteemi esialgsed tulemused kliendile kiiremini kättesaadavad.</td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.perplexity.ai/search/kirjuta-kirjeldus-inkrementaal-cv0XuStBReOUXqxjyhJ84Q#0">Perplexity</a>
+        <a href="https://www.javatpoint.com/software-engineering-incremental-model">Javatpoint</a>
+     </p>
+</body>
+</html>
