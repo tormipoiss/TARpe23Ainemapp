@@ -6,22 +6,154 @@
     <meta charset="UTF-8">
     <title>TARpe23 Tormi Laane Ainemapp</title>
     <style>
-        table, tr, td {
-            width: 600px;
-            border: 1px solid;
+        /* Page Styling */
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth; /* Smooth scrolling behavior */
         }
-        h4 {
-            margin-left: 10px;
+
+        /* Navbar Styling */
+        .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000; /* Keep navbar above everything */
         }
-        p {
-            margin-left: 5px;
+
+        .navbar ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        }
+
+        .navbar ul li {
+        margin: 0 15px;
+        }
+
+        .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+        color: #00bfff; /* Change color on hover */
+        }
+
+        /* Table Styles */
+        table {
+        width: 60%; /* tabel on 60% lehe laiusest */
+        margin: 50px auto; /* tabelil on 2px margin ja asetseb automaatselt lehe keskel */
+        border-collapse: collapse; /* muudab topelt tabeli borderi jooned üheks jooneks*/
+        font-family: Arial, sans-serif; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* paneb tabeli ümber varju */
+        }
+
+        th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+        }
+
+        th {
+        background-color: #f4f4f4;
+        font-size: 1.1em;
+        }
+
+        tr:nth-child(even) { /* iga teine table row on tumedama taustaga */
+        background-color: #f9f9f9;
+        }
+
+        tr:hover {
+        background-color: #f1f1f1;
+        }
+
+        /* Ordered List Styles (Blue Links and Reduced Spacing) */
+        ol {
+            list-style-type: decimal; /* Use decimal numbers for ordered lists */
+            margin: 0; /* Remove default margin */
+            padding-left: 20px; /* Indent for better structure */
+        }
+
+        li {
+            margin: 2px 0; /* Reduced spacing between list items */
+            font-size: 0.9em; /* Slightly smaller font size */
+            cursor: pointer; /* Pointer cursor indicates interactiveness */
+            display: list-item; /* Ensure the numbers appear properly */
+        }
+
+        /* Table Link Styling */
+        table a {
+            display: block; /* Extend clickable link area */
+            padding: 5px 0; /* Reduce padding for smaller clickable area */
+            text-decoration: none; /* Remove underline */
+            color: #007bff; /* Make table links blue */
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+        }
+
+        li:hover {
+            background-color: #f1f1f1; /* Subtle background color change */
+        }
+
+        /* Prevent Navbar List Items from Having Background Hover Effects */
+        .navbar ul li:hover {
+            background-color: transparent; /* Ensure no background color on hover */
+        }
+
+        table a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Ensure general `<a>` links outside the navbar and table stay unaffected */
+        a {
+            color: inherit; /* Default color for inline links elsewhere */
+            text-decoration: none; /* Remove underline */
+        }
+
+        a:hover {
+            color: #0056b3; /* Darker hover color for general links */
+        }
+
+        /* Specific styles for the first row of the table */
+        table tr:first-child li {
+            cursor: text; /* Remove pointer cursor for list items in the first row */
+        }
+
+        table tr:first-child a {
+            display: inline; /* Inline layout for first-row links */
+            padding: 0; /* Reset padding for inline links */
+        }
+
+        /* Style for the Image in the First Table Row */
+        table tr:first-child td:first-child img {
+            display: block; /* Center the image inside the cell */
+            margin: 0 auto; /* Center horizontally within the cell */
+            border-radius: 10px; /* Add rounded corners for a polished look */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            max-width: 100%; /* Ensure the image doesn't overflow the cell */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul id="navbar-links">
+            <!-- Links will be dynamically generated here -->
+        </ul>
+    </nav>
+    
     <table>
-        <tbody>
         <tr>
             <td style="width:167px">
                 <img src="Tormi2.jpg" alt="Tormi Laane portree" width="167">
@@ -32,7 +164,7 @@
                     <li><b>Sünnikoht:</b> Tartu</li>
                     <li><b>Iseloomustus:</b> Hea inimene</li>
                     <li><b>E-post:</b> tormipoiss@gmail.com</li>
-                    <li><b>Veebilehekülg: </b><a href="https://tormilaane23.thkit.ee/">tormilaane23.thkit.ee</a></li>
+                    <li><b>Veebilehekülg: </b><a href="https://tormipoiss.github.io/TARpe23Ainemapp/">tormipoiss.github.io/TARpe23Ainemapp</a></li>
                     <li><b>Moto:</b> Kommid on head</li>
                 </ul>
             </td>
@@ -119,8 +251,29 @@
                 </ol>
             </td>
         </tr>
-    </tbody>
     </table>
+
+    <script>
+        // JavaScript to dynamically generate navbar links
+        document.addEventListener("DOMContentLoaded", () => {
+            const navbar = document.getElementById("navbar-links");
+            const headings = document.querySelectorAll("h4");
+
+            // Iterate through all <h4> elements on the page
+            headings.forEach((heading, index) => {
+                const id = `section${index + 1}`; // Generate unique section IDs
+                heading.id = id;
+
+                // Remove any colon (:) from the heading text
+                const linkText = heading.textContent.replace(/:$/, "");
+
+                // Create a new <li> element with a link
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="#${id}">${linkText}</a>`;
+                navbar.appendChild(li);
+            });
+        });
+    </script>
 </body>
 
 </html>
