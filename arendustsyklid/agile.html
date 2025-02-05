@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Agile ehk agiilne mudel</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Agiilses mudelis on nõuded jaotatud paljudeks väikesteks osadeks, mida saab<br>
+        järk-järgult arendada. Agiilne mudel kasutab iteratiivset arendust. Iga inkrementaalne<br>
+        osa töötatakse välja iteratsiooni käigus. Iga iteratsioon on mõeldud olema väike ja<br>
+        hõlpsasti juhitav ning seda saab lõpetada vaid paari nädala jooksul. Korraga kavandatakse,<br>
+        arendatakse ja juurutatakse klientidele üks iteratsioon. Pikaajalisi plaane ei tehta.<br><br>
+    </p>
+    <!-- etapid ja nende kirjeldus -->
+     <p>
+        <ol>
+            <li>
+                <!-- esimene etapp -->
+                Etapp - Nõuete kogumine:<br>
+                Selles etapis peab arendusmeeskond kliendiga suheldes nõuded kokku koguma. arendusmeeskond peaks planeerima<br>
+                projekti ehitamiseks kuluvat aega ja vaeva.<br>
+                Selle teabe põhjal saab hinnata tehnilist ja majanduslikku teostatavust.<br><br>
+            </li>
+            <li>
+                <!-- teine etapp -->
+                Etapp - Nõuete kujundamine:<br>
+                Selles etapis kasutab arendusmeeskond kasutajavoo diagrammi või kõrgetasemelisi UML-skeeme, et näidata<br>
+                uute funktsioonide toimimist ja näidata, kuidas need kehtivad olemasoleva tarkvara puhul.<br>
+                Selles etapis tehakse raamimine ja kasutajaliideste kujundamine.<br><br>
+            </li>
+            <li>
+                <!-- kolmas etapp -->
+                Etapp - Ehitus / iteratsioon:<br>
+                Selles etapis hakkavad arendusmeeskonna liikmed töötama oma projekti kallal,<br>
+                mille eesmärk on toimiva toote juurutamine.<br><br>
+            </li>
+            <li>
+                <!-- neljas etapp -->
+                Etapp - Testimine / kvaliteedi tagamine:<br>
+                Testimine hõlmab üksuse testimist, integratsiooni testimist ja süsteemi testimist.<br>
+                Nende kolme testi lühitutvustus on järgmine:<br><br>
+                <ul>
+                    <li>
+                        Üksuse testimine: üksuse testimine on väikeste kooditükkide kontrollimise protsess, et<br>
+                        tagada programmi üksikute osade korrektne toimimine.<br>
+                        Üksuse testimist kasutatakse üksikute koodiplokkide (üksuste) testimiseks.<br><br>
+                    </li>
+                    <li>
+                        Integratsioonitestimine: integratsioonitestimist kasutatakse tarkvara erinevate üksuste<br>
+                        kombineerimisel tekkida võivate probleemide tuvastamiseks ja lahendamiseks.<br><br>
+                    </li>
+                    <li>
+                        Süsteemi testimine: Eesmärk on tagada, et tarkvara vastaks kasutajate nõuetele ja<br>
+                        toimiks õigesti kõigis võimalikes stsenaariumides.<br><br>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <!-- viies etapp -->
+                Etapp - Juurutamine:<br>
+                Selles etapis juurutab arendusmeeskond tööprojekti lõppkasutajatele.<br><br>
+            </li>
+            <li>
+                <!-- kuues etapp -->
+                Etapp - Tagasiside:<br>
+                See on Agiilse mudeli viimane samm. Selle käigus saab meeskond toote kohta tagasisidet ja<br>
+                tegeleb kliendi antud tagasiside põhjal vigade parandamisega.<br><br>
+            </li>
+            <!-- time box kirjeldus -->
+        </ol>
+        Iteratsiooni lõpuleviimiseks kuluvat aega nimetatakse ajakastiks.<br>
+        Ajakast viitab maksimaalsele ajale, mis kulub iteratsiooni klientidele edastamiseks.<br>
+        Seega iteratsiooni lõppkuupäev ei muutu.<br>
+        Siiski võib arendusmeeskond otsustada tarnitud funktsioone ajakasti ajal vähendada,<br>
+        kui see on vajalik selle õigeaegseks tarnimiseks.<br>
+        Agiilse mudeli keskne põhimõte on anda kliendile inkrement pärast igat ajakasti.<br><br>
+
+        <!-- arendustsükli pilt -->
+        <img src="agile.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb arendustsükli head ja vead -->
+        <table>
+            <caption>Agiilse arendustsükli head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Paarprogrammeerimisega töötades saadakse hästi kirjutatud kompaktsed programmid,<br>
+                    milles on vähem vigu kui üksi töötavate programmeerijatega.</td>
+                <td>Ametlike dokumentide puudumine tekitab segadust ja erinevatel etappidel tehtud olulisi<br>
+                    otsuseid võivad erinevad meeskonnaliikmed igal ajal valesti tõlgendada.</td>
+            </tr>
+            <tr>
+                <td>Väiksem projekti arendusaeg.</td>
+                <td>See ei sobi keeruliste sõltuvuste käsitlemiseks.</td>
+            </tr>
+            <tr>
+                <td>Agiilne arendus rõhutab näost näkku suhtlemist meeskonnaliikmete vahel,<br>
+                    mis viib parema koostööni ja projekti eesmärkide mõistmiseni.</td>
+                <td>Agiilne mudel sõltub suuresti klientide suhtlusest, nii et kuiklient ei väljenda<br>
+                    ennast selgelt, võib ta arendusmeeskonda vales suunas juhtida.</td>
+            </tr>
+            <tr>
+                <td>Klientide esindajad saavad idee uuendatud tarkvaratoodetest pärast iga iteratsiooni.<br>
+                    Seega on neil lihtne mis tahes nõuet vajadusel muuta.</td>
+                <td>Agiilsed arendusmudelid hõlmavad sageli töötamist lühikeste spurtidena, mis võib raskendada<br>
+                    projekti ajakavade ja tulemuste planeerimist ja prognoosimist. See võib põhjustada viivitusi<br>
+                    projektis ja raskendada projekti jaoks vajalike kulude ja ressursside täpset hindamist.</td>
+            </tr>
+            <tr>
+                <td>Agiilne arendus seab kliendi arendusprotsessi keskmesse,<br>
+                    tagades, et lõpptoode vastab tema vajadustele.</td>
+                <td>Agiilsed arendusmudelid nõuavad meeskonnaliikmetelt kõrgetasemelist asjatundlikkust, kuna nad<br>
+                    peavad suutma kohaneda muutuvate nõuetega ja töötada iteratiivses keskkonnas.<br>
+                    See võib olla keeruline meeskondadele, kellel pole agiilsete arenduspraktikatega kogemusi,<br>
+                    ning see võib projektis põhjustada viivitusi ja raskusi.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Nõuetekohase dokumentatsiooni puudumise tõttu, kui projekt valmib ja arendajad määratakse teise<br>
+                    projekti juurde, võib arendatud projekti hooldamine muutuda probleemiks.</td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.geeksforgeeks.org/software-engineering-agile-development-models/" target="_blank">GeeksforGeeks</a>
+     </p>
+</body>
+</html>
