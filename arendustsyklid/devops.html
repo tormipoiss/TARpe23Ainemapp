@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>DevOps</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        DevOps on transformatiivne kultuur ja praktika, mis ühendab tarkvaraarenduse (Dev) ja<br>
+        IT operatsioonide (Ops) meeskondi. Soodustades koostööd ja võimendades<br>
+        automatiseerimistehnoloogiaid, võimaldab DevOps kiiremat ja usaldusväärsemat<br>
+        koodi juurutamist tootmisse tõhusal ja korrataval viisil.<br><br>
+    </p>
+    <!-- etapid ja nende kirjeldus -->
+     <h3>Seitse DevOpsi C-d:</h3>
+     <p>
+        <ol>
+            <li>
+                <!-- esimene C -->
+                Pidev areng (Continuous development):<br>
+                Pideva arenduse puhul kirjutatakse kood pigem väikeste pidevate bittidena, mitte korraga,<br>
+                pidev arendus on DevOpsis oluline, kuna see parandab tõhusust iga kord, kui koodijupp luuakse,<br>
+                seda testitakse, ehitatakse ja tootmisse juurutatakse. Pidev arendus tõstab koodi taset ja<br>
+                ühtlustab vigade, haavatavuste ja defektide parandamise protsessi.<br>
+                See hõlbustab arendajatel keskenduda kvaliteetse koodi loomisele.<br><br>
+            </li>
+            <li>
+                <!-- teine C -->
+                Pidev integreerimine (Continuous integration):<br>
+                Pidevat integreerimist saab DevOpsis selgitada peamiselt neljas etapis. Need on järgmised:<br><br>
+                <ol>
+                    <li>
+                        Lähtekoodi hankimine SCM-ist (Source Control Management)<br>
+                    </li>
+                    <li>
+                        Koodi buildimine<br>
+                    </li>
+                    <li>
+                        Koodi kvaliteedi ülevaatus<br>
+                    </li>
+                    <li>
+                        Build-i artefaktide salvestamine<br><br>
+                    </li>
+                </ol>
+                Eespool mainitud etapid on pideva integreerimise voog ja igas etapis saab kasutada<br>
+                kõiki nõudmistele vastavaid tööriistu ning kõige populaarsemad tööriistad on<br>
+                GitHub lähtekoodi haldamiseks (SCM), kui arendaja arendab koodi oma kohalikus masinas,<br>
+                lükkab ta selle kaughoidlasse, milleks on siin GitHub, ning kellel on juurdepääs,<br>
+                saab koodi tõmmata, kloonida ja teha vajalikke muudatusi.<br><br>
+                Sealt saab Maveni abil need vajalikusse paketti (sõda, purk, kõrv) ehitada ja Juniti juhtumeid testida.<br>
+                SonarQube teostab koodikvaliteedi ülevaatusi, kus mõõdab lähtekoodi kvaliteeti ja genereerib<br>
+                aruande HTML- või PDF-vormingus. Järguartefaktide salvestamiseks mõeldud Nexus aitab<br>
+                salvestada Maveni abil koostatud artefakte ja kogu see protsess<br>
+                saavutatakse pideva integreerimise tööriista Jenkinsi abil.<br><br>
+            </li>
+            <li>
+                <!-- kolmas C -->
+                Pidev testimine (Continuous testing):<br>
+                Iga ettevõte saab kasutada pidevat testimist, kasutades agiilse ja DevOpsi metoodikat.<br>
+                Olenevalt vajadustest saab teostada pidevat testimist, kasutades automatiseerimise testimise<br>
+                tööriistu nagu Testsigma, Selenium, LambdaTest jne. Nende tööriistade abil saab testida<br>
+                oma koodi ja ennetada probleeme ja koodihaisusid, samuti testida kiiremini ja nutikamalt.<br>
+                Pideva integratsiooniplatvormi, nagu Jenkins, abil saab kogu<br>
+                protsessi automatiseerida, mis on veel üks lisaeelis.<br><br>
+            </li>
+            <li>
+                <!-- neljas C -->
+                Pidev juurutamine / pidev tarnimine (Continuous deployment / continuous delivery):<br>
+                Pidev juurutamine on rakenduse automaatne juurutamine tootmiskeskkonda, kui see on<br>
+                testimise ja ehitamise etapid lõpetanud.<br>
+                Siin saab automatiseerida kõike alates rakenduse lähtekoodi hankimisest kuni selle juurutamiseni.<br><br>
+
+                Pidev tarnimine on rakenduse tootmisserveritesse käsitsi juurutamise protsess,<br>
+                kui see on testimise ja ehitamise etapid lõpetanud. Siin saab automatiseerida<br>
+                pidevad integreerimisprotsessid, kuid selle tootmiskeskkonda juurutamiseks on siiski vaja käsitsi kaasamist.<br><br>
+            </li>
+            <li>
+                <!-- viies C -->
+                Pidev monitooring (Continuous monitoring):<br>
+                DevOpsi elutsükkel on puudulik, kui pidevat monitoorimist ei olnud.<br>
+                Prometheuse ja Grafana abiga on võimalik saavutada pidevat monitoorimist ja saab<br>
+                sellest teavitada enne, kui midagi läheb valesti. Prometheuse abil saab koguda palju<br>
+                jõudlusnäitajaid, sealhulgas protsessori ja mälu kasutust, võrguliiklust, rakenduste reageerimisaegu,<br>
+                veamäärasid ja muud. Grafana võimaldab visuaalselt esitada<br>
+                ja jälgida aegridade andmeid, nagu protsessori ja mälu kasutamine.<br><br>
+            </li>
+            <li>
+                <!-- kuues C -->
+                Pidev tagasiside (Continuous feedback):<br>
+                Pärast rakenduse turule laskmist hakkavad lõppkasutajad rakendust kasutama ning annavad<br>
+                tagasisidet rakenduse toimivuse ja kasutajakogemust mõjutavate tõrgete kohta pärast<br>
+                lõppkasutajatelt mitmekordse tagasiside saamist. DevOpsi meeskond analüüsib lõppkasutajate<br> 
+                antud tagasisidet ja pöördub arendajameeskonna poole, kes püüab parandada vigu,<br>
+                mida nad selles kooditükis arendavad.<br>
+                Samuti vähendatakse rakenduse juurutamiseks vajalikke tarbetuid samme.<br>
+                Pidev tagasiside võib suurendada rakenduse jõudlust ja vähendada koodi vigu,<br>
+                muutes lõppkasutajate jaoks rakenduse kasutamise sujuvaks.<br><br>
+            </li>
+            <li>
+                <!-- seitsmes C -->
+                Pidevad toimingud (Continuous operations):<br>
+                Säilitatakse rakenduste pikemat tööaega, rakendades pidevat tööd, mis aitab<br>
+                vähendada hooldusseisakuid, mis mõjutavad negatiivselt lõppkasutajate kogemusi.<br>
+                Suurem toodang, madalamad tootmiskulud ja parem kvaliteedikontroll on pideva töö eelised.<br><br>
+            </li>
+        </ol>
+    </p>
+    <!-- DevOpsi elutsükli erinevad faasid -->
+    <h3>DevOpsi elutsükli erinevad faasid:</h3>
+    <p>
+        <ol>
+            <li>
+                Plaan:<br>
+                Spetsialistid määravad kindlaks ärilised vajadused ja koguvad lõppkasutajate arvamusi<br>
+                kogu sellel tasemel. Selles etapis koostavad nad<br>
+                projektiplaani, et optimeerida ärimõju ja saavutada soovitud tulemus.<br><br>
+            </li>
+            <li>
+                Kood:<br>
+                Selle aja jooksul töötatakse koodi välja. Disainiprotsessi lihtsustamiseks kasutab<br>
+                arendajameeskond elutsükli DevOpsi tööriistu ja laiendusi, nagu Git,<br>
+                mis aitavad ennetada ohutusprobleeme ja halbu kodeerimisstandardeid.<br><br>
+            </li>
+            <li>
+                Build:
+                Kui programmeerijad on oma ülesanded täitnud, kasutavad nad koodi ühisesse<br>
+                koodiallikasse esitamiseks tööriistu, nagu Maven ja Gradle.<br><br>
+            </li>
+            <li>
+                Test:<br>
+                Tarkvara terviklikkuse tagamiseks tarnitakse toode esmalt testplatvormile, et<br>
+                viia läbi mitmesuguseid sõeluuringuid, nagu kasutajate vastuvõetavuse testimine,<br>
+                ohutuse testimine, integratsiooni kontroll, kiiruse testimine jne,<br>
+                kasutades selliseid tööriistu nagu JUnit, Selenium jne.<br><br>
+            </li>
+            <li>
+                Väljalask:<br>
+                Sel hetkel on build ette valmistatud töökeskkonnas juurutamiseks.<br>
+                DevOpsi osakond valmistab ette värskendusi või saadab mitu versiooni tootmisse,<br>
+                kui build rahuldab kontrolle organisatsiooni põhinevatel nõuetel.<br><br>
+            </li>
+            <li>
+                Juurutamine:<br>
+                Siinkohal aitab Infrastructure-as-Code luua operatiivset infrastruktuuri<br>
+                ja avaldab seejärel buildi erinevate DevOpsi elutsükli tööriistade abil.<br><br>
+            </li>
+            <li>
+                Käitamine:<br>
+                Seda versiooni on kasutajatel nüüd mugav kasutada.<br>
+                Tööriistadega, sealhulgas Chef, hoolitseb haldusosakond serveri konfigureerimise ja juurutamise eest.<br><br>
+            </li>
+            <li>
+                Jälgimine:<br>
+                DevOpsi töövoogu jälgitakse sellel tasemel sõltuvalt tarbijakäitumisest,<br>
+                rakenduste tõhususest ja muudest allikatest kogutud andmetest.<br>
+                Võimalus jälgida kogu ümbrust aitab meeskondadel tuvastada kitsaskohti,<br>
+                mis mõjutavad tootmis- ja tegevusmeeskondade tööd.<br><br>
+            </li>
+        </ol>
+
+        <!-- arendustsükli pilt -->
+        <img src="DevOps-lifecycle.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb arendustsükli head ja vead -->
+        <table>
+            <caption>DevOps arendustsükli head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Kiirem kohaletoimetamine</td>
+                <td>Suur alginvesteering</td>
+            </tr>
+            <tr>
+                <td>Täiustatud koostöö</td>
+                <td>Oskuste nappus</td>
+            </tr>
+            <tr>
+                <td>Täiustatud kvaliteet</td>
+                <td>Vastupidavus muutustele</td>
+            </tr>
+            <tr>
+                <td>Suurenenud automatiseerimine</td>
+                <td>Standardiseerimise puudumine</td>
+            </tr>
+            <tr>
+                <td>Parem skaleeritavus</td>
+                <td>Suurem keerukus</td>
+            </tr>
+            <tr>
+                <td>Suurenenud klientide rahulolu</td>
+                <td>Sõltuvus tehnoloogiast</td>
+            </tr>
+            <tr>
+                <td>Täiustatud turvalisus</td>
+                <td>Vajadus pideva täiustamise järele</td>
+            </tr>
+            <tr>
+                <td>Parem ressursside kasutamine</td>
+                <td></td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.geeksforgeeks.org/introduction-to-devops/" target="_blank">GeeksforGeeks</a>
+        <a href="https://www.geeksforgeeks.org/devops-lifecycle/" target="_blank">GeeksforGeeks</a>
+     </p>
+</body>
+</html>
