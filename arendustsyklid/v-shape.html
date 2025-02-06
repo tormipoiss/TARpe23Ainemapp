@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Shape</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>V-Shape ehk V-mudel</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        V-mudel on teatud tüüpi SDLC mudel, kus protsess toimub järjestikku V-kujuliselt.<br>
+        Seda tuntakse ka kui kontrollimise ja kinnitamise mudelit.<br>
+        See põhineb iga vastava arendusetapi testimisfaasi seostamisel.<br>
+        Iga etapi väljatöötamine on otseselt seotud testimisfaasiga.<br>
+        Järgmine etapp algab alles pärast eelmise faasi lõppu, st iga<br>
+        arendustegevuse jaoks on sellele vastav testimistegevus.<br><br>
+        V-mudelit kasutatakse sageli ohutuses: kriitilistes süsteemides, nagu lennundus- ja<br>
+        kaitsesüsteemid, kuna see paneb rõhku põhjalikule testimisele ja<br>
+        suudab selgelt määratleda tarkvaraarenduse protsessi etapid.<br><br>
+    </p>
+    <!-- etapid ja nende kirjeldus -->
+     <p>
+        <ol>
+            <li>
+                <!-- esimene etapp -->
+                Etapp - Nõuete kogumine ja analüüs:<br>
+                V-mudeli esimene faas on nõuete kogumise ja analüüsi faas, kus kogutakse kokku ja analüüsitakse<br>
+                kliendi nõuded tarkvarale, et määrata kindlaks projekti ulatus.<br><br>
+            </li>
+            <li>
+                <!-- teine etapp -->
+                Etapp - Disain:<br>
+                Disainifaasis töötatakse välja tarkvara arhitektuur ja disain,<br>
+                sealhulgas kõrgetasemeline disain ja detailne disain.<br><br>
+            </li>
+            <li>
+                <!-- kolmas etapp -->
+                Etapp - Rakendamine:<br>
+                Rakendamise faasis ehitatakse tarkvara disainist lähtuvalt.<br><br>
+            </li>
+            <li>
+                <!-- neljas etapp -->
+                Etapp - Testimine:<br>
+                Testimise etapis testitakse tarkvara, et tagada selle vastavus kliendi nõuetele ja kvaliteet.<br><br>
+            </li>
+            <li>
+                <!-- viies etapp -->
+                Etapp - Juurutamine:<br>
+                Selles etapis juurutatakse tarkvara ja võetakse kasutusele.<br><br>
+            </li>
+            <li>
+                <!-- kuues etapp -->
+                Etapp - Hooldus:<br>
+                Hooldusfaasis hooldatakse tarkvara tagamaks, et see vastaks jätkuvalt kliendi vajadustele ja ootustele.<br><br>
+            </li>
+            <!-- kokkuvõte -->
+        </ol>
+        Tarkvaraarenduse elutsükli (SDLC) teaduslikku ja organiseeritud lähenemist pakub<br>
+        tarkvaratehnoloogia V-mudel. Mis tahes SDLC mudeli, sealhulgas V-mudeli valimisel<br>
+        tuleks arvesse võtta meeskonna teadmisi valitud metoodikaga,<br>
+        projekti ainulaadseid omadusi ja nõuete olemust.<br><br>
+
+        <!-- arendustsükli pilt -->
+        <img src="V-model.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb arendustsükli head ja vead -->
+        <table>
+            <caption>V-mudeli arendustsükli head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>See on väga distsiplineeritud mudel ja faasid viiakse läbi ükshaaval.</td>
+                <td>Suur risk ja ebakindlus.</td>
+            </tr>
+            <tr>
+                <td>V-mudelit kasutatakse väikeste projektide jaoks, kus projekti nõuded on selged.</td>
+                <td>See ei sobi keerukate ja objektorienteeritud projektide jaoks.</td>
+            </tr>
+            <tr>
+                <td>Lihtne ja hõlpsasti mõistetav ja kasutatav.</td>
+                <td>See ei sobi projektidele, mille nõuded pole selged ja sisaldavad suurt muutumisriski.</td>
+            </tr>
+            <tr>
+                <td>See mudel keskendub verifitseerimis- ja valideerimistoimingutele elutsükli varases staadiumis,<br>
+                    suurendades seeläbi veavaba ja kvaliteetse toote loomise tõenäosust.</td>
+                <td>See mudel ei toeta faaside iteratsiooni.</td>
+            </tr>
+            <tr>
+                <td>See võimaldab projektijuhtimisel edenemist täpselt jälgida.</td>
+                <td>See ei käsitle samaaegseid sündmusi lihtsalt.</td>
+            </tr>
+            <tr>
+                <td>Selge ja struktureeritud protsess: V-mudel pakub tarkvara arendamiseks selget ja<br>
+                    struktureeritud protsessi, mis muudab selle mõistmise ja järgimise lihtsamaks.</td>
+                <td>Paindmatus: V-mudel on lineaarne ja järjestikune mudel, mis võib muuta<br>
+                    muutuvate nõuete või ootamatute sündmustega kohanemise keeruliseks.</td>
+            </tr>
+            <tr>
+                <td>Rõhk testimisel: V-mudel paneb suure rõhu testimisele, mis aitab<br>
+                    tagada tarkvara kvaliteedi ja töökindluse.</td>
+                <td>Aeganõudev: V-mudel võib olla aeganõudev, kuna see<br>
+                    nõuab palju dokumentatsiooni ja testimist.</td>
+            </tr>
+            <tr>
+                <td>Täiustatud jälgitavus: V-mudel pakub selget seost nõuete ja lõpptoote vahel,<br>
+                    muutes tarkvara muudatuste jälgimise ja haldamise lihtsamaks.</td>
+                <td>Liigne tuginemine dokumentatsioonile: V-mudel paneb suurt rõhku dokumenteerimisele,<br>
+                    mis võib viia dokumentatsiooni liigsele sõltuvusele tegeliku arendustöö arvelt.</td>
+            </tr>
+            <tr>
+                <td>Parem suhtlus: V-mudeli selge struktuur aitab parandada<br>
+                    suhtlust kliendi ja arendusmeeskonna vahel.</td>
+                <td></td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.geeksforgeeks.org/software-engineering-sdlc-v-model/" target="_blank">GeeksforGeeks</a>
+     </p>
+</body>
+</html>
