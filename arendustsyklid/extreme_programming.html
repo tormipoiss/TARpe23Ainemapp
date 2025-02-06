@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Programming</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Extreme programming ehk ekstreemprogrammeerimine</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Ekstreemprogrammeerimine (XP) on agiilne tarkvaraarenduse metoodika, mis keskendub<br>
+        kvaliteetse tarkvara pakkumisele sagedase ja pideva tagasiside, koostöö ja kohandamise kaudu.<br>
+        XP rõhutab tihedat töösuhet arendusmeeskonna, kliendi ja sidusrühmade vahel,<br>
+        rõhuasetusega kiirel iteratiivsel arendusel ja kasutuselevõtul.<br><br>
+    </p>
+    <!-- etapid ja nende kirjeldus -->
+     <p>
+        <ol>
+            <li>
+                <!-- esimene etapp -->
+                Etapp - Planeerimine:<br>
+                Ekstreemprogrammeerimise esimene etapp on planeerimine. Selles etapis määratlevad kliendid oma<br>
+                vajadused lühikirjeldustes, mida nimetatakse kasutajalugudeks. Meeskond arvutab iga loo jaoks<br>
+                vajaliku jõupingutuse ja ajastab väljaanded vastavalt prioriteedile ja pingutustele.<br><br>
+            </li>
+            <li>
+                <!-- teine etapp -->
+                Etapp - Disain:<br>
+                Meeskond loob ainult praeguste kasutajalugude jaoks vajaliku kujunduse, kasutades ühist<br>
+                analoogiat või lugu, mis aitab kõigil mõista süsteemi üldist arhitektuuri ning<br>
+                hoida kujundust sirgjoonelise ja selgena.<br><br>
+            </li>
+            <li>
+                <!-- kolmas etapp -->
+                Etapp - Kodeerimine:<br>
+                Ekstreemprogrammeerimine soodustab paarisprogrammeerimist, st kaks arendajat töötavad ühes<br>
+                tööjaamas koos, parandades koodi kvaliteeti ja teadmiste jagamist.<br>
+                Nad kirjutavad enne kodeerimist teste, et tagada funktsionaalsus algusest peale<br>
+                (TDD ehk Test-Driven Development), ja integreerivad oma koodi sageli automaatsete<br>
+                testidega jagatud hoidlasse, et probleeme varakult tuvastada.<br><br>
+            </li>
+            <li>
+                <!-- neljas etapp -->
+                Etapp - Testimine:<br>
+                Ekstreemprogrammeerimine annab suurema tähtsuse testimisele, mis koosneb nii üksustestidest<br>
+                kui ka vastuvõtutestist. Üksustestid, mis on automatiseeritud, kontrollivad, kas<br>
+                konkreetsed funktsioonid töötavad õigesti. Klientide poolt läbi viidud vastuvõtutestid tagavad, et<br>
+                kogu süsteem vastab esialgsetele nõuetele.<br>
+                See pidev testimine tagab tarkvara kvaliteedi ja vastavuse klientide vajadustele.<br><br>
+            </li>
+            <li>
+                <!-- viies etapp -->
+                Etapp - Kuulamine:<br>
+                Kuulamisfaasis saadakse klientidelt regulaarne tagasiside tagamaks, et<br>
+                toode vastab nende vajadustele ja kohanetakse muudatustega.<br><br>
+            </li>
+            <!-- kokkuvõte -->
+        </ol>
+        Ekstreemprogrammeerimine on tarkvaraarenduse metoodika, mis on tuntud oma paindlikkuse,<br>
+        koostöö ja kiire tagasiside poolest, kasutades selliseid tehnikaid nagu pidev testimine,<br>
+        sagedased väljalasked ja paarisprogrammeerimine, milles kaks programmeerijat teevad<br>
+        koostööd sama koodi kallal. XP toetab kasutajate kaasamist kogu arendusprotsessi vältel,<br>
+        seades esikohale lihtsuse ja suhtluse.<br>
+        Üldiselt on XP eesmärk pakkuda kiiresti kvaliteetset tarkvara ja kohaneda tõhusalt muutuvate nõuetega.<br><br>
+
+        <!-- arendustsükli pilt -->
+        <img src="Life-Cycle-of-Extreme-Programming.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb arendustsükli head ja vead -->
+        <table>
+            <caption>Ekstreemprogrammeerimise arendustsükli head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Pidev testimine ja ümbertöötamine aitavad luua stabiilseid hästitoimivaid süsteeme minimaalse silumisega</td>
+                <td>Paljudel juhtudel pole kliendil lõpptulemusest selget pilti, mistõttu on ulatuse,<br>
+                    kulude ja aja täpse hinnangu andmine peaaegu ebareaalne</td>
+            </tr>
+            <tr>
+                <td>Lihtsuse väärtus: selge, kokkuvõtliku koodi loomine,<br>
+                    mida on lihtne lugeda ja vajaduse korral tulevikus muuta</td>
+                <td>Regulaarsed kohtumised klientidega võtavad sageli palju aega, mille võiks<br>
+                    kulutada hoopis tegelikule koodi kirjutamisele</td>
+            </tr>
+            <tr>
+                <td>Minimalistlik iteratiivne lähenemine arendusele tagab, et toimivad tulemused on saavutatud<br>
+                    väga kiiresti ja ehitatakse ainult vajalikud funktsioonid</td>
+                <td>Dokumentatsioon võib olla napp ning neil puuduvad selged nõuded ja<br>
+                    spetsifikatsioonid, mis võib viia projekti ulatuse vähenemiseni</td>
+            </tr>
+            <tr>
+                <td>Dokumentatsioon väheneb, kuna mahukad nõuete dokumendid asendatakse kasutajalugudega</td>
+                <td>Kiire üleminek traditsioonilistelt tarkvaraarenduse meetoditelt ekstreemprogrammeerimisele<br>
+                    nõuab olulisi kultuurilisi ja struktuurilisi muutusi</td>
+            </tr>
+            <tr>
+                <td>Ületunde ei tehta või tehakse seda väga vähe</td>
+                <td>Paarisprogrammeerimine võtab rohkem aega ja ei tööta alati õigesti<br>
+                    inimfaktori ja iseloomu mittesobivuse tõttu</td>
+            </tr>
+            <tr>
+                <td>Pidev suhtlus tagab kõrge nähtavuse ja vastutuse ning võimaldab<br>
+                    kõigil meeskonnaliikmetel projekti edenemisega sammu pidada</td>
+                <td>XP töötab kõige paremini koos paiknevate meeskondade ja isiklikult kohal<br>
+                    olevate klientidega, et pidada silmast silma kohtumisi,<br>
+                    piirates selle kasutamist hajutatud meeskondadega</td>
+            </tr>
+            <tr>
+                <td>Paarprogrammeerimine: selle tulemuseks on kõrgema kvaliteediga tooted, millel on vähem<br>
+                    vigu ja nauditakse sellist koostööd rohkem ning tunnetakse end oma töös kindlamalt</td>
+                <td>Mõnikord pole klientidel tootearenduses osalemiseks ei soovi, aega ega teadmisi.<br>
+                    Arvestades kitsaid tähtaegu, võib see muutuda stressiallikaks, kuna kas ei anta<br>
+                    väärtuslikku tagasisidet või mittetehniline esindaja püüab juhtida<br>
+                    tehnikaspetsialiste, kellel on protsessist vähe või puuduvad teadmised</td>
+            </tr>
+            <tr>
+                <td>Kliendi kaasamine tagab nende rahulolu, kuna nende osalemine arendus- ja<br>
+                    testimisprotsessis võib tulemust otseselt mõjutada,<br>
+                    saades neile täpselt selle, mida nad soovisid
+                <td>Mõned autorid mainivad ka liigset keskendumist koodile disaini asemel,<br>
+                    kvaliteedi tagamise puudumist, koodi dubleerimist ja<br>
+                    kogenematute arendajate halbu tulemusi</td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.geeksforgeeks.org/software-engineering-extreme-programming-xp/" target="_blank">GeeksforGeeks</a>
+        <a href="https://www.altexsoft.com/blog/extreme-programming-values-principles-and-practices/" target="_blank">AltexSoft</a>
+     </p>
+</body>
+</html>
