@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous test-driven development</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Continuous test-driven development ehk pidev testipõhine arendus</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Continuous test-driven development (CTDD) on tarkvaraarenduse tava, mis laiendab<br>
+        testipõhist arendust (TDD) taustal automaatse testimise abil,<br>
+        mida mõnikord nimetatakse pidevaks testimiseks.<br><br>
+
+        CTDD-s kirjutab arendaja esmalt testi, kuid pole sunnitud teste käsitsi täitma.<br>
+        Teste käivitab automaatselt taustal töötav pidev testimistööriist.<br>
+        See meetod võib potentsiaalselt vähendada testi käsitsi täitmisest tulenevat ajaraiskamist,<br>
+        kuna arendaja ei pea testi alustama pärast tavapärase TDD-praktika iga etappi:<br>
+        pärast (esialgu ebaõnnestunud) testi kirjutamist,<br>
+        pärast testi läbimiseks vajaliku minimaalse koodikoguse loomist ja pärast koodi ümbertöötamist.<br><br>
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="continuous tdd.png" alt="y u no see? buy internet" width="70%">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Continuous test-driven development-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Parem koodikvaliteet: Pidev testimine tagab, et kõik koodimuudatused kinnitatakse kohe,<br>
+                    vähendades defekte ja parandades üldist töökindlust.</td>
+                <td>Kõrged algkulud: Terviklike testikomplektide väljatöötamine ja pideva integreerimise/testimise<br>
+                    infrastruktuuri loomine nõuab märkimisväärset aega ja ressursse.</td>
+            </tr>
+            <tr>
+                <td>Kiiremad tagasisideahelad: Arendajad saavad koodimuudatuste kohta kohe tagasisidet,<br>
+                    mis võimaldab probleeme kiiresti tuvastada ja lahendada.</td>
+                <td>Tööriistade ja automatiseerimise piirangud: Automatiseeritud testimise skaleerimine pidevaks<br>
+                    integreerimiseks nõuab sageli täiustatud tööriistu, millel võib olla piiranguid,<br>
+                    nagu aeglane täitmine või raskused samaaegsete seansside käsitlemisel.</td>
+            </tr>
+            <tr>
+                <td>Suurenenud usaldus koodi vastu: Pidev testimine toimib turvavõrguna, vähendades hirmu ümbertöötamise või<br>
+                    uute funktsioonide lisamise ajal vigade sissetoomise ees.</td>
+                <td>Testhoolduse üldkulud: Rakenduses tehtavad sagedased muudatused võivad nõuda pidevat<br>
+                    testjuhtumite värskendamist, suurendades hooldustööd ja kulusid.</td>
+            </tr>
+            <tr>
+                <td>Agiilsete tavadega vastavus: Pidev TDD sobib hästi agiilsete metoodikatega,<br>
+                    jagades arenduse väikesteks juhitavateks iteratsioonideks,<br>
+                    mis keskenduvad kasutajatele väärtuse pakkumisele</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        Infinitest: JVM-i pidev testijooksja.<br>
+        Iga kord koodi muutmisel, käivitab Infinitest asjakohased testid.<br><br>
+
+        allikad:
+        <a href="https://en.wikipedia.org/wiki/Continuous_test-driven_development" target="_blank">Wikipedia</a>
+        <a href="https://madeyski.e-informatyka.pl/download/Madeyski13ENASE.pdf" target="_blank">Lech Madeyski and Marcin Kawalerowicz</a>
+        <a href="https://infinitest.github.io/" target="_blank">Infinitest</a>
+
+        <a href="https://www.perplexity.ai/search/what-are-the-challenges-and-be-c6yZT6B8RS2wtVrA7I3yEg" target="_blank">Perplexity</a>
+        (päringu allikad: <a href="https://www.developernation.net/blog/10-benefits-of-test-driven-development-to-your-devops-team/" target="_blank">developernation</a>
+        <a href="https://www.synapseindia.com/article/10-benefits-of-test-driven-development-for-improved-code-quality" target="_blank">synapseindia</a>
+        <a href="https://www.qatouch.com/blog/test-driven-development/" target="_blank">qatouch</a>
+        <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">wikipedia</a>
+        <a href="https://smartbear.com/blog/top-5-continuous-testing-challenges-how-to-tackle/" target="_blank">smartbear</a>)
+     </p>
+</body>
+</html>

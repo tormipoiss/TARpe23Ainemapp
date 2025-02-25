@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain-driven design</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Domain-driven design ehk domeenipõhine disain</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Domain-driven design (DDD) on tarkvara kujundamise lähenemisviis,<br>
+        mis keskendub tarkvara modelleerimisele, et see sobiks domeeniga vastavalt selle<br>
+        domeeni ekspertide sisendile.<br><br>
+        DDD on vastu ideele omada singulaarset ühtset mudelit; selle asemel jagab see suure<br>
+        süsteemi piiratud kontekstideks, millest igaühel on oma mudel.<br><br>
+        DDD korral peaks tarkvarakoodi struktuur ja keel (klassinimed, klassimeetodid, klassimuutujad)<br>
+        ühtima ärivaldkonnaga. Näiteks: kui tarkvara töötleb laenutaotlusi, võivad sellel<br>
+        olla sellised klassid nagu "laenutaotlus", "kliendid" ja<br>
+        sellised meetodid nagu "aksepteeri pakkumine" ja "välja võtmine".<br><br>
+        Domeenipõhine disain põhineb järgmistel eesmärkidel:<br>
+        <ul>
+            <li>Projekti põhifookuse asetamine põhidomeenile ja domeeniloogikakihile</li>
+            <li>Keerukate kujunduste rajamine domeeni mudelile</li>
+            <li>Loova koostöö algatamine tehniliste ja domeeniekspertide vahel, et iteratiivselt<br>
+                viimistleda kontseptuaalset mudelit, mis käsitleb konkreetseid domeeniprobleeme.</li>
+        </ul>
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="Domain-Driven-Design.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Domain-driven design-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Edendab tõhusat suhtlust domeeniekspertide, arendajate ja sidusrühmade vahel, kasutades ühist keelt.</td>
+                <td>DDD võib tekitada keerukust, eriti suurtes domeenides. Keeruliste ärivaldkondade täpne<br>
+                    modelleerimine nõuab mitmetähenduslikkuse sügavat mõistmist ja hoolikat juhtimist.</td>
+            </tr>
+            <tr>
+                <td>Aitab meeskondadel seada prioriteediks rakenduse kõige väärtuslikumad valdkonnad, et saavutada ärieesmärgid.</td>
+                <td>Keerulistes valdkondades võib erinevate mudelite ja piiratud kontekstide joondamine olla keeruline.<br>
+                    Selge suhtlus ja koordineerimine on vastuolude vältimiseks hädavajalikud.</td>
+            </tr>
+            <tr>
+                <td>Julgustab kujundusi, mis kohanduvad arenevate ärivajaduste ja turutingimustega.</td>
+                <td>DDD rakendamine võib nõuda uusi tehnoloogiaid ja raamistikke, mis raskendab integreerimist<br>
+                    olemasolevate süsteemidega. Jõudluse ja ulatuse probleemide lahendamine on<br>
+                    eduka kasutuselevõtu jaoks ülioluline.</td>
+            </tr>
+            <tr>
+                <td>Säilitab selge vahe domeeniloogika, infrastruktuuri ja kasutajaliidese vahel.</td>
+                <td>Meeskonnaliikmed võivad traditsiooniliste meetodite tundmise tõttu DDD-le vastu seista.<br>
+                    Selle ületamiseks on vaja tõhusat suhtlust ja koolitust DDD eeliste kohta.</td>
+            </tr>
+            <tr>
+                <td>Toetab täpselt määratletud domeeniobjekte lihtsamaks ja täpsemaks testimiseks.</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        Axon Framework: Toetab DDD-d, pakkudes tööriistu sündmustepõhiste arhitektuuride rakendamiseks.<br><br>
+
+        allikad:
+        <a href="https://en.wikipedia.org/wiki/Domain-driven_design" target="_blank">Wikipedia</a>
+        <a href="https://www.geeksforgeeks.org/domain-driven-design-ddd/" target="_blank">GeeksforGeeks</a>
+        <a href="https://www.perplexity.ai/search/an-example-of-a-case-tool-that-XUgCRN.4R9Wzb2kcVQkqVA" target="_blank">Perplexity</a>
+        (päringu allikas: <a href="https://softwaremill.com/domain-driven-design-a-softwaremill-way/" target="_blank">softwaremill</a>)
+     </p>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-oriented design</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Data-oriented design ehk andmetele orienteeritud disain</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Andmetöötluses on andmetele orienteeritud disain programmide optimeerimise lähenemisviis,<br>
+        mis on ajendatud protsessori vahemälu tõhusast kasutamisest, mida sageli kasutatakse videomängude arendamisel.<br>
+        Lähenemisviis on keskenduda andmete paigutusele, eraldada ja sorteerida väljad vastavalt<br>
+        vajadusele ning mõelda andmete teisendustele.<br><br>
+
+        Paralleelne massiiv (või massiivide struktuur) on andmetele orienteeritud disaini peamine näide.<br>
+        See vastandub objektorienteeritud disainidele tüüpiliste struktuuride massiiviga.<br>
+        Need hõlmavad mitme massiivi kasutamist seotud andmete salvestamiseks, kus sama indeksi<br>
+        vastavad elemendid erinevates massiivides on loogiliselt seotud.<br><br>
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="data-oriented-design.png" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Data-oriented design-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Parem jõudlus: Data-oriented design võib viia kiiremate ja tõhusamate programmideni,<br>
+                    vähendades andmete liikumist ja optimeerides vahemälu.</td>
+                <td>Nõuab teistsugust mõtteviisi: Data-oriented design nõuab tarkvaraarenduse osas teistsugust<br>
+                    mõtteviisi kui muud lähenemisviisid, näiteks objektorienteeritud disain.<br>
+                    See võib olla väljakutse arendajatele, kes on harjunud mõtlema objektide ja meetodite alusel.</td>
+            </tr>
+            <tr>
+                <td>Lihtsustatud kood: Data-oriented design võib muuta koodi hõlpsamini mõistetavaks ja hooldatavaks,<br>
+                    kuna see eraldab andmed toimingutest ja soodustab kohustuste selget eraldamist.<br>
+                    See võib hõlbustada programmi funktsioonide lisamist või muutmist.</td>
+                <td>Võib nõuda varasemat planeerimist: andmetele orienteeritud disain nõuab sageli rohkem<br>
+                    varasemat planeerimist ja kavandamist kui muud lähenemisviisid,<br>
+                    kuna andmete korraldamine võib jõudlust oluliselt mõjutada.<br>
+            </tr>
+            <tr>
+                <td>Parem paindlikkus: Data-oriented design võib hõlbustada programmi funktsioonide<br>
+                    lisamist või muutmist, kuna see eraldab andmed konkreetsetest toimingutest.<br>
+                    See võib võimaldada programmi kasutamisel suuremat paindlikkust ja<br>
+                    hõlbustada muutuvate nõuetega kohanemist.</td>
+                <td>Võib olla vähem intuitiivne: andmetele orienteeritud disain võib mõne arendaja<br>
+                    jaoks olla vähem intuitiivne, kuna see nõuab andmete ja toimingute abstraktsemat mõtlemist.<br>
+                    See võib raskendada selles stiilis kirjutatud koodi mõistmist ja silumist.</td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        Unity ECS (Entity Component System): See raamistik on loodud koodi struktureerimiseks andmete ja<br>
+        süsteemide ümber, muutes selle sobivaks DOD põhimõtete rakendamiseks mänguarenduses ja muudes rakendustes.<br><br>
+
+        allikad:
+        <a href="https://en.wikipedia.org/wiki/Data-oriented_design" target="_blank">Wikipedia</a>
+        <a href="https://www.linkedin.com/pulse/data-oriented-design-old-new-approach-luca-cirillo" target="_blank">linkedin</a>
+        <a href="https://arpanext.medium.com/a-comprehensive-guide-to-data-oriented-design-for-improved-software-efficiency-6434d520d0e4" target="_blank">Medium</a>
+        <a href="https://infiniteinsights.vercel.app/blog/array/prallelarrays.html" target="_blank">INFINITE INSIGHTS</a>
+
+        <a href="https://www.perplexity.ai/search/an-example-of-a-case-tool-that-X0nIkLkYRFC6wtnhQZdvYA" target="_blank">Perplexity</a>
+        (päringu allikas: <a href="https://www.orientsoftware.com/blog/dod-programming/" target="_blank">orientsoftware</a>)
+     </p>
+</body>
+</html>

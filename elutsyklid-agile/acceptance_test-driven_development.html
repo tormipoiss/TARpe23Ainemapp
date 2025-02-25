@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceptance test-driven development</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Acceptance test-driven development ehk vastuvõtutestipõhine arendus</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Analoogselt Test-driven development-ile hõlmab Acceptance test-driven development (ATDD)<br>
+        erinevate vaatenurkadega (klient, arendus, testimine) meeskonnaliikmeid, kes teevad koostööd, et<br>
+        kirjutada aktsepteerimisteste enne vastava funktsionaalsuse juurutamist.<br><br>
+
+        Need aktsepteerimistestid esindavad kasutaja vaatenurka ja toimivad nõuete vormina,<br>
+        et kirjeldada, kuidas süsteem toimib, ning samuti on nende abil võimalik kontrollida,<br>
+        kas süsteem toimib ettenähtud viisil. Mõnel juhul automatiseerib meeskond vastuvõtutestid.<br><br>
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="atdd-process.png" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Acceptance test-driven development-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Täiustatud suhtlus ja koostöö: ATDD edendab koostöökeskkonda, kus arendajad, testijad ja<br>
+                    sidusrühmad teevad algusest peale tihedat koostööd.<br>
+                    See aitab tagada ühise arusaamise tootenõuetest.</td>
+                <td>Aeg ja hooldus: Üks oluline väljakutse on aja- ja hooldusvajadus.<br>
+                    Projekti alguses kõikehõlmavate vastuvõtutestide koostamine võib olla aeganõudev,<br>
+                    lükates edasi tegeliku arenduse algust.<br>
+                    Koodibaasi kasvades ja arenedes tuleb neid teste muudatuste kajastamiseks värskendada.<br>
+                    Kui projekt on mahukas ja seda uuendatakse sageli, võib sellest saada märkimisväärne hoolduskoormus.</td>
+            </tr>
+            <tr>
+                <td>Selged tootenõuded: Vastuvõtukriteeriumide varane määratlemine annab selguse,<br>
+                    mida tuleb ehitada ja testida.<br>
+                    See hoiab ära arusaamatused ja tagab vastavuse ärinõuetele.</td>
+                <td>Tehniliste oskuste nõuded: Tõhusate vastuvõtutestide kirjutamine eeldab teadmisi<br>
+                    kvaliteeditestijuhtumite, rakendusvaldkonna ja testimisvahendite arendamise kohta.<br>
+                    Ilma piisavate tehniliste oskusteta meeskonnaliikmetel võib olla raskusi tõhusa panuse andmisega,<br>
+                    mis toob kaasa ebaühtlase testikvaliteedi ja lünkade testide katvuses.</td>
+            </tr>
+            <tr>
+                <td>Varajane tagasiside: Meeskonnad saavad anda ja saada kiiresti tagasisidet,<br>
+                    valideerides väikesed tööühikud vastuvõtutestide suhtes arendustsükli varases staadiumis.</td>
+                <td>Komplekssed aktsepteerimiskriteeriumid: Selgete ja täpsete aktsepteerimiskriteeriumide määratlemine<br>
+                    võib olla keeruline, eriti keeruliste funktsioonide puhul.<br>
+                    Arusaamatused võivad põhjustada valesid rakendusi.<br>
+                    Liiga üksikasjalikud kriteeriumid võivad piirata loovust ja rakendamise paindlikkust,<br>
+                    samas kui liiga ebamäärased kriteeriumid võivad põhjustada valesti tõlgendamist.</td>
+            </tr>
+            <tr>
+                <td>Suurenenud kvaliteet: Eelmääratletud aktsepteerimiskriteeriumide täitmine aitab saavutada puhta ja<br>
+                    hooldatava koodiga kvaliteetsema toote.</td>
+                <td>Ebapiisav koostöö: ATDD toetub kõigi sidusrühmade aktiivsele osalemisele.<br>
+                    Kui ettevõtte sidusrühmad ei ole täielikult kaasatud, ei pruugi aktsepteerimiskriteeriumid<br>
+                    kasutajate vajadusi täpselt kajastada.<br>
+                    Nende lünkade ületamiseks on oluline hõlbustada selget ja tõhusat suhtlust<br>
+                    äri- ja tehniliste meeskondade vahel.</td>
+            </tr>
+            <tr>
+                <td>Suurenenud kliendirahulolu: Kuna aktsepteerimiskriteeriumid määrab ettevõte, tagab rakendatud<br>
+                    koodi nende kriteeriumide alusel valideerimine toote vastavuse klientide vajadustele,<br>
+                    mis toob kaasa suurema rahulolu.</td>
+                <td>Tööriistade ja integreerimise probleemid: Meeskonnaliikmetel võib olla keeruline valida õigeid tööriistu,<br>
+                    mis sobivad nende töövoo ja projekti vajadustega.<br>
+                    ATDD protsessi võivad takistada ühildumatud või ebapiisavad tööriistad.<br>
+                    ATDD tööriistad nõuavad hoolikat planeerimist ja teostamist, et integreerida need<br>
+                    olemasolevate arenduskeskkondade, CI/CD torujuhtmete ja muude tööriistadega.</td>
+            </tr>
+            <tr>
+                <td>Vähendatud ümbertöötlemine ja madalamad kulud: Probleemide varajane avastamine ja lahendamine<br>
+                    vähendab ümbertöötamise vajadust, säästes aega ja kulusid, mis on seotud<br>
+                    probleemide lahendamise hilisemas arendusprotsessis.</td>
+                <td>Testi automatiseerimise üldkulud: Automaattestide arendamiseks ja hooldamiseks on vaja märkimisväärseid<br>
+                    ressursse, mis võib arendusprotsessi aeglustada, eriti kui testid pole hästi optimeeritud.<br>
+                    Automaattestid võivad mõnikord olla ebaühtlased, andes ebajärjekindlaid tulemusi.<br>
+                    See võib õõnestada usaldust testide vastu ja nõuda täiendavaid jõupingutusi nende stabiliseerimiseks.</td>
+            </tr>            
+            <tr>
+                <td>Pidev integreerimine ja tarne (CI/CD): Automatiseeritud vastuvõtutestid hõlbustavad muudatuste<br>
+                    kiiret integreerimist ja tarkvara pidevat tarnimist.<br>
+                    See tagab uute funktsioonide kiire ja enesekindla juurutamise.</td>
+                <td></td>
+            </tr>            
+            <tr>
+                <td>Edendab testimise automatiseerimist: ATDD soodustab testimisprotsesside automatiseerimist ja<br>
+                    aitab säilitada kõrget arendustempot, tagades samal ajal tarkvara stabiilsuse ja töökindluse.</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        Robot Framework: Toetab ATDD-d, võimaldades hõlpsasti luua märksõnapõhises vormingus vastuvõtuteste.<br><br>
+
+        allikad:
+        <a href="https://www.agilealliance.org/glossary/atdd/#:~:text=What%20is%20Acceptance%20Test%20Driven,of%20implementing%20the%20corresponding%20functionality." target="_blank">Agile Alliance</a>
+        <a href="https://testlio.com/blog/what-is-acceptance-test-driven-development/" target="_blank">testlio</a>
+        <a href="https://www.perplexity.ai/search/an-example-of-a-case-tool-that-XUgCRN.4R9Wzb2kcVQkqVA" target="_blank">Perplexity</a>
+        (päringu allikas: <a href="https://www.pmi.org/learning/library/acceptance-test-driven-development-5966" target="_blank">pmi</a>)
+     </p>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavior-driven development</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Behavior-driven development ehk käitumisest juhitud arendus</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Behavior-driven development (BDD) on agiilne tarkvaraarenduse metoodika,<br>
+        mis seab esikohale arendajate, testijate ja mittetehniliste sidusrühmade vahelise koostöö,<br>
+        et tagada kliendikesksed tulemused. BDD-s määratletakse nõuded soovitud käitumise ja<br>
+        kasutajalugude alusel, mis võimaldab selgemat suhtlust ja keskenduda äriväärtuse pakkumisele.<br><br>
+        See lähenemine rõhutab käivitatavate spetsifikatsioonide loomist, mis toimivad nii<br>
+        dokumentatsiooni kui ka testidena, soodustades ühist arusaamist<br>
+        projekti eesmärkidest ja parandades toote kvaliteeti.<br><br>
+        BDD-d peetakse testiks, mis illustreerib süsteemi käitumist. See julgustab kasutama vestlust<br>
+        ja konkreetseid näiteid lihtsas keeles kõigi arendustööga seotud isikute jaoks,<br>
+        et tuua süsteemi käitumisesse paremat selgust. Selles arenduses määratlevad tehnikad<br>
+        süsteemi käitumisel põhineva funktsiooni arendamiseks erinevaid viise ning tehnikad on<br>
+        kombineeritud testipõhisest arendusest (TDD) ja domeenipõhisest arendusest (DDD).<br><br>
+        Behavior-driven development on automaattestimisel hea lähenemisviis, kuna see keskendub rohkem<br>
+        süsteemi käitumisele kui koodi rakendamisele. BDD-d hõlbustatakse loomuliku keele kaudu, et<br>
+        väljendada süsteemi käitumist ja süsteemist oodatavaid tulemusi.<br>
+        BDD-sse on kaasatud kõik osapooled, nagu klient, arendaja, testija ja sidusrühmad,<br>
+        et pidada koostööd ja illustreerida süsteemi käitumist.<br><br>
+        BDD testimine hõlmab stsenaariumide kirjutamist sellises keeles nagu Gherkin, nende<br>
+        automatiseerimist tarkvara käitumise kinnitamiseks ja nõuete täitmise tagamist.<br><br>
+        BDD testimisel kirjeldatakse stsenaariume domeenispetsiifilise keele (DSL) abil, nagu Gherkin,<br>
+        mis on hõlpsasti arusaadav nii tehnilistele kui ka mittetehnilistele meeskonnaliikmetele.<br><br>
+        Näiteks võib stsenaariumi kirjeldada järgmiselt: "Kui kasutaja on sisse logitud, siis kui ta<br>
+        klõpsab nupul "logi välja", tuleb ta välja logida ja suunata sisselogimislehele.<br><br>
+        Funktsioonifailid on dokumendid, mis sisaldavad Gherkini skripte ja muud asjakohast sisu.<br><br>
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="Behavior-Driven-Development-bDD-Life-Cycle.webp" alt="y u no see? buy internet">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Behavior-driven development-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Täiustatud koostöö: BDD edendab koostööd ettevõtete sidusrühmade, arendajate ja<br>
+                    testijate vahel, kasutades nõuete kirjeldamiseks ühist keelt.<br>
+                    See soodustab meeskonnaliikmete paremat mõistmist ja ühtlustumist.</td>
+                <td>Esialgne õppimine: BDD kasutuselevõtt nõuab meeskondadelt uute raamistike, tööriistade ja<br>
+                    metoodikate õppimist, mis võib algselt aeglustada arendusprotsessi,<br>
+                    kui meeskonnaliikmed tutvuvad uue lähenemisviisiga.</td>
+            </tr>
+            <tr>
+                <td>Selgemad nõuded: stsenaariumide kirjutamine lihtsas keeles Gherkini süntaksi abil<br>
+                    aitab nõudeid ja ootusi selgitada. See vähendab ebaselgust ja tagab, et<br>
+                    kõigil on ühine arusaam soovitud käitumisest.</td>
+                <td>Aeganõudev protsess: funktsioonifailide kirjutamine, stsenaariumide määratlemine ja<br>
+                    sammude määratluste säilitamine võib olla aeganõudev, eriti suurte ja keeruliste<br>
+                    projektide puhul, mis võib põhjustada viivitusi tarnimisel.</td>
+            </tr>
+            <tr>
+                <td>Keskendumine kasutaja käitumisele: BDD rõhutab süsteemi käitumist kasutaja vaatenurgast.<br>
+                    Keskendudes kasutajate lugudele ja stsenaariumidele, tagab BDD, et<br>
+                    arendustegevused on vastavuses kasutajate vajaduste ja prioriteetidega.</td>
+                <td>Sõltuvus sidusrühmade kaasamisest: BDD tugineb suurel määral koostööle sidusrühmade,<br>
+                    sealhulgas ärianalüütikute, arendajate, testijate ja tooteomanike vahel.<br>
+                    Sidusrühmade aktiivse osaluse puudumine võib takistada BDD tõhusust.</td>
+            </tr>
+            <tr>
+                <td>Probleemide varajane tuvastamine: BDD julgustab enne juurutamist teste kirjutama,<br>
+                    võimaldades meeskondadel tuvastada võimalikud probleemid arendusprotsessi varajases staadiumis.<br>
+                    See toob kaasa kiiremad tagasisideahelad ja vähendab hilisemate defektide parandamise kulusid.</td>
+                <td>Raskused keerulistes stsenaariumides: BDD suudab suurepäraselt tabada käitumist lihtsate<br>
+                    stsenaariumide jaoks, kuid võib olla raskusi väga keeruliste stsenaariumide või äärmuslike<br>
+                    juhtumitega, mis põhjustab testimise automatiseerimise ebaselgust või ebatõhusust.</td>
+            </tr>
+            <tr>
+                <td>Automatiseeritud testimine: Automatiseeritud testid annavad kiiret ja usaldusväärset<br>
+                    tagasisidet rakenduse käitumise kohta, võimaldades meeskondadel regressioone<br>
+                    kiiresti tuvastada ja tagada pideva kvaliteedi.</td>
+                <td>Üldised hoolduskulud: projekti arenedes võib olemasolevate funktsioonifailide ja<br>
+                    sammude määratluste hooldamine ja värskendamine, et kajastada muudatusi nõuetes või<br>
+                    funktsionaalsuses, muutuda keeruliseks ja ressursimahukaks.</td>
+            </tr>
+            <tr>
+                <td>Täiustatud dokumentatsioon: BDD stsenaariumid toimivad käivitatava dokumentatsioonina<br>
+                    süsteemi käitumise kohta.</td>
+                <td>Potentsiaalne üleinseneerimine: ilma nõuetekohase juhendamise ja järelevalveta võivad<br>
+                    meeskonnad oma BDD-teste üle projekteerida, lisades tarbetut keerukust ja<br>
+                    vähendades pikas perspektiivis hooldatavust.</td>
+            </tr>
+            <tr>
+                <td>Parem koodikvaliteet: BDD julgustab kirjutama testitavat ja modulaarset koodi,<br>
+                    mis järgib stsenaariumides kirjeldatud käitumist. See toob kaasa paremini disainitud tarkvara,<br>
+                    millel on vähem defekte ja lihtsam hooldus.</   ,td>
+                <td>Tööriistade piirangud: BDD tõhusus sõltub suuresti tugitööriistade ja raamistike<br>
+                    saadavusest ja sobivusest. Piiratud tööriistavalikud või ühilduvusprobleemid olemasolevate<br>
+                    süsteemidega võivad takistada kasutuselevõttu ja rakendamist.</td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        SpecFlow: .NET-i tööriist, mis kasutab BDD stsenaariumide loomiseks ja täitmiseks Gherkini süntaksit.<br>
+        See integreerub testimisraamistikega, nagu NUnit ja MSTest,<br>
+        võimaldades koostööd tehniliste ja mittetehniliste meeskonnaliikmete vahel.<br><br>
+
+        allikad:
+        <a href="https://www.perplexity.ai/search/an-example-of-a-case-tool-that-XUgCRN.4R9Wzb2kcVQkqVA" target="_blank">Perplexity</a>
+        (päringu allikas: <a href="https://aqua-cloud.io/behaviour-driven-development/" target="_blank">aqua-cloud</a>)
+        <a href="https://www.geeksforgeeks.org/behavioral-driven-development-bdd-in-software-engineering/" target="_blank">GeeksforGeeks</a>
+        <a href="https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/3871/BDD-An-introduction-to-feature-files.aspx" target="_blank">Modern Analyst Media LLC</a>
+     </p>
+</body>
+</html>

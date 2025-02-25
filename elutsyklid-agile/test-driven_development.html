@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-driven development</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Test-driven development ehk testipõhine arendus</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Test-driven development (TDD) on koodi kirjutamise viis, mis hõlmab automaatse üksuse<br>
+        tasemel testjuhtumi kirjutamist, mis ebaõnnestub, seejärel kirjutatakse täpselt nii<br>
+        palju koodi, et test läbida, seejärel kujundatakse ümber nii testkood kui ka tootmiskood,<br>
+        seejärel korratakse teise uue testjuhtumiga.<br><br>
+        Alternatiivsed lähenemisviisid automatiseeritud testide kirjutamiseks on kirjutada kogu<br>
+        tootmiskood enne testkoodi käivitamist või kirjutada kogu testkood enne tootmiskoodi käivitamist.<br>
+        TDD-ga kirjutatakse mõlemad koos, lühendades seega silumisaega.<br><br>
+
+    </p>
+
+    <p>
+        <!-- elutsükli pilt -->
+        <img src="TDD_Global_Lifecycle.png" alt="y u no see? buy internet" width="70%">
+
+        <!-- tabel mis loetleb elutsükli head ja halvad -->
+        <table>
+            <caption>Test-driven development-i head ja halvad</caption>
+            <thead>
+                <tr>
+                    <th>Head</th>
+                    <th>Halvad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Põhjalik testi katvus: TDD tagab, et kogu uus kood on kaetud vähemalt ühe testiga,<br>
+                    mis toob kaasa parema tarkvara.</td>
+                <td>Suurenenud koodimaht: TDD rakendamine võib kaasa tuua suurema koodibaasi,<br>
+                    kuna testid suurendavad kirjutatud koodi koguhulka.</td>
+            </tr>
+            <tr>
+                <td>Suurem usaldus koodi vastu: arendajad saavad koodi usaldusväärsuse ja<br>
+                    funktsionaalsuse suhtes suurema kindlustunde.</td>
+                <td>Testide vale turvalisus: suur hulk testide läbimist võib mõnikord<br>
+                    anda koodi tugevuse osas eksitava turvatunde.</td>
+            </tr>
+            <tr>
+                <td>Testide suurem usaldus: kuna on teada, et testid ebaõnnestuvad ilma nõuetekohase rakendamiseta,<br>
+                    teame, et testid testivad tegelikult juurutamist õigesti.</td>
+                <td>Hoolduskulud: suure hulga testide haldamine võib arendusprotsessile lisakulusid lisada.</td>
+            </tr>
+            <tr>
+                <td>Hästi dokumenteeritud kood: protsessi tulemuseks on loomulikult hästi dokumenteeritud kood,<br>
+                    kuna iga test selgitab testitava koodi eesmärki.</td>
+                <td>Aeganõudvad testimisprotsessid: testide kirjutamine ja säilitamine võib olla aeganõudev.</td>
+            </tr>
+            <tr>
+                <td>Nõuete selgus: TDD julgustab nõuetest enne kodeerimise algust selget arusaamist.</td>
+                <td>Testimiskeskkonna seadistamine: TDD nõuab sobiva testimiskeskkonna seadistamist ja hooldamist.</td>
+            </tr>
+            <tr>
+                <td>Hõlbustab pidevat integreerimist: see integreerub hästi pidevate integreerimisprotsessidega,<br>
+                    võimaldades sagedast koodi värskendamist ja testimist.</td>
+                <td>Õppimisraskus: TDD tavade õppimiseks kulub aega ja vaeva.</td>
+            </tr>     
+            <tr>
+                <td>Suurendab tootlikkust: paljud arendajad leiavad, et TDD suurendab nende tootlikkust.</td>
+                <td>Liigne keerukus: TDD ületähtsustamine võib viia koodini, mis on keerulisem kui vaja.</td>
+            </tr>    
+            <tr>
+                <td>Tugevdab koodi vaimset mudelit: TDD aitab luua koodi struktuuri ja käitumise tugeva vaimse mudeli.</td>
+                <td>Üldise disaini tähelepanuta jätmine: liiga kitsalt testide sooritamisele keskendumine<br>
+                    võib mõnikord viia tarkvarakujunduse suurema pildi tähelepanuta jätmiseni.</td>
+            </tr>          
+            <tr>
+                <td>Rõhk disainil ja funktsionaalsusel: see julgustab keskenduma programmi disainile,<br>
+                    liidesele ja üldisele funktsionaalsusele.</td>
+                <td>Suurenenud kulud: TDD jaoks vajalik lisaaeg ja ressursid võivad<br>
+                    põhjustada suuremaid arenduskulusid.</td>
+            </tr>          
+            <tr>
+                <td>Vähendab silumise vajadust: tuvastades probleemid arendusprotsessi varajases staadiumis,<br>
+                    vähendab TDD vajadust ulatusliku silumise järele hiljem.</td>
+                <td></td>
+            </tr>           
+            <tr>
+                <td>Süsteemi stabiilsus: TDD-ga arendatud rakendused kipuvad olema stabiilsemad ja vähem vigased.</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös -->
+        Näide ühest case-vahendist mis toetab antud arendusstiili arendusmeeskonnatöös:<br>
+        JUnit: See tööriist on populaarne ühikutestide kirjutamiseks enne koodi juurutamist,<br>
+        tagades iteratiivse arenduse ja suure testi katvuse.<br><br>
+
+        allikad:
+        <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">Wikipedia</a>
+        <a href="https://www.perplexity.ai/search/an-example-of-a-case-tool-that-XUgCRN.4R9Wzb2kcVQkqVA" target="_blank">Perplexity</a>
+        (päringu allikas: <a href="https://wazobia.tech/blog/development/8-best-test-driven-development-tdd-tools" target="_blank">wazobia</a>)
+     </p>
+</body>
+</html>
