@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Case</title>
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Use Case Diagram ehk Kasutusjuhtumi diagramm</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Käitumuslike UML-tüüpide kõige tuntuma diagrammitüübina annavad kasutusjuhtude diagrammid<br>
+        graafilise ülevaate süsteemis osalevatest osalistest,<br>
+        nendele osalejatele vajalikest erinevatest funktsioonidest ja<br>
+        nende erinevate funktsioonide koostoimest.<br>
+        See on suurepärane lähtepunkt iga projekti arutelu jaoks, sest saab hõlpsalt tuvastada<br>
+        peamised kaasatud osalejad ja süsteemi peamised protsessid.<br><br>
+
+        Kasutusjuhtude diagrammid on abiks järgmistes olukordades:<br>
+        1. Enne projekti alustamist saab luua ettevõtte modelleerimiseks kasutusjuhtude diagramme,<br>
+        et kõik projektis osalejad saaksid aru ettevõtte töötajatest, klientidest ja tegevustest.<br><br>
+        2. Nõudeid kogudes saab luua kasutusjuhtude diagramme, et jäädvustada süsteeminõudeid ja<br>
+        tutvustada teistele, mida süsteem peaks tegema.<br><br>
+        3. Analüüsi- ja projekteerimisfaasis saab kasutada oma kasutusjuhtude diagrammidel olevaid<br>
+        kasutusjuhtumeid ja osalejaid, et tuvastada klassid, mida süsteem nõuab.<br><br>
+        4. Testimisetapis saab süsteemi testide tuvastamiseks kasutada kasutusjuhtude diagramme.<br><br>
+
+        Kasutusjuhtumi diagrammis võib olla 5 seosetüüpi:<br>
+
+        1. Osaleja ja kasutusjuhtumi seos<br>
+        2. Osaleja üldistus<br>
+        3. Pikendus kahe kasutusjuhtumi vahel<br>
+        4. Kaasamine kahe kasutusjuhtumi vahel<br>
+        5. Kasutusjuhtumi üldistamine<br><br>
+        Vaatame neid suhteid üksikasjalikumalt:<br><br>
+
+        <b>Osaleja ja kasutusjuhtumi seos</b><br>
+        See seos on lihtne, siin on mõned asjad, mida tähele panna:<br>
+        - Osaleja peab olema seotud vähemalt ühe kasutusjuhtumiga.<br>
+        - Osalejat saab seostada mitme kasutusjuhtumiga.<br>
+        - Ühe kasutusjuhtumiga saab seostada mitu osalejat.<br><br>
+
+        <img src="use-case-relationship-actor-use-case.png" alt="y u no see? buy internet"><br><br>
+
+        <b>Osaleja üldistus</b><br>
+        Osaleja üldistamine tähendab, et üks osaleja võib pärida teise osaleja rolli.<br>
+        Järeltulija pärib kõik esivanema kasutusjuhtumid. Järeltulijal on üks või mitu<br>
+        selle rolliga seotud kasutusjuhtumit.<br>
+        Laiendame eelmist kasutusjuhtumi diagrammi, et näidata osaleja üldistust:<br><br>
+
+        <img src="use-case-relationship-actor-generalization.png" alt="y u no see? buy internet"><br><br>
+
+        <b>Pikendus kahe kasutusjuhtumi vahel</b><br>
+        Paljud inimesed ajavad kasutusjuhtudel pikendusussuhte segi.<br>
+        Nagu nimigi viitab, pikendab see põhikasutusjuhtumit ja lisab süsteemile rohkem funktsioone.<br>
+        Siin on mõned asjad, mida suhte &lt;&lt;extend&gt;&gt; kasutamisel arvestada:<br><br>
+
+        - Pikendatud kasutusjuhtum sõltub pikendavast (põhi)kasutusjuhtumist.<br>
+        Alloleval diagrammil pole kasutusjuhtudel "Arvuta boonus" ilma<br>
+        "Sissemaksevahendite" kasutusjuhtumita erilist mõtet.<br><br>
+        - Kasutusjuhtumi pikendamine on tavaliselt valikuline ja seda saab käivitada tingimuslikult.<br>
+        Diagrammil on näha, et laienev kasutusjuhtum käivitub ainult üle 10 000<br>
+        suuruste hoiuste või üle 55 aasta vanuste korral.<br><br>
+        - Pikendatud (baas)kasutusjuhtum peab olema omaette tähendusrikas.<br>
+        See tähendab, et see peaks olema sõltumatu ega tohi tugineda laieneva kasutusjuhtumi käitumisele.<br><br>
+        Laiendame oma praegust näidet, et näidata seost &lt;&lt;extend&gt;&gt;.<br><br>
+
+        <img src="use-case-diagram-relationships-extend.png" alt="y u no see? buy internet"><br><br>
+
+        Kuigi kasutusjuhtumi pikendamine on enamasti valikuline, pole see kohustuslik.<br>
+        pikendatud kasutusjuhtumil võib olla ka mittevalikuline käitumine.<br>
+        See juhtub enamasti keeruka käitumise modelleerimisel.<br><br>
+
+        <b>Kaasamine kahe kasutusjuhtumi vahel</b><br>
+        Kaasamise seos näitab, et kaasatud kasutusjuhtumi käitumine on osa kaasatava (põhi)kasutusjuhtumist.<br>
+        Selle peamiseks põhjuseks on levinud toimingute taaskasutamine mitmel kasutusjuhtumil.<br>
+        Mõnes olukorras tehakse seda keeruka käitumise lihtsustamiseks.<br>
+        Siin on mõned asjad, mida tuleb suhte &lt;&lt;include&gt;&gt; kasutamisel arvestada.<br><br>
+
+        - Põhikasutusjuhtum on ilma kaasasoleva kasutusjuhtumita puudulik.<br><br>
+        - Kaasasolev kasutusjuhtum on kohustuslik ja pole valikuline.<br><br>
+        Laiendame meie pangandussüsteemi kasutusjuhtude diagrammi, et näidata ka kaasamise seoseid:<br><br>
+
+        <img src="use-case-diagram-relationships-include.png" alt="y u no see? buy internet"><br><br>
+
+        <b>Kasutusjuhtumi üldistamine</b><br>
+        See sarnaneb osaleja üldistamisega. Esivanema käitumise pärib järeltulija.<br>
+        Seda kasutatakse siis, kui kahe kasutusjuhtumi vahel on ühine käitumine ja<br>
+        ka iga kasutusjuhtumil on spetsiifiline käitumine.<br><br>
+
+        Näiteks eelmises pangandusnäites võib olla kasutusjuhtum nimega "Maksa arveid".<br>
+        Seda saab üldistada “Maksa krediitkaardiga”, “Maksa pangasaldoga” jne.<br><br>
+
+        allikad:
+        <a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/#UseCaseDiagram" target="_blank">Creately</a>
+        <a href="https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-use-case" target="_blank">IBM</a>
+        <a href="https://creately.com/blog/diagrams/use-case-diagram-relationships/" target="_blank">Creately</a>
+     </p>
+</body>
+</html>

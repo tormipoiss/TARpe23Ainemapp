@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequence Diagram</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Sequence Diagram ehk Jadaskeem/Järjestikskeem</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Jadaskeemid, mida arendajad tavaliselt kasutavad, modelleerivad objektide vahelisi<br>
+        interaktsioone ühe kasutusjuhtumi korral. Need illustreerivad, kuidas süsteemi erinevad<br>
+        osad funktsiooni täitmiseks üksteisega suhtlevad, ja<br>
+        interaktsioonide järjekorda konkreetse kasutusjuhtumi täitmisel.<br><br>
+
+        Lihtsamalt öeldes näitab jadaskeem, kuidas süsteemi erinevad osad<br>
+        "järjekorras" töötavad, et midagi korda saata.<br><br>
+
+        Jadaskeeme kasutatakse tavaliselt tarkvaraarenduses, et illustreerida süsteemi käitumist<br>
+        või aidata arendajatel keerukaid süsteeme kavandada ja mõista.<br>
+        Neid saab kasutada nii lihtsate kui ka keerukate interaktsioonide modelleerimiseks<br>
+        objektide vahel, muutes need kasulikuks tööriistaks tarkvaraarhitektidele, disaineritele ja arendajatele.<br><br>
+
+        Jadaskeem on üles ehitatud nii, et see kujutab ajaskaala, mis algab ülevalt ja<br>
+        laskub järk-järgult, et tähistada interaktsioonide jada.<br>
+        Igal objektil on veerg ja nende vahel vahetatavad sõnumid on kujutatud nooltega.<br><br>
+
+        <b>Ülevaade jadaskeemide erinevatest osadest</b><br>
+        Eluliini tähistus<br>
+
+        <img src="object_sequence.webp" alt="Eluliini tähistus"><br><br>
+
+        Jadaskeem koosneb mitmest sellisest eluliini tähisest, mis tuleks paigutada<br>
+        joonise ülaossa horisontaalselt kõrvuti. Ükski eluliini tähis ei tohiks kattuda teisega.<br>
+        Need tähistavad erinevaid objekte või komponente, mis süsteemis omavahel järjestuse jooksul suhtlevad.<br><br>
+
+        Eluliini tähist koos näitleja elemendi sümboliga kasutatakse siis,<br>
+        kui vastavat järjestikdiagrammi omab kasutusjuhtum.<br><br>
+
+        <img src="actor.webp" alt="Eluliini tähistus"><br><br>
+
+        Eluliin koos üksuse elemendiga esindab süsteemi andmeid. Näiteks klienditeeninduse<br>
+        rakenduses haldab Customer-üksus kogu kliendiga seotud teavet.<br><br>
+
+        <img src="entity.webp" alt="Eluliini tähistus"><br><br>
+
+        Eluliin piirielemendiga näitab süsteemi piiri või tarkvara elementi;<br>
+        näiteks kasutajaliidese ekraanid, andmebaasi lüüsid või menüüd,<br>
+        millega kasutajad suhtlevad, on kõik piirid.<br><br>
+
+        <img src="boundary.webp" alt="Eluliini tähistus"><br><br>
+
+        Eluliin kontroll-elemendiga tähistab juhtivat üksust või haldurit.<br>
+        See organiseerib ja ajastab piiri- ja üksuselementide vahelisi<br>
+        interaktsioone ning toimib nendevahelise vahendajana.<br><br>
+
+        <img src="control.webp" alt="Eluliini tähistus"><br><br>
+
+        Aktiveerimisribad<br>   
+        Aktiveerimisriba on kast, mis asetatakse eluliinile.<br>
+        Selle abil näidatakse, et objekt on aktiivne (või instantsitud) kahe objekti<br>
+        vahelise interaktsiooni ajal. Riba pikkus näitab, kui kaua objekt aktiivsena püsib.<br><br>
+
+        Jadaskeemis toimub kahe objekti vaheline interaktsioon siis,<br>
+        kui üks objekt saadab teisele sõnumi. Aktiveerimisriba kasutamine nii sõnumi saatja<br>
+        (objekt, mis sõnumi saadab) kui ka sõnumi vastuvõtja (objekt, mis sõnumi saab)<br>
+        eluliinil näitab, et mõlemad on sõnumi vahetamise ajal aktiivsed / instantsitud.<br><br>
+
+        <img src="activation_bar.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Sõnumi nooled</b><br>
+        Nool, mis läheb sõnumi saatjalt sõnumi saajale, määratleb jadaskeemis sõnumi.<br>
+        Sõnum võib liikuda ükskõik millises suunas: vasakult paremale, paremalt vasakule või<br>
+        isegi tagasi sõnumi saatjale endale. Noolele saab märkida, millist sõnumit ühest objektist<br>
+        teise saadetakse, ning erinevate nooleotstega saab näidata,<br>
+        millist tüüpi sõnumit saadetakse või vastu võetakse.<br><br>
+
+        Sõnumi nool on varustatud kirjeldusega, mida nimetatakse sõnumi signatuuriks.<br>
+        Selle sõnumi signatuuri vorming on allpool toodud kujul.<br>
+        Kõik osad peale message_name’i (sõnumi_nimi) on valikulised.<br><br>
+
+        attribute = message_name (arguments): return_type<br><br>
+
+        <b>Sünkroonne sõnum</b><br>
+        Nagu aktiveerimisribade näites näha, kasutatakse sünkroonset sõnumit siis,<br>
+        kui saatja ootab, kuni saaja sõnumi töötleb ja vastuse tagastab, enne kui liigub järgmise sõnumi juurde.<br>
+        Selle sõnumitüübi tähistamiseks kasutatakse täidetud nooleotsa, nagu allpool näidatud.<br><br>
+
+        <img src="synchronous_arrow.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Asünkroonne sõnum</b><br>
+        Asünkroonset sõnumit kasutatakse siis, kui sõnumi saatja ei oota, kuni vastuvõtja<br>
+        sõnumi töötleb ja vastuse tagastab, vaid saadab vahepeal sõnumeid ka<br>
+        teistele objektidele süsteemis. Selle sõnumitüübi tähistamiseks kasutatakse<br>
+        joonega nooleotsa, nagu allolevas näites.<br><br>
+
+        <img src="asynchronous.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Tagastussõnum</b><br>  
+        Tagastussõnumit kasutatakse näitamaks, et sõnumi saaja on sõnumi töötlemise lõpetanud ja<br>
+        annab juhtimise tagasi sõnumi saatjale. Tagastussõnumid on valikulised tähistused,<br>
+        kuna aktiveerimisriba, mis on käivitatud sünkroonse sõnumiga, viitab alati ka tagastussõnumile.<br><br>
+
+        <img src="return.webp" alt="Eluliini tähistus"><br><br>
+
+        Nipp: Saad oma diagrammide liigset täitumist vältida, kui vähendad tagastussõnumite kasutamist,<br>
+        sest tagastusväärtust saab näidata ka esialgsel sõnumi noolel.<br><br>
+
+        <b>Osaleja loomise sõnum</b><br>
+        Objektid ei pruugi eksisteerida kogu sündmuste järjestuse vältel.<br>
+        Objekte või osalejaid saab luua vastavalt saadetavale sõnumile.<br><br>
+
+        Kui on vaja näidata, et konkreetne osaleja eksisteerib alles pärast loomiskutse saatmist,<br>
+        võib kasutada „langeva osaleja“ (dropped participant) kasti tähistust.<br>
+        Kui loodud osaleja teeb kohe pärast loomist midagi,<br>
+        tuleks osaleja kasti alla lisada aktiveerimisriba.<br><br>
+
+        <img src="participant_Creation.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Osaleja kustutamise sõnum</b><br><br>
+
+        <img src="destruction.webp" alt="Eluliini tähistus"><br><br>
+
+        Samamoodi võib osalejaid, keda enam ei vajata, jadaskeemidest eemaldada.<br>
+        Selleks lisatakse vastava osaleja eluliini lõppu „X“-märk.<br><br>
+
+        <b>Refleksiivne sõnum</b><br>
+        Kui objekt saadab sõnumi iseendale, nimetatakse seda refleksiivseks sõnumiks.<br>
+        Seda tähistatakse sõnumi noolega, mis algab ja lõpeb samal eluliinil, nagu allpool toodud näites:<br><br>
+
+        <img src="reflexive.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Kommentaar</b><br>
+        UML-diagrammid võimaldavad üldjuhul kommentaaride lisamist kõikidesse UML-diagrammi tüüpidesse.<br>
+        Kommentaari objektiks on ristkülik, millel on üks nurk „tagasi murtud“, nagu allpool näidatud.<br>
+        Kommentaari saab seotud objektiga ühendada katkendjoonega.<br><br>
+
+        <img src="comment.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Jadaskeemide parimad tavad</b><br>
+        - Keerukate interaktsioonide haldamine järjestikfragmendiga<br><br>
+
+        Järjestikfragmenti kujutatakse kastina, mis raamib objektide vaheliste<br>
+        interaktsioonide lõigu (nagu näidetes allpool) jadaskeemis.<br><br>
+
+        Seda kasutatakse keerukate interaktsioonide, nagu alternatiivsed vood ja tsüklid,<br>
+        struktureeritumaks näitamiseks. Fragmendi vasakus ülanurgas asub operaator ehk<br>
+        fragmendioperaator, mis määrab, mis tüüpi fragmentiga on tegemist.<br><br>
+
+        <b>Alternatiivid</b><br>
+        Alternatiivset ühendfragmenti kasutatakse siis, kui valik tuleb teha kahe või<br>
+        enama sõnumijada vahel. See modelleerib „kui...siis...muidu” loogikat.<br><br>
+
+        Alternatiivne fragment on kujutatud suure ristküliku või raamina;<br>
+        selle määratlemiseks kirjutatakse raami pealkirjakasti (ehk fragmendioperaatori kasti) ’alt’.<br><br>
+
+        Kahe või enama alternatiivi näitamiseks jagatakse suurem ristkülik katkendjoone abil nn<br>
+        interaktsioonioperandideks, nagu jadaskeemi näites allpool. Iga operandil on kaitse („guard“),<br>
+        mille vastu see testitakse, ning kaitse asetatakse operandi vasakusse ülanurka.<br><br>
+
+        <img src="alternatives.webp" alt="Eluliini tähistus"><br><br>
+
+        <b>Valikud</b><br>
+        Valikuline ühendfragment näitab järjestust, mis toimub ainult kindla tingimuse korral;<br>
+        vastasel juhul see järjestus ei toimu. See modelleerib „kui...siis“ loogikat.<br><br>
+
+        Nagu alternatiivne fragment, on ka valikuline fragment kujutatud ristkülikukujulise raamiga,<br>
+        mille pealkirjakasti on kirjutatud ’opt’.<br><br>
+
+        Erinevalt alternatiivsest fragmendist ei jagata valikulist fragmenti kaheks või enamaks operandi.<br>
+        Valiku kaitse („guard“) paigutatakse raami vasakusse ülanurka.<br><br>
+
+        <img src="option.webp" alt="no image, buy internet"><br><br>
+
+        <b>Tsüklid</b><br>
+        Tsükli fragmenti kasutatakse korduva järjestuse esindamiseks.<br>
+        Kirjuta raami pealkirjakasti sõna ’loop’ ja kaitsetingimus raami vasakusse ülanurka.
+
+Lisaks Boole’i tingimusele võib tsükli fragmendi kaitsestingimus testida kahte erilist tingimust:
+
+Minimaalsed iteratsioonid (kirjutatakse kui minint = [arv]): Tsükkel peab kordama vähemalt näidatud arv kordi.
+
+Maksimaalsed iteratsioonid (kirjutatakse kui maxint = [arv]): Tsükkel ei tohi korduda rohkem kui näidatud arv kordi.
+
+(Leia tsükli fragmendi näide jaotises „Järjestikdiagrammi mallid ja näited“.)
+
+Referentsfragment
+Referentsfragmendi abil saab hallata suurte järjestikdiagrammide mõõtmeid. See võimaldab ühte diagrammi osa taaskasutada teises diagrammis, ehk teisisõnu viidata fragmendi kaudu ühe diagrammi osale teises diagrammis.
+
+Referentsfragmenti määratlemiseks tuleb kirjutada raami pealkirjakasti sõna ’ref’ ning raami sisse viidatava järjestikdiagrammi nimi.
+
+        allikad:
+        <a href="https://creately.com/guides/sequence-diagram-tutorial/" target="_blank">Creately</a>
+        <a href="https://www.perplexity.ai/search/translate-to-estonian-a-quick-GZMcDx8yRc.PTwpvqjf1ug" target="_blank">Perplexity</a>
+        <a href="https://www.gleek.io/blog/sequence-diagram-fragments" target="_blank">gleek</a>
+     </p>
+</body>
+</html>

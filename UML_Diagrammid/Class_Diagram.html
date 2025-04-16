@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Diagram</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Class Diagram ehk Klassiskeem</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Klassiskeemid on mis tahes objektorienteeritud lahenduse peamine ehitusplokk.<br>
+        See näitab süsteemi klasse, iga klassi atribuute ja toiminguid ning iga klassi vahelist seost.<br><br>
+
+        Seda kasutatakse rakenduse struktuuri üldiseks kontseptuaalseks modelleerimiseks ja<br>
+        üksikasjalikuks modelleerimiseks, mudelite tõlkimiseks programmeerimiskoodiks.<br>
+        Klassiskeeme saab kasutada ka andmete modelleerimiseks.<br><br>
+
+        <b>Klassi märkimine</b><br>
+        Klass koosneb kolmest osast:<br>
+        - Klassi nimi, see kuvatakse esimeses sektsioonis.<br>
+        - Klassi atribuudid, need on näidatud teises sektsioonis.<br>
+        Atribuudi tüüp näidatakse kooloni järel.<br>
+        - Klassi operatsioonid (meetodid)<br>
+        Meetodid näidatakse kolmandas sektsioonis. Need on teenused, mida klass pakub.<br>
+        Meetodi tagastustüüp näidatakse kooloni järel meetodi lõpus.<br>
+        Meetodi parameetrite tagastustüüp kuvatakse parameetri nimele järgneva kooloni järel.<br><br>
+
+        <img src="02-simple-class.webp" alt="y u no see? buy internet"><br><br>
+
+        - MyClassil on 3 atribuuti ja 3 meetodit<br>
+        - op2 parameeter p3 on tüüpi int<br>
+        - op2 tagastab float-i<br>
+        - op3 tagastab osuti (tähistatud *) klassile 6<br><br>
+
+        <b>Klassisuhted</b><br>
+        Klass võib olla seotud ühe või mitme suhtega teiste klassidega.<br>
+        Seos võib olla üks järgmistest tüüpidest:<br><br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Seosetüüp</th>
+                    <th>Graafiline esitus</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Pärand (või üldistus):<br>
+                    - Esindab suhet "on mis".<br>
+                    - Abstraktne klassi nimi on näidatud kaldkirjas.<br>
+                    - SubClass1 ja SubClass2 on superklassi spetsialiseerumisalad.<br>
+                    - Pidev joon õõnsa nooleotsaga, mis osutab lapselt vanemaklassile.<br></td>
+                <td><img src="03-inheritance.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td>Lihtne assotsiatsioon:<br>
+                    - Struktuurne seos kahe klassi vahel.<br>
+                    - Class1 ja Class2 vahel on seos<br>
+                    - Kaht klassi ühendab pidev joon<br></td>
+                <td><img src="04-simple-association.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td>Agregatsioon:<br>
+                    - Eriline assotsiatsiooniliik. See esindab suhet "on osa".<br>
+                    - Class2 on osa Class1-st.<br>
+                    - Paljusid Class2 juhtumeid (tähistatud tähega *) saab seostada Class1-ga.<br>
+                    - Klassi 1 ja klassi 2 objektidel on eraldi eluiga.<br>
+                    - Pidev joon täitmata teemandiga</td>
+                <td><img src="05-aggregation.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td>Kompositsioon:<br>
+                    - Agregatsiooni eritüüp, kus osad hävivad, kui tervik hävib.<br>
+                    - Klassi 2 objektid elavad ja surevad koos Class1-ga.<br>
+                    - Klass 2 ei saa ise seista.<br>
+                    - Pidev joon täidetud teemandiga</td>
+                <td><img src="06-composition.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td>Sõltuvus:<br>
+                    - Esineb kahe klassi vahel, kui ühe klassi muudatused<br>
+                    võivad põhjustada muudatusi teises (kuid mitte vastupidi).<br>
+                    - Klass 1 sõltub klassist 2<br>
+                    - Katkendjoon avatud noolega</td>
+                <td><img src="07-dependency.webp" alt="y u no see? buy internet"></td>
+            </tr>
+        </table>
+
+        <b>Suhete nimed</b><br>
+        Seoste nimed kirjutatakse seose joone keskele.<br>
+        Head seoste nimed on mõttekad, kui loete need valjusti:<br>
+        "Iga tabel sisaldab teatud arvu lahtreid",<br>
+        Sageli on neil väike nooleots, mis näitab suunda, millises suunas seost lugeda, nt<br>
+        avaldised tulevad välja väärtuseks, kuid väärtused ei tule välja avaldiseks.<br><br>
+
+        <img src="08-relationship-name.webp" alt="y u no see? buy internet"><br><br>
+
+        <b>Rollid</b><br>
+        Roll on ühenduse suunav eesmärk.<br>
+        Rollid on kirjutatud assotsiatsioonijoone lõppu ja kirjeldavad selle klassi eesmärki suhtes.<br>
+        Näiteks lahter on seotud avaldisega. Seose olemus seisneb selles, et avaldis on lahtri valem.<br><br>
+
+        <b>Klassi atribuutide ja operatsioonide nähtavus</b><br>
+        Objektorienteeritud disainis on olemas atribuutide ja operatsioonide nähtavuse märge.<br>
+        UML tuvastab neli nähtavuse tüüpi: avalik, kaitstud, privaatne ja pakett.<br>
+
+        Klassi atribuudi ja operatsiooni nime ees olevad sümbolid +, -, # ja ~<br>
+        tähistavad atribuudi ja operatsiooni nähtavust:<br><br>
+
+        + tähistab avalikke atribuute või toiminguid<br>
+        - tähistab privaatseid atribuute või toiminguid<br>
+        # tähistab kaitstud atribuute või toiminguid<br>
+        ~ tähistab paketi atribuute või toiminguid<br><br>
+
+        <img src="02-simple-class-visibility.webp" alt="y u no see? buy internet"><br><br>
+
+        MyClassName atribuut1 ja op1 on avalikud<br>
+        atribuut3 ja op3 on kaitstud.<br>
+        atribuut2 ja op2 on privaatsed.<br><br>
+
+        <b>Paljusus</b><br>
+        Kui palju iga klassi objektide suhetes osaleb ja paljusust saab väljendada järgmiselt:<br>
+
+        Täpselt üks - 1<br>
+        Null või üks - 0...1<br>
+        Paljud – 0..* või *<br>
+        Üks või mitu - 1..*<br>
+        Täpne arv – nt. 3..4 või 6<br>
+        Või keeruline suhe – nt. 0..1, 3..4, 6.* tähendaks suvalist arvu objekte peale 2 või 5<br><br>
+        Paljususe näide:<br>
+        Nõue: Üliõpilane võib läbida mitu kursust ja ühele kursusele saab registreeruda palju õpilasi.<br>
+        Allolevas näites kirjeldab klassiskeem (vasakul) ülaltoodud staatilise mudeli nõude väidet,<br>
+        samas kui objektiskeem (paremal) näitab hetktõmmist (klassiskeemi näide) vastavalt kursustele<br>
+        Tarkvaratehnika ja Andmebaasihaldus kursustele registreerumisest.<br><br>
+
+        <img src="09-class-diagram-to-object-diagram-multiplicity.webp" alt="y u no see? buy internet"><br><br>
+
+        <b>Agregatsiooninäide – arvutiosad</b><br>
+        Agregatsioon on assotsiatsiooni erijuhtum, mis tähistab "koosneb" hierarhiat<br>
+        Agregaat on vanemklass, komponendid on lasteklassid:<br><br>
+
+        <img src="10-aggregation-example.webp" alt="y u no see? buy internet"><br><br>
+
+        <b>Pärimise näide – rakkude taksonoomia</b><br>
+        Pärand on veel üks erijuhtum seose kohta, mis tähistab "omamoodi" hierarhiat<br>
+        Pärimine lihtsustab analüüsimudelit, võttes kasutusele taksonoomia<br>
+        Alamklassid pärivad vanemklassi atribuudid ja toimingud.<br><br>
+
+        <img src="11-inheritance-example.webp" alt="y u no see? buy internet"><br><br>
+
+        <b>Klassiskeemi näide</b><br>
+        Klassiskeemil võib olla ka klasside või suhete juurde lisatud märkmeid. Märkused on näidatud hallina.<br><br>
+
+        <img src="12-uml-class-diagram-example.webp" alt="y u no see? buy internet"><br><br>
+
+        Ülaltoodud klassidiagrammi tähendust saame tõlgendada punktid läbi lugedes järgmiselt:<br>
+        Shape on abstraktne klass. See on näidatud kaldkirjas.<br>
+        Shape on superklass. Ring, ristkülik ja hulknurk on tuletatud vormist Shape. Teisisõnu, ring on kujund. See on üldistus-/pärimissuhe.<br>
+        DialogBoxi ja DataControlleri vahel on seos.<br>
+        Kuju on osa aknast. See on agregaatsuhe. Kuju võib eksisteerida ka ilma aknata.<br>
+        Punkt on osa ringist. See on kompositsioonisuhe. Punkt ei saa eksisteerida ilma ringita.<br>
+        Aken sõltub sündmusest. Sündmus ei sõltu aga aknast.<br>
+        Ringi atribuudid on raadius ja keskpunkt. See on olemiklass.<br>
+        Circle'i meetodi nimed on area(), circum(), setCenter() ja setRadius().<br>
+        Ringi parameetri raadius on ujuki tüüpi parameeter.<br>
+        Klassi Circle meetod area() tagastab väärtuse double tüüpi.<br>
+        Ristküliku atribuudid ja meetodite nimed on peidetud. Ka mõnel teisel skeemil oleval klassil on oma atribuudid ja meetodite nimed peidetud.<br><br>
+
+        allikad:
+        <a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/#UseCaseDiagram" target="_blank">Creately</a>
+        <a href="https://en.wikipedia.org/wiki/Class_diagram#:~:text=The%20class%20diagram%20is%20the,be%20used%20for%20data%20modeling." target="_blank">Wikipedia</a>
+        <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/" target="_blank">Visual Paradigm</a>
+     </p>
+</body>
+</html>
