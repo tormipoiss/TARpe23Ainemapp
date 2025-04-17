@@ -75,7 +75,7 @@
 
         <img src="control.webp" alt="Eluliini tähistus"><br><br>
 
-        Aktiveerimisribad<br>   
+        <b>Aktiveerimisribad</b><br>   
         Aktiveerimisriba on kast, mis asetatakse eluliinile.<br>
         Selle abil näidatakse, et objekt on aktiivne (või instantsitud) kahe objekti<br>
         vahelise interaktsiooni ajal. Riba pikkus näitab, kui kaua objekt aktiivsena püsib.<br><br>
@@ -177,7 +177,7 @@
         interaktsioonioperandideks, nagu jadaskeemi näites allpool. Iga operandil on kaitse („guard“),<br>
         mille vastu see testitakse, ning kaitse asetatakse operandi vasakusse ülanurka.<br><br>
 
-        <img src="alternatives.webp" alt="Eluliini tähistus"><br><br>
+        <img src="alternatives.webp" width="800px" alt="Eluliini tähistus"><br><br>
 
         <b>Valikud</b><br>
         Valikuline ühendfragment näitab järjestust, mis toimub ainult kindla tingimuse korral;<br>
@@ -186,32 +186,111 @@
         Nagu alternatiivne fragment, on ka valikuline fragment kujutatud ristkülikukujulise raamiga,<br>
         mille pealkirjakasti on kirjutatud ’opt’.<br><br>
 
-        Erinevalt alternatiivsest fragmendist ei jagata valikulist fragmenti kaheks või enamaks operandi.<br>
+        Erinevalt alternatiivsest fragmendist ei jagata valikulist fragmenti kaheks või enamaks operandiks.<br>
         Valiku kaitse („guard“) paigutatakse raami vasakusse ülanurka.<br><br>
 
-        <img src="option.webp" alt="no image, buy internet"><br><br>
+        <img src="option.webp" width="700px" alt="no image, buy internet"><br><br>
 
         <b>Tsüklid</b><br>
-        Tsükli fragmenti kasutatakse korduva järjestuse esindamiseks.<br>
-        Kirjuta raami pealkirjakasti sõna ’loop’ ja kaitsetingimus raami vasakusse ülanurka.
+        Tsükli fragmenti kasutatakse korduva järjestuse esitamiseks.<br>
+        Kirjutage sõna ‘loop’ nime lahtrisse ja asetage tingimus (guard)<br>
+        raami vasakusse ülanurka.<br><br>
 
-Lisaks Boole’i tingimusele võib tsükli fragmendi kaitsestingimus testida kahte erilist tingimust:
+        Lisaks boolean kontrollile võib tsükli fragmendi tingimusel olla<br>
+        veel kaks eritingimust, mida saab kontrollida.<br>
+        Need on minimaalne korduste arv (kirjutatakse minint = [arv]) ja<br>
+        maksimaalne korduste arv (kirjutatakse maxint = [arv]).<br><br>
 
-Minimaalsed iteratsioonid (kirjutatakse kui minint = [arv]): Tsükkel peab kordama vähemalt näidatud arv kordi.
+        Kui tegemist on minimaalse korduste arvu tingimusega, peab tsükkel<br>
+        täituma vähemalt nii mitu korda, kui on märgitud, ning kui tegemist on<br>
+        maksimaalse korduste arvu tingimusega, ei tohi tsükkel täituda rohkem kui märgitud.<br><br>
 
-Maksimaalsed iteratsioonid (kirjutatakse kui maxint = [arv]): Tsükkel ei tohi korduda rohkem kui näidatud arv kordi.
+        <b>Viitefragment</b><br>
+        Viitefragmenti kasutatakse suurte jadaskeemide haldamiseks.<br>
+        See võimaldab ühte järjestusskeemi osa taaskasutada teises skeemis,<br>
+        ehk teisisõnu, viitefragmendiga saab viidata ühe skeemi osale teises skeemis.<br><br>
 
-(Leia tsükli fragmendi näide jaotises „Järjestikdiagrammi mallid ja näited“.)
+        Viitefragmendi määramiseks tuleb kirjutada raami nime lahtrisse ‘ref’<br>
+        ja raami sisse selle jadaskeemi nimi, millele viidatakse.<br><br>
 
-Referentsfragment
-Referentsfragmendi abil saab hallata suurte järjestikdiagrammide mõõtmeid. See võimaldab ühte diagrammi osa taaskasutada teises diagrammis, ehk teisisõnu viidata fragmendi kaudu ühe diagrammi osale teises diagrammis.
+        <img src="reference_fragment.webp" alt="Ref frag"><br><br>
 
-Referentsfragmenti määratlemiseks tuleb kirjutada raami pealkirjakasti sõna ’ref’ ning raami sisse viidatava järjestikdiagrammi nimi.
+        <b>- Joonista väiksemaid jadaskeeme, mis haaravad kasutusjuhtumi olemuse.</b><br><br>
+
+        Ära koorma jadaskeemi paljude objektide ja sõnumigruppidega,<br>
+        mis võivad lugejat segadusse ajada. Selle asemel loo mõned väiksemad<br>
+        jadaskeemid, mis selgelt näitavad, mida sinu süsteem teeb.<br>
+        Veendu, et skeem mahuks ühele lehele ja jätaks ruumi ka selgitavatele märkustele.<br><br>
+
+        Samuti, selle asemel et joonistada kümneid jadaskeeme, uuri, mis on<br>
+        stsenaariumides ühist, ning keskendu sellele. Kui kood on selge ja arusaadav,<br>
+        polegi alati vaja jadaskeemi joonistada.<br><br>
+
+        <b>Kuidas joonistada jadaskeemi</b><br>
+        Jadaskeem kujutab üht konkreetset kasutusjuhtumit või sündmuste voogu.<br>
+        Jadaskeemi sõnumivoog põhineb selle kasutusjuhtumi kirjel.<br><br>
+
+        Enne kui hakkad jadaskeemi joonistama või otsustad, millised interaktsioonid<br>
+        sinna lisada, tuleks esmalt koostada kasutusjuhtumi skeem ning põhjalik kirjeldus,<br>
+        mida see kasutusjuhtum teeb.<br><br>
+
+        <img src="use_Case_Ex.webp" alt="Eluliini tähistus"><br><br>
+
+        Ülaltoodud kasutusjuhtumi diagrammi näites „Loo uus online-raamatukogu<br>
+        konto” keskendume kasutusjuhtumile „Loo uus kasutajakonto”, et<br>
+        joonistada selle kohta jadaskeemi näide.<br><br>
+
+        Enne jadaskeemi joonistamist tuleb tuvastada objektid või<br>
+        osalised, kes on seotud uue kasutajakonto loomisega. Need on:<br><br>
+
+        - Raamatukoguhoidja<br>
+        - Online-raamatukogu haldussüsteem<br>
+        - Kasutaja mandaadi andmebaas<br>
+        - E-posti süsteem<br><br>
+
+        Kui objektid on tuvastatud, on oluline kirjutada üksikasjalik<br>
+        kirjeldus sellest, mida kasutusjuhtum teeb. Sellest kirjeldusest saab<br>
+        hõlpsasti välja tuua interaktsioonid (mis peaksid jadaskeemi<br>
+        minema), mis nende objektide vahel toimuvad, kui kasutusjuhtum<br>
+        käivitatakse.<br><br>
+
+        Siin on sammud, mis toimuvad kasutusjuhtumis „Loo uus raamatukogu<br>
+        kasutajakonto”.<br><br>
+
+        - Raamatukoguhoidja palub süsteemil luua uus online-raamatukogu konto<br>
+        - Raamatukoguhoidja valib kasutajakonto tüübi<br>
+        - Raamatukoguhoidja sisestab kasutaja andmed<br>
+        - Kasutaja andmeid kontrollitakse kasutaja mandaadi andmebaasi abil<br>
+        - Luuakse uus raamatukogu kasutajakonto<br>
+        - Uue konto andmete kokkuvõte saadetakse kasutajale e-postiga<br><br>
+
+        Iga sammu põhjal saab hõlpsasti määratleda, milliseid sõnumeid<br>
+        objektide vahel jadaskeemis vahetatakse. Kui see on selge, võib<br>
+        hakata järjestusskeemi joonistama.<br><br>
+
+        Allolev jadaskeem näitab, kuidas online-raamatukogu<br>
+        haldussüsteemi objektid omavahel suhtlevad, et täita funktsiooni „Loo<br>
+        uus raamatukogu kasutajakonto”.<br><br>
+
+        <img src="use_case_to_sequence_diagram.webp" width="800  alt="use_case_to_sequence_diagram"><br><br>
+
+        <b>Jadaskeemi levinumad vead</b><br>
+        Jadaskeemide joonistamisel tehakse sageli järgmisi vigu. Neid<br>
+        vältides saad tagada oma skeemi kvaliteedi.<br><br>
+
+        - Liiga palju detaile lisamine. See muudab skeemi segaseks ja raskesti loetavaks.<br>
+        - Aegunud või vananenud järjestusskeemid, mis ei vasta enam süsteemi<br>
+        liidestele või tegelikule arhitektuurile. Ära unusta neid skeeme<br>
+        asendada või muuta.<br>
+        - Tühja ruumi mitte jätmine kasutusjuhtumi teksti ja sõnuminoole<br>
+        vahele; see muudab skeemi raskesti loetavaks.<br>
+        - Sõnuminoole päritolu mitte hoolikas läbimõtlemine.<br><br>
 
         allikad:
         <a href="https://creately.com/guides/sequence-diagram-tutorial/" target="_blank">Creately</a>
         <a href="https://www.perplexity.ai/search/translate-to-estonian-a-quick-GZMcDx8yRc.PTwpvqjf1ug" target="_blank">Perplexity</a>
         <a href="https://www.gleek.io/blog/sequence-diagram-fragments" target="_blank">gleek</a>
+        <a href="https://www.perplexity.ai/search/please-cut-the-lines-of-text-i-Z9pX4CCKQcWL9RMxIefEDg" target="_blank">Perplexity</a>
      </p>
 </body>
 </html>

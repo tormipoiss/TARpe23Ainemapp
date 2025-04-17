@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Diagram</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>State Diagram ehk Olekudiagramm</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        <b>Mis on olekudiagramm</b>?<br>
+        Olekudiagramm näitab klasside käitumist vastusena välistele stiimulitele.<br>
+        Täpsemalt kirjeldab olekudiagramm ühe objekti käitumist süsteemis toimuvate<br>
+        sündmuste jadale reageerides.<br>
+        Mõnikord nimetatakse seda ka Harel’i olekudiagrammiks või olekumasina diagrammiks.<br>
+        See UML-diagramm modelleerib konkreetse objekti dünaamilist juhtimisvoogu<br>
+        olekust olekusse süsteemi sees.<br><br>
+
+        <img src="state-diagram-example.png" width="800  alt="state-diagram-example"><br><br>
+
+        Olekudiagramme kasutatakse süsteemi dünaamilise vaate illustreerimiseks.<br>
+        Need on eriti olulised liidese, klassi või koostöö käitumise modelleerimisel.<br>
+        Olekudiagrammid rõhutavad objekti sündmustepõhist käitumist, mis on eriti<br>
+        kasulik reaktiivsete süsteemide modelleerimisel.<br><br>
+
+        <b>Mis vahe on olekudiagrammil ja vooskeemil</b>?<br>
+        Vooskeem illustreerib protsesse, mis süsteemis täidetakse ja mis muudavad<br>
+        objektide olekut. Olekudiagramm näitab tegelikke olekumuutusi, mitte protsesse<br>
+        või käske, mis neid muutusi tekitasid.<br><br>
+
+        <img src="state-diagram-vs-flowchart.png" width="800" alt="flowchart-example"><br><br>
+
+        <b>Kuidas joonistada olekudiagrammi</b><br>
+        Enne joonistamist leia objekti alg- ja lõppolek.<br>
+        Seejärel mõtle, millistes olekutes objekt võib olla. Näiteks e-kaubanduses võib<br>
+        tootel olla avaldamise või saadavaloleku olek, läbimüüdud olek, taaslaos olek,<br>
+        ostukorvi lisatud olek, soovinimekirjas salvestatud olek, ostetud olek jne.<br>
+        Mõned üleminekud pole teatud olekus võimalikud, näiteks ei saa toode olla<br>
+        ostetud või ostukorvi lisatud olekus, kui tema eelmine olek oli läbimüüdud.<br><br>
+
+        <table>
+            <caption>Põhilised olekudiagrammi sümbolid ja tähised</caption>
+            <thead>
+                <tr>
+                    <th>Tähised</th>
+                    <th>Sümbolid</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><b>Olekud</b><br>
+                    Olekud tähistavad olukordi objekti eluea jooksul. Olekut saab illustreerida<br>
+                    ümardatud nurkadega ristkülikuga.</td>
+                <td><img src="states.jpg" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Üleminek</b><br>
+                    Püsinool näitab teed erinevate objektide olekute vahel. Märgi üleminekule<br>
+                    sündmus, mis selle käivitas, ja tegevus, mis selle tulemusel toimub. Olekul võib<br>
+                    olla ka üleminek, mis viitab iseendale.</td>
+                <td><img src="transition.jpg" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Algolek</b><br>
+                    Täidetud ring, millele järgneb nool, tähistab objekti algolekut.</td>
+                <td><img src="initial-state.jpg" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Lõppolek</b><br>
+                    Nool, mis viitab täidetud ringile, mis asub teise ringi sees, tähistab objekti<br>
+                    lõppolekut.</td>
+                <td><img src="final-state.jpg" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Sünkroniseerimine ja juhtimise jagamine</b><br>
+                    Lühike paks joon, kuhu siseneb kaks üleminekut, tähistab juhtimise<br>
+                    sünkroniseerimist. Esimest joont nimetatakse haruks (fork), kus üks üleminek<br>
+                    jaguneb mitmeks paralleelseks üleminekuks. Teist joont nimetatakse liitmiseks<br>
+                    (join), kus paralleelsed üleminekud koonduvad taas üheks.<br></td>
+                <td><img src="synchronization.jpg" alt="y u no see? buy internet"></td>
+            </tr>
+        </table>
+
+        allikad:
+        <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/about-state-diagrams/#:~:text=You%20use%20state%20diagrams%20to,useful%20in%20modeling%20reactive%20systems." target="_blank">Visual Paradigm</a>
+        <a href="https://www.smartdraw.com/state-diagram/" target="_blank">smartdraw</a>
+        <a href="https://www.perplexity.ai/search/please-cut-the-lines-of-text-i-Z9pX4CCKQcWL9RMxIefEDg" target="_blank">Perplexity</a>
+     </p>
+</body>
+</html>

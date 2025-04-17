@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Diagram</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 10px 0 10px;
+        }
+        th, td{
+            padding: 5px;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- pealkiri -->
+    <h1>Object Diagram ehk Objektidiagramm</h1>
+
+    <!-- kirjeldus -->
+    <p>
+        Objekt on klassi eksemplar kindlal ajahetkel käituse ajal ning tal võivad olla oma olek ja andmeväärtused.<br>
+        Samamoodi on staatiline UML objektidiagramm klassidiagrammi eksemplar;<br>
+        see näitab süsteemi detailset olekut ühel kindlal ajahetkel.<br>
+        Seega hõlmab objektidiagramm objekte ja nendevahelisi seoseid,<br>
+        mida võib pidada klassidiagrammi või suhtlusdiagrammi erijuhuks.<br><br>
+
+        <img src="01-object-diagram-in-uml-diagram-hierarchy.webp" width="700" alt="object-diagram-example"><br><br>
+
+        <b>Objektdiagrammi eesmärk</b><br>
+        <br>
+        Objektdiagrammide kasutusala on üsna piiratud, peamiselt<br>
+        andmestruktuuride näidete näitamiseks.<br>
+        <br>
+        - Projekti analüüsifaasis võid luua klassidiagrammi süsteemi struktuuri<br>
+        kirjeldamiseks ja seejärel luua objektdiagrammide komplekti<br>
+        testjuhtumiteks, et kontrollida klassidiagrammi täpsust ja<br>
+        täielikkust.<br>
+        <br>
+        - Enne klassidiagrammi loomist võid luua objektdiagrammi, et avastada<br>
+        fakte konkreetsete mudelielementide ja nende seoste kohta või<br>
+        illustreerida konkreetseid näiteid nõutavatest klassifikaatoritest.<br>
+        <br>
+        <b>Objektdiagrammi ülevaade</b><br>
+        Objektdiagramm näitab seost instantsitud klasside ja määratletud<br>
+        klassi vahel ning nende objektide vahel süsteemis.<br>
+        <br>
+        Need on kasulikud süsteemi väiksemate osade selgitamiseks, kui<br>
+        süsteemi klassidiagramm on väga keeruline, ning mõnikord ka<br>
+        rekursiivsete suhete modelleerimiseks diagrammil.<br>
+        <br>
+        Parim viis illustreerida, milline objektdiagramm välja näeb, on<br>
+        näidata objektdiagrammi, mis on tuletatud vastavast klassidiagrammist.<br>
+        <br>
+        Järgmine Tellimuste Halduse Süsteem näitab nende suhteid. See väike<br>
+        klassidiagramm näitab, et ülikooli osakond võib sisaldada palju teisi<br>
+        osakondi ning allolev objektdiagramm instantsib klassidiagrammi,<br>
+        asendades selle konkreetse näitega.<br>
+        <br>
+
+        <img src="02-object-diagram-at-a-glance.webp" width="900" alt="object-diagram-example"><br><br>
+
+        Klassist objektdiagrammiks näide - Tellimuste süsteem<br>
+        <br>
+
+        <img src="03-class-diagram-to-object-diagram.webp" width="900" alt="object-diagram-example"><br><br>
+
+        <table>
+            <caption>Objektdiagrammi põhisümbolid ja tähised</caption>
+            <tr>
+                <td><b>Objekti nimed:</b><br>
+                    Iga objekti kujutatakse ristkülikuna, mille sees on objekti nimi ja<br>
+                    klass allajoonitult ning eraldatud kooloniga.</td>
+                <td><img src="04-object-diagram-notation-object.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Objekti atribuudid:</b><br>
+                    Nagu klasside puhul, saab ka objekti atribuudid loetleda eraldi<br>
+                    lahtris. Kuid erinevalt klassidest peavad objekti atribuutidel olema<br>
+                    väärtused määratud.</td>
+                <td><img src="05-object-diagram-notation-object-attributes.webp" alt="y u no see? buy internet"></td>
+            </tr>
+            <tr>
+                <td><b>Lingid:</b><br>
+                    Lingid on seoste eksemplarid. Lingid joonistatakse samade joontega<br>
+                    nagu klassidiagrammides.</td>
+                <td><img src="06-object-diagram-notation-links.png" style="margin-left: 15px;" alt="y u no see? buy internet"></td>
+            </tr>
+        </table>
+
+        <b>Klassidiagramm vs. objektdiagramm</b><br>
+        UML-is annavad objektdiagrammid ülevaate süsteemi eksemplaridest ja<br>
+        nendevahelistest seostest. Klassidiagrammi elemente instantsides saab<br>
+        uurida süsteemi käitumist kindlal ajahetkel.<br><br>
+
+        - Objektdiagramm on UML-i struktuurdiagramm, mis näitab mudelis olevate<br>
+        klassifikaatorite eksemplare.<br>
+        - Objektdiagrammid kasutavad sarnast tähistust nagu klassidiagrammid.<br>
+        - Klassidiagrammid näitavad süsteemi tegelikke klassifikaatoreid ja<br>
+        nende seoseid.<br>
+        - Objektdiagrammid näitavad nende klassifikaatorite konkreetseid<br>
+        eksemplare ja nendevahelisi linke kindlal ajahetkel.<br>
+        - Objektdiagramme saab luua klassi-, juurutus-, komponendi- ja<br>
+        kasutusjuhtumidiagrammide klassifikaatoreid instantsides.<br><br>
+
+        allikad:
+        <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-object-diagram/" target="_blank">Visual Paradigm</a>
+        <a href="https://www.perplexity.ai/search/please-cut-the-lines-of-text-i-Z9pX4CCKQcWL9RMxIefEDg" target="_blank">Perplexity</a>
+     </p>
+</body>
+</html>
